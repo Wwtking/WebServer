@@ -1,0 +1,15 @@
+servers:
+  - address: ["0.0.0.0:8020"]
+    keepalive: 1
+    timeout: 1000
+    name: wwt/1.0.0
+    type: http
+    accept_worker: accept
+    process_worker: io
+  - address: ["0.0.0.0:8030"]
+    keepalive: 1
+    timeout: 1000
+    name: wwt/1.0.1
+    type: http
+    accept_worker: accept
+    process_worker: io

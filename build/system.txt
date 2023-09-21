@@ -1,0 +1,1291 @@
+2023-09-18 05:35:03	src/config.cpp:64	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-18 05:35:47	src/config.cpp:64	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-18 05:42:59	src/config.cpp:64	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-18 05:42:59	src/config.cpp:64	LoadConfFile file=/home/wwt/sylar/conf/config/123.yml ok
+2023-09-18 08:48:37	src/config.cpp:86	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-18 08:48:37	src/config.cpp:86	LoadConfFile file=/home/wwt/sylar/conf/config/123.yml ok
+2023-09-18 08:49:08	src/config.cpp:86	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-18 08:49:08	src/config.cpp:86	LoadConfFile file=/home/wwt/sylar/conf/config/123.yml ok
+2023-09-18 08:53:05	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-18 08:53:05	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/config/123.yml ok
+2023-09-18 08:53:54	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-18 08:53:54	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/config/123.yml ok
+2023-09-18 08:54:09	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-18 08:54:09	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/config/123.yml ok
+2023-09-18 08:55:31	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-18 08:55:31	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/config/123.yml ok
+2023-09-18 08:55:43	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-18 08:55:43	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/config/123.yml ok
+2023-09-18 08:55:46	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/config/123.yml ok
+2023-09-18 08:57:29	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-18 08:57:29	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/config/123.yml ok
+2023-09-18 08:57:34	src/config.cpp:85	LoadConfFile file=/home/wwt/sylar/conf/config/123.yml ok
+2023-09-20 05:30:47	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:30:47	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:31:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:31:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:31:10	src/daemon.cpp:63	process start pid=25851
+2023-09-20 05:31:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:31:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:31:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:31:10	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:31:10	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:31:10	src/scheduler.cpp:69	start
+2023-09-20 05:31:10	src/scheduler.cpp:88	stop
+2023-09-20 05:31:10	src/scheduler.cpp:135	main run
+2023-09-20 05:31:10	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:31:10	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:31:10	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:31:10	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:31:10	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:31:10	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:31:10	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:31:10	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:31:10	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:31:10	src/application.cpp:160	invalid addr=0.0.0.0:8080
+2023-09-20 05:31:10	src/application.cpp:160	invalid addr=0.0.0.0:8080
+2023-09-20 05:31:10	src/daemon.cpp:86	child finished, pid=25851
+2023-09-20 05:31:56	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:31:56	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:31:56	src/daemon.cpp:63	process start pid=26006
+2023-09-20 05:31:56	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:31:56	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:31:56	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:31:56	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:31:56	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:31:56	src/scheduler.cpp:69	start
+2023-09-20 05:31:56	src/scheduler.cpp:88	stop
+2023-09-20 05:31:56	src/scheduler.cpp:135	main run
+2023-09-20 05:31:56	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:31:56	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:31:56	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:31:56	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:31:56	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:31:56	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:31:56	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:31:56	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:31:56	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:31:56	src/application.cpp:160	invalid addr=0.0.0.0:8080
+2023-09-20 05:31:56	src/application.cpp:160	invalid addr=0.0.0.0:8080
+2023-09-20 05:31:56	src/daemon.cpp:86	child finished, pid=26006
+2023-09-20 05:33:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:33:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:33:39	src/daemon.cpp:63	process start pid=26391
+2023-09-20 05:33:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:33:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:33:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:33:39	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:33:39	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:33:39	src/scheduler.cpp:69	start
+2023-09-20 05:33:39	src/scheduler.cpp:88	stop
+2023-09-20 05:33:39	src/scheduler.cpp:135	main run
+2023-09-20 05:33:39	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:33:39	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:33:39	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:33:39	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:33:39	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:33:39	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:33:39	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:33:39	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:33:39	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:33:39	src/application.cpp:160	invalid addr=0.0.0.0:8080
+2023-09-20 05:33:39	src/application.cpp:160	invalid addr=0.0.0.0:8080
+2023-09-20 05:33:39	src/daemon.cpp:86	child finished, pid=26391
+2023-09-20 05:34:55	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:34:55	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:34:55	src/application.cpp:64	----------------------
+2023-09-20 05:34:55	src/daemon.cpp:63	process start pid=26731
+2023-09-20 05:34:55	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:34:55	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:34:55	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:34:55	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:34:55	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:34:55	src/scheduler.cpp:69	start
+2023-09-20 05:34:55	src/scheduler.cpp:88	stop
+2023-09-20 05:34:55	src/scheduler.cpp:135	main run
+2023-09-20 05:34:55	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:34:55	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:34:55	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:34:55	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:34:55	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:34:55	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:34:55	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:34:55	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:34:55	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:34:55	src/application.cpp:160	invalid addr=0.0.0.0:8080
+2023-09-20 05:34:55	src/application.cpp:160	invalid addr=0.0.0.0:8080
+2023-09-20 05:34:55	src/daemon.cpp:86	child finished, pid=26731
+2023-09-20 05:35:30	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:35:30	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:35:30	src/application.cpp:77	----------------------
+2023-09-20 05:35:30	src/daemon.cpp:63	process start pid=27062
+2023-09-20 05:35:30	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:35:30	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:35:30	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:35:30	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:35:30	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:35:30	src/scheduler.cpp:69	start
+2023-09-20 05:35:30	src/scheduler.cpp:88	stop
+2023-09-20 05:35:30	src/scheduler.cpp:135	main run
+2023-09-20 05:35:30	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:35:30	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:35:30	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:35:30	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:35:30	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:35:30	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:35:30	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:35:30	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:35:30	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:35:30	src/application.cpp:160	invalid addr=0.0.0.0:8080
+2023-09-20 05:35:30	src/application.cpp:160	invalid addr=0.0.0.0:8080
+2023-09-20 05:35:30	src/daemon.cpp:86	child finished, pid=27062
+2023-09-20 05:36:09	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:36:09	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:36:09	src/daemon.cpp:63	process start pid=27382
+2023-09-20 05:36:09	src/application.cpp:88	main
+2023-09-20 05:36:09	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:36:09	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:36:09	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:36:09	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:36:09	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:36:09	src/scheduler.cpp:69	start
+2023-09-20 05:36:09	src/scheduler.cpp:88	stop
+2023-09-20 05:36:09	src/scheduler.cpp:135	main run
+2023-09-20 05:36:09	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:36:09	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:36:09	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:36:09	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:36:09	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:36:09	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:36:09	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:36:09	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:36:09	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:36:09	src/application.cpp:161	invalid addr=0.0.0.0:8080
+2023-09-20 05:36:09	src/application.cpp:161	invalid addr=0.0.0.0:8080
+2023-09-20 05:36:09	src/daemon.cpp:86	child finished, pid=27382
+2023-09-20 05:37:34	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:37:34	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:37:34	src/daemon.cpp:63	process start pid=27705
+2023-09-20 05:37:34	src/application.cpp:88	main
+2023-09-20 05:37:34	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:37:34	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:37:34	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:37:34	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:37:34	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:37:34	src/scheduler.cpp:69	start
+2023-09-20 05:37:34	src/scheduler.cpp:88	stop
+2023-09-20 05:37:34	src/scheduler.cpp:135	main run
+2023-09-20 05:37:34	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:37:34	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:37:34	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:37:34	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:37:34	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:37:34	src/socket.cpp:206	bind(10, 0.0.0.0:8080) fail, errno=98 errstr=Address already in use
+2023-09-20 05:37:34	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:37:34	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:37:34	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:37:34	src/application.cpp:161	invalid addr=0.0.0.0:8080
+2023-09-20 05:37:34	src/application.cpp:161	invalid addr=0.0.0.0:8080
+2023-09-20 05:37:34	src/daemon.cpp:86	child finished, pid=27705
+2023-09-20 05:39:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:39:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:39:06	src/daemon.cpp:63	process start pid=27955
+2023-09-20 05:39:06	src/application.cpp:88	main
+2023-09-20 05:39:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:39:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:39:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:39:06	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:39:06	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:39:06	src/scheduler.cpp:69	start
+2023-09-20 05:39:06	src/scheduler.cpp:88	stop
+2023-09-20 05:39:06	src/scheduler.cpp:135	main run
+2023-09-20 05:39:06	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:39:06	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:39:06	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:39:06	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:39:06	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:39:06	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:39:06	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:39:06	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:39:06	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:39:06	src/application.cpp:161	invalid addr=0.0.0.0:8020
+2023-09-20 05:39:06	src/application.cpp:161	invalid addr=0.0.0.0:8020
+2023-09-20 05:39:06	src/daemon.cpp:86	child finished, pid=27955
+2023-09-20 05:39:36	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:39:36	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:39:36	src/daemon.cpp:63	process start pid=28141
+2023-09-20 05:39:36	src/application.cpp:88	main
+2023-09-20 05:39:36	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:39:36	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:39:36	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:39:36	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:39:36	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:39:36	src/scheduler.cpp:69	start
+2023-09-20 05:39:36	src/scheduler.cpp:88	stop
+2023-09-20 05:39:36	src/scheduler.cpp:135	main run
+2023-09-20 05:39:36	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:39:36	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:39:36	src/socket.cpp:206	bind(10, 0.0.0.0:8010) fail, errno=98 errstr=Address already in use
+2023-09-20 05:39:36	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:39:36	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:39:36	src/socket.cpp:206	bind(10, 0.0.0.0:8010) fail, errno=98 errstr=Address already in use
+2023-09-20 05:39:36	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:39:36	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:39:36	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:39:36	src/application.cpp:161	invalid addr=0.0.0.0:8010
+2023-09-20 05:39:36	src/application.cpp:161	invalid addr=0.0.0.0:8010
+2023-09-20 05:39:36	src/daemon.cpp:86	child finished, pid=28141
+2023-09-20 05:42:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:42:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:42:39	src/daemon.cpp:63	process start pid=28637
+2023-09-20 05:42:39	src/application.cpp:88	main
+2023-09-20 05:42:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:42:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:42:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:42:39	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:42:39	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:42:39	src/scheduler.cpp:69	start
+2023-09-20 05:42:39	src/scheduler.cpp:135	main run
+2023-09-20 05:42:39	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:42:39	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:42:39	src/scheduler.cpp:88	stop
+2023-09-20 05:42:39	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:42:39	src/scheduler.cpp:135	main run
+2023-09-20 05:42:39	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 05:42:39	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 05:42:39	src/application.cpp:148	0.0.0.0:8020
+2023-09-20 05:42:39	src/application.cpp:148	0.0.0.0:8020
+2023-09-20 05:42:39	src/application.cpp:148	0.0.0.0:8020
+2023-09-20 05:42:39	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:42:39	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:42:39	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:42:39	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:42:39	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:42:39	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:42:39	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:42:39	src/application.cpp:166	invalid addr=0.0.0.0:8020
+2023-09-20 05:42:39	src/application.cpp:166	invalid addr=0.0.0.0:8020
+2023-09-20 05:42:39	src/daemon.cpp:86	child finished, pid=28637
+2023-09-20 05:44:19	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:44:19	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:44:19	src/daemon.cpp:63	process start pid=28992
+2023-09-20 05:44:19	src/application.cpp:88	main
+2023-09-20 05:44:19	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:44:19	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:44:19	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:44:19	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:44:19	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:44:19	src/scheduler.cpp:69	start
+2023-09-20 05:44:19	src/scheduler.cpp:135	main run
+2023-09-20 05:44:19	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:44:19	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:44:19	src/scheduler.cpp:88	stop
+2023-09-20 05:44:19	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:44:19	src/scheduler.cpp:135	main run
+2023-09-20 05:44:19	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 05:44:19	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 05:44:19	src/application.cpp:125	Lookup:0.0.0.0:8020
+2023-09-20 05:44:19	src/application.cpp:125	Lookup:0.0.0.0:8020
+2023-09-20 05:44:19	src/application.cpp:125	Lookup:0.0.0.0:8020
+2023-09-20 05:44:19	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:44:19	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:44:19	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:44:19	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:44:19	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:44:19	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:44:19	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:44:19	src/application.cpp:168	invalid addr=0.0.0.0:8020
+2023-09-20 05:44:19	src/application.cpp:168	invalid addr=0.0.0.0:8020
+2023-09-20 05:44:19	src/daemon.cpp:86	child finished, pid=28992
+2023-09-20 05:45:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:45:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:45:10	src/daemon.cpp:63	process start pid=29322
+2023-09-20 05:45:10	src/application.cpp:88	main
+2023-09-20 05:45:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:45:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:45:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:45:10	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:45:10	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:45:10	src/scheduler.cpp:69	start
+2023-09-20 05:45:10	src/scheduler.cpp:135	main run
+2023-09-20 05:45:10	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:45:10	src/scheduler.cpp:88	stop
+2023-09-20 05:45:10	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:45:10	src/scheduler.cpp:135	main run
+2023-09-20 05:45:10	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:45:10	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 05:45:10	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 05:45:10	src/application.cpp:125	wwt/1.0.0Lookup:0.0.0.0:8020
+2023-09-20 05:45:10	src/application.cpp:125	wwt/1.0.0Lookup:0.0.0.0:8020
+2023-09-20 05:45:10	src/application.cpp:125	wwt/1.0.0Lookup:0.0.0.0:8020
+2023-09-20 05:45:10	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:45:10	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:45:10	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:45:10	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:45:10	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:45:10	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:45:10	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:45:10	src/application.cpp:168	invalid addr=0.0.0.0:8020
+2023-09-20 05:45:10	src/application.cpp:168	invalid addr=0.0.0.0:8020
+2023-09-20 05:45:10	src/daemon.cpp:86	child finished, pid=29322
+2023-09-20 05:47:56	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:47:56	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:47:56	src/daemon.cpp:63	process start pid=29706
+2023-09-20 05:47:56	src/application.cpp:88	main
+2023-09-20 05:47:56	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:47:56	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:47:56	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:47:56	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:47:56	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:47:56	src/scheduler.cpp:69	start
+2023-09-20 05:47:56	src/scheduler.cpp:135	main run
+2023-09-20 05:47:56	src/scheduler.cpp:88	stop
+2023-09-20 05:47:56	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:47:56	src/scheduler.cpp:135	main run
+2023-09-20 05:47:56	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:47:56	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:47:56	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 05:47:56	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 05:47:56	src/application.cpp:112	---------0.0.0.0:8020
+2023-09-20 05:47:56	src/application.cpp:126	wwt/1.0.0Lookup:0.0.0.0:8020
+2023-09-20 05:47:56	src/application.cpp:126	wwt/1.0.0Lookup:0.0.0.0:8020
+2023-09-20 05:47:56	src/application.cpp:126	wwt/1.0.0Lookup:0.0.0.0:8020
+2023-09-20 05:47:56	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:47:56	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:47:56	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:47:56	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:47:56	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:47:56	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:47:56	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:47:56	src/application.cpp:168	invalid addr=0.0.0.0:8020
+2023-09-20 05:47:56	src/application.cpp:168	invalid addr=0.0.0.0:8020
+2023-09-20 05:47:56	src/daemon.cpp:86	child finished, pid=29706
+2023-09-20 05:50:45	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:50:45	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:50:45	src/daemon.cpp:63	process start pid=30069
+2023-09-20 05:50:45	src/application.cpp:88	main
+2023-09-20 05:50:45	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:50:45	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:50:45	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:50:45	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:50:45	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:50:45	src/scheduler.cpp:69	start
+2023-09-20 05:50:45	src/scheduler.cpp:135	main run
+2023-09-20 05:50:45	src/scheduler.cpp:88	stop
+2023-09-20 05:50:45	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:50:45	src/scheduler.cpp:135	main run
+2023-09-20 05:50:45	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:50:45	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:50:45	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 05:50:45	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 05:50:45	src/application.cpp:112	---------0.0.0.0:8020
+2023-09-20 05:50:45	src/address.cpp:138	---------0x9a6500
+2023-09-20 05:50:45	src/address.cpp:138	---------0x9a1850
+2023-09-20 05:50:45	src/address.cpp:138	---------0x999cf0
+2023-09-20 05:50:45	src/application.cpp:126	wwt/1.0.0Lookup:0.0.0.0:8020
+2023-09-20 05:50:45	src/application.cpp:126	wwt/1.0.0Lookup:0.0.0.0:8020
+2023-09-20 05:50:45	src/application.cpp:126	wwt/1.0.0Lookup:0.0.0.0:8020
+2023-09-20 05:50:45	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:50:45	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:50:45	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:50:45	src/socket.cpp:206	bind(10, 0.0.0.0:8020) fail, errno=98 errstr=Address already in use
+2023-09-20 05:50:45	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:50:45	src/tcp_server.cpp:60	tcp server bind address error
+2023-09-20 05:50:45	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:50:45	src/application.cpp:168	invalid addr=0.0.0.0:8020
+2023-09-20 05:50:45	src/application.cpp:168	invalid addr=0.0.0.0:8020
+2023-09-20 05:50:45	src/daemon.cpp:86	child finished, pid=30069
+2023-09-20 05:53:44	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:53:44	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:53:44	src/daemon.cpp:63	process start pid=30433
+2023-09-20 05:53:44	src/application.cpp:88	main
+2023-09-20 05:53:44	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:53:44	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:53:44	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:53:44	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:53:44	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:53:44	src/scheduler.cpp:69	start
+2023-09-20 05:53:44	src/scheduler.cpp:135	main run
+2023-09-20 05:53:44	src/scheduler.cpp:88	stop
+2023-09-20 05:53:44	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:53:44	src/scheduler.cpp:135	main run
+2023-09-20 05:53:44	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:53:44	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:53:44	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 05:53:44	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 05:53:44	src/application.cpp:124	wwt/1.0.0Lookup:0.0.0.0:8020
+2023-09-20 05:53:44	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 05:53:44	src/application.cpp:124	wwt/1.0.1Lookup:0.0.0.0:8030
+2023-09-20 05:53:44	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 05:53:44	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=10, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 05:53:44	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 05:53:44	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 05:53:44	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 05:54:52	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:54:52	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:54:52	src/daemon.cpp:63	process start pid=31180
+2023-09-20 05:54:52	src/application.cpp:88	main
+2023-09-20 05:54:52	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 05:54:52	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 05:54:52	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 05:54:52	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:54:52	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 05:54:52	src/scheduler.cpp:69	start
+2023-09-20 05:54:52	src/scheduler.cpp:135	main run
+2023-09-20 05:54:52	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 05:54:52	src/scheduler.cpp:88	stop
+2023-09-20 05:54:52	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 05:54:52	src/scheduler.cpp:135	main run
+2023-09-20 05:54:52	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 05:54:52	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 05:54:52	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 05:54:52	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 05:54:52	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=10, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 05:54:52	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 05:54:52	src/fiber.cpp:115	Fiber::~Fiber  id=3
+2023-09-20 05:54:52	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 05:54:52	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 05:55:23	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 05:55:23	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61031]
+2023-09-20 05:55:23	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 05:55:23	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61032]
+2023-09-20 05:56:27	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:56:27	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61032] keep_alive=1
+2023-09-20 05:56:27	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 05:56:31	src/fiber.cpp:97	Fiber::Fiber  id=10
+2023-09-20 05:56:31	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 05:56:31	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61092]
+2023-09-20 05:56:31	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61091]
+2023-09-20 05:57:36	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:57:36	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61092] keep_alive=1
+2023-09-20 05:57:36	src/fiber.cpp:97	Fiber::Fiber  id=11
+2023-09-20 05:57:36	src/fiber.cpp:115	Fiber::~Fiber  id=10
+2023-09-20 05:57:36	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61134]
+2023-09-20 05:57:46	src/fiber.cpp:97	Fiber::Fiber  id=12
+2023-09-20 05:57:46	src/fiber.cpp:115	Fiber::~Fiber  id=12
+2023-09-20 05:57:46	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:57:46	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61031] keep_alive=1
+2023-09-20 05:57:46	src/fiber.cpp:115	Fiber::~Fiber  id=7
+2023-09-20 05:58:24	src/fiber.cpp:97	Fiber::Fiber  id=13
+2023-09-20 05:58:24	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61178]
+2023-09-20 05:58:24	src/fiber.cpp:97	Fiber::Fiber  id=14
+2023-09-20 05:58:24	src/http/http_server.cpp:18	handleClient: Socket information [sock=14, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61179]
+2023-09-20 05:58:37	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:58:37	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61134] keep_alive=1
+2023-09-20 05:58:37	src/fiber.cpp:115	Fiber::~Fiber  id=11
+2023-09-20 05:58:37	src/fiber.cpp:97	Fiber::Fiber  id=15
+2023-09-20 05:58:37	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61188]
+2023-09-20 05:59:46	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:59:46	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 05:59:46	src/http/http_server.cpp:25	recv http request fail, errno=11 errstr=Resource temporarily unavailable cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61188] keep_alive=1
+2023-09-20 05:59:46	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61179] keep_alive=1
+2023-09-20 05:59:46	src/fiber.cpp:115	Fiber::~Fiber  id=15
+2023-09-20 05:59:46	src/fiber.cpp:115	Fiber::~Fiber  id=14
+2023-09-20 06:00:24	src/fiber.cpp:97	Fiber::Fiber  id=16
+2023-09-20 06:00:24	src/fiber.cpp:115	Fiber::~Fiber  id=16
+2023-09-20 06:00:24	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:00:24	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61178] keep_alive=1
+2023-09-20 06:00:24	src/fiber.cpp:115	Fiber::~Fiber  id=13
+2023-09-20 06:00:37	src/fiber.cpp:97	Fiber::Fiber  id=17
+2023-09-20 06:00:37	src/fiber.cpp:115	Fiber::~Fiber  id=17
+2023-09-20 06:00:37	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:00:37	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61091] keep_alive=1
+2023-09-20 06:00:37	src/fiber.cpp:115	Fiber::~Fiber  id=9
+2023-09-20 06:13:07	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 06:13:07	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 06:13:17	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 06:13:17	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 06:13:17	src/application.cpp:88	main
+2023-09-20 06:13:17	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 06:13:17	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 06:13:17	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 06:13:17	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 06:13:17	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 06:13:17	src/scheduler.cpp:69	start
+2023-09-20 06:13:17	src/scheduler.cpp:135	main run
+2023-09-20 06:13:17	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 06:13:17	src/scheduler.cpp:88	stop
+2023-09-20 06:13:17	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 06:13:17	src/scheduler.cpp:135	main run
+2023-09-20 06:13:17	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 06:13:17	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 06:13:17	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 06:13:17	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 06:13:17	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 06:13:17	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=10, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 06:13:17	src/fiber.cpp:115	Fiber::~Fiber  id=3
+2023-09-20 06:13:17	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 06:13:17	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 06:13:23	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 06:13:23	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 06:13:23	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61881]
+2023-09-20 06:13:23	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61882]
+2023-09-20 06:13:31	src/fiber.cpp:97	Fiber::Fiber  id=10
+2023-09-20 06:13:31	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 06:13:31	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61889]
+2023-09-20 06:13:31	src/http/http_server.cpp:18	handleClient: Socket information [sock=14, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61890]
+2023-09-20 06:14:46	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:14:46	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:14:46	src/http/http_server.cpp:25	recv http request fail, errno=11 errstr=Resource temporarily unavailable cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61882] keep_alive=1
+2023-09-20 06:14:46	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61890] keep_alive=1
+2023-09-20 06:14:46	src/fiber.cpp:115	Fiber::~Fiber  id=10
+2023-09-20 06:14:46	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 06:15:14	src/fiber.cpp:97	Fiber::Fiber  id=11
+2023-09-20 06:15:14	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:61957]
+2023-09-20 06:15:54	src/fiber.cpp:97	Fiber::Fiber  id=12
+2023-09-20 06:15:54	src/fiber.cpp:115	Fiber::~Fiber  id=12
+2023-09-20 06:15:54	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:15:54	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61889] keep_alive=1
+2023-09-20 06:15:54	src/fiber.cpp:115	Fiber::~Fiber  id=9
+2023-09-20 06:17:43	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 06:17:43	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 06:17:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 06:17:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 06:17:46	src/application.cpp:88	main
+2023-09-20 06:17:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 06:17:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 06:17:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 06:17:46	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 06:17:46	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 06:17:46	src/scheduler.cpp:69	start
+2023-09-20 06:17:46	src/scheduler.cpp:135	main run
+2023-09-20 06:17:46	src/scheduler.cpp:88	stop
+2023-09-20 06:17:46	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 06:17:46	src/scheduler.cpp:135	main run
+2023-09-20 06:17:46	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 06:17:46	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 06:17:46	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 06:17:46	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 06:17:46	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 06:17:46	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 06:17:46	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=10, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 06:17:46	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 06:17:46	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 06:17:46	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 06:17:50	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 06:17:50	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 06:17:50	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62114]
+2023-09-20 06:17:50	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62115]
+2023-09-20 06:17:50	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:17:50	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:17:50	src/fiber.cpp:115	Fiber::~Fiber  id=7
+2023-09-20 06:18:00	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 06:18:00	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62121]
+2023-09-20 06:18:00	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:18:00	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:18:00	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 06:18:02	src/fiber.cpp:97	Fiber::Fiber  id=10
+2023-09-20 06:18:02	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62122]
+2023-09-20 06:18:02	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:18:02	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:18:02	src/fiber.cpp:115	Fiber::~Fiber  id=9
+2023-09-20 06:18:15	src/fiber.cpp:97	Fiber::Fiber  id=11
+2023-09-20 06:18:15	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62136]
+2023-09-20 06:18:15	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:18:15	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:18:15	src/fiber.cpp:115	Fiber::~Fiber  id=10
+2023-09-20 06:18:25	src/fiber.cpp:97	Fiber::Fiber  id=12
+2023-09-20 06:18:25	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:18:25	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62147]
+2023-09-20 06:18:25	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:18:25	src/fiber.cpp:115	Fiber::~Fiber  id=11
+2023-09-20 06:18:39	src/fiber.cpp:97	Fiber::Fiber  id=13
+2023-09-20 06:18:39	src/fiber.cpp:97	Fiber::Fiber  id=14
+2023-09-20 06:18:39	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62156]
+2023-09-20 06:18:39	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62157]
+2023-09-20 06:18:39	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:18:39	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:18:39	src/fiber.cpp:115	Fiber::~Fiber  id=13
+2023-09-20 06:18:53	src/fiber.cpp:97	Fiber::Fiber  id=15
+2023-09-20 06:18:53	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62168]
+2023-09-20 06:18:53	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:18:53	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:18:53	src/fiber.cpp:115	Fiber::~Fiber  id=14
+2023-09-20 06:18:54	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:18:54	src/fiber.cpp:97	Fiber::Fiber  id=16
+2023-09-20 06:18:54	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:18:54	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62169]
+2023-09-20 06:18:54	src/fiber.cpp:115	Fiber::~Fiber  id=15
+2023-09-20 06:18:54	src/fiber.cpp:97	Fiber::Fiber  id=17
+2023-09-20 06:18:54	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62170]
+2023-09-20 06:18:54	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:18:54	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:18:54	src/fiber.cpp:115	Fiber::~Fiber  id=16
+2023-09-20 06:18:55	src/fiber.cpp:97	Fiber::Fiber  id=18
+2023-09-20 06:18:55	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:18:55	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62172]
+2023-09-20 06:18:55	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:18:55	src/fiber.cpp:115	Fiber::~Fiber  id=17
+2023-09-20 06:19:14	src/fiber.cpp:97	Fiber::Fiber  id=19
+2023-09-20 06:19:14	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62190]
+2023-09-20 06:19:14	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:19:14	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:19:14	src/fiber.cpp:115	Fiber::~Fiber  id=18
+2023-09-20 06:19:14	src/fiber.cpp:97	Fiber::Fiber  id=20
+2023-09-20 06:19:14	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62191]
+2023-09-20 06:19:14	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:19:14	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:19:14	src/fiber.cpp:115	Fiber::~Fiber  id=19
+2023-09-20 06:19:20	src/fiber.cpp:97	Fiber::Fiber  id=21
+2023-09-20 06:19:20	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62196]
+2023-09-20 06:19:20	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:19:20	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:19:20	src/fiber.cpp:115	Fiber::~Fiber  id=20
+2023-09-20 06:19:20	src/fiber.cpp:97	Fiber::Fiber  id=22
+2023-09-20 06:19:20	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62199]
+2023-09-20 06:19:20	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:19:20	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:19:20	src/fiber.cpp:115	Fiber::~Fiber  id=21
+2023-09-20 06:19:29	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:19:29	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62147] keep_alive=0
+2023-09-20 06:19:29	src/fiber.cpp:115	Fiber::~Fiber  id=12
+2023-09-20 06:19:47	src/fiber.cpp:97	Fiber::Fiber  id=23
+2023-09-20 06:19:47	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62216]
+2023-09-20 06:19:47	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:19:47	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:19:47	src/fiber.cpp:115	Fiber::~Fiber  id=22
+2023-09-20 06:19:47	src/fiber.cpp:97	Fiber::Fiber  id=24
+2023-09-20 06:19:47	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62218]
+2023-09-20 06:19:47	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:19:47	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:19:47	src/fiber.cpp:115	Fiber::~Fiber  id=23
+2023-09-20 06:19:48	src/fiber.cpp:97	Fiber::Fiber  id=25
+2023-09-20 06:19:48	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62223]
+2023-09-20 06:19:48	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:19:48	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:19:48	src/fiber.cpp:115	Fiber::~Fiber  id=24
+2023-09-20 06:20:01	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:01	src/fiber.cpp:97	Fiber::Fiber  id=26
+2023-09-20 06:20:01	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:01	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62234]
+2023-09-20 06:20:01	src/fiber.cpp:115	Fiber::~Fiber  id=25
+2023-09-20 06:20:02	src/fiber.cpp:97	Fiber::Fiber  id=27
+2023-09-20 06:20:02	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62236]
+2023-09-20 06:20:02	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:02	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:02	src/fiber.cpp:115	Fiber::~Fiber  id=26
+2023-09-20 06:20:03	src/fiber.cpp:97	Fiber::Fiber  id=28
+2023-09-20 06:20:03	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:03	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:62237]
+2023-09-20 06:20:03	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:03	src/fiber.cpp:115	Fiber::~Fiber  id=27
+2023-09-20 06:20:13	src/fiber.cpp:97	Fiber::Fiber  id=29
+2023-09-20 06:20:13	src/fiber.cpp:97	Fiber::Fiber  id=30
+2023-09-20 06:20:13	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62244]
+2023-09-20 06:20:13	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62245]
+2023-09-20 06:20:13	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:13	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:13	src/fiber.cpp:115	Fiber::~Fiber  id=29
+2023-09-20 06:20:14	src/fiber.cpp:97	Fiber::Fiber  id=31
+2023-09-20 06:20:14	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62246]
+2023-09-20 06:20:14	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:14	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:14	src/fiber.cpp:115	Fiber::~Fiber  id=30
+2023-09-20 06:20:14	src/fiber.cpp:97	Fiber::Fiber  id=32
+2023-09-20 06:20:14	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62248]
+2023-09-20 06:20:14	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:14	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:14	src/fiber.cpp:115	Fiber::~Fiber  id=31
+2023-09-20 06:20:14	src/fiber.cpp:97	Fiber::Fiber  id=33
+2023-09-20 06:20:14	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62249]
+2023-09-20 06:20:14	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:14	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:14	src/fiber.cpp:115	Fiber::~Fiber  id=32
+2023-09-20 06:20:15	src/fiber.cpp:97	Fiber::Fiber  id=34
+2023-09-20 06:20:15	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62250]
+2023-09-20 06:20:15	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:15	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:15	src/fiber.cpp:115	Fiber::~Fiber  id=33
+2023-09-20 06:20:15	src/fiber.cpp:97	Fiber::Fiber  id=35
+2023-09-20 06:20:15	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62251]
+2023-09-20 06:20:15	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:15	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:15	src/fiber.cpp:115	Fiber::~Fiber  id=34
+2023-09-20 06:20:15	src/fiber.cpp:97	Fiber::Fiber  id=36
+2023-09-20 06:20:15	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62252]
+2023-09-20 06:20:15	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:15	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:15	src/fiber.cpp:115	Fiber::~Fiber  id=35
+2023-09-20 06:20:15	src/fiber.cpp:97	Fiber::Fiber  id=37
+2023-09-20 06:20:15	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62253]
+2023-09-20 06:20:15	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:15	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:15	src/fiber.cpp:115	Fiber::~Fiber  id=36
+2023-09-20 06:20:16	src/fiber.cpp:97	Fiber::Fiber  id=38
+2023-09-20 06:20:16	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62254]
+2023-09-20 06:20:16	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:16	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:16	src/fiber.cpp:115	Fiber::~Fiber  id=37
+2023-09-20 06:20:16	src/fiber.cpp:97	Fiber::Fiber  id=39
+2023-09-20 06:20:16	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62255]
+2023-09-20 06:20:16	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:16	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:16	src/fiber.cpp:115	Fiber::~Fiber  id=38
+2023-09-20 06:20:16	src/fiber.cpp:97	Fiber::Fiber  id=40
+2023-09-20 06:20:16	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:62257]
+2023-09-20 06:20:16	src/http/http_server.cpp:45	m_isKeepAlive=0 req->isClose()=false res->isClose()=true
+2023-09-20 06:20:16	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 06:20:16	src/fiber.cpp:115	Fiber::~Fiber  id=39
+2023-09-20 11:06:36	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:06:36	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:06:43	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:06:43	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:06:43	src/daemon.cpp:63	process start pid=46409
+2023-09-20 11:06:43	src/application.cpp:88	main
+2023-09-20 11:06:43	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 11:06:43	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:06:43	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:06:43	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:06:43	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 11:06:43	src/scheduler.cpp:69	start
+2023-09-20 11:06:43	src/scheduler.cpp:135	main run
+2023-09-20 11:06:43	src/scheduler.cpp:88	stop
+2023-09-20 11:06:43	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:06:43	src/scheduler.cpp:135	main run
+2023-09-20 11:06:43	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 11:06:43	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 11:06:43	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 11:06:43	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:06:43	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 11:06:43	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 11:06:43	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=10, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 11:06:43	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 11:06:43	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 11:06:43	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:06:51	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 11:06:51	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 11:06:51	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:60192]
+2023-09-20 11:06:51	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:60193]
+2023-09-20 11:07:07	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 11:07:07	src/fiber.cpp:97	Fiber::Fiber  id=10
+2023-09-20 11:07:07	src/http/http_server.cpp:18	handleClient: Socket information [sock=14, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60205]
+2023-09-20 11:07:07	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60204]
+2023-09-20 11:08:16	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:08:16	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:08:16	src/http/http_server.cpp:25	recv http request fail, errno=11 errstr=Resource temporarily unavailable cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60205] keep_alive=1
+2023-09-20 11:08:16	src/fiber.cpp:115	Fiber::~Fiber  id=10
+2023-09-20 11:08:16	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:60192] keep_alive=1
+2023-09-20 11:08:16	src/fiber.cpp:115	Fiber::~Fiber  id=7
+2023-09-20 11:09:03	src/fiber.cpp:97	Fiber::Fiber  id=11
+2023-09-20 11:09:03	src/fiber.cpp:115	Fiber::~Fiber  id=11
+2023-09-20 11:09:03	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:09:03	src/http/http_server.cpp:25	recv http request fail, errno=11 errstr=Resource temporarily unavailable cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:60193] keep_alive=1
+2023-09-20 11:09:03	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 11:09:07	src/fiber.cpp:97	Fiber::Fiber  id=12
+2023-09-20 11:09:07	src/fiber.cpp:115	Fiber::~Fiber  id=12
+2023-09-20 11:09:07	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:09:07	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60204] keep_alive=1
+2023-09-20 11:09:07	src/fiber.cpp:115	Fiber::~Fiber  id=9
+2023-09-20 11:14:25	src/fiber.cpp:97	Fiber::Fiber  id=13
+2023-09-20 11:14:25	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60490]
+2023-09-20 11:14:26	src/fiber.cpp:97	Fiber::Fiber  id=14
+2023-09-20 11:14:26	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60491]
+2023-09-20 11:16:26	src/fiber.cpp:97	Fiber::Fiber  id=15
+2023-09-20 11:16:26	src/fiber.cpp:97	Fiber::Fiber  id=16
+2023-09-20 11:16:26	src/fiber.cpp:115	Fiber::~Fiber  id=15
+2023-09-20 11:16:26	src/fiber.cpp:115	Fiber::~Fiber  id=16
+2023-09-20 11:16:26	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:16:26	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:16:26	src/http/http_server.cpp:25	recv http request fail, errno=11 errstr=Resource temporarily unavailable cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60490] keep_alive=1
+2023-09-20 11:16:26	src/fiber.cpp:115	Fiber::~Fiber  id=13
+2023-09-20 11:16:26	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60491] keep_alive=1
+2023-09-20 11:16:26	src/fiber.cpp:115	Fiber::~Fiber  id=14
+2023-09-20 11:23:26	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:23:26	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:23:26	src/daemon.cpp:63	process start pid=47375
+2023-09-20 11:23:26	src/application.cpp:88	main
+2023-09-20 11:23:26	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 11:23:26	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:23:26	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:23:26	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:23:26	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 11:23:26	src/scheduler.cpp:69	start
+2023-09-20 11:23:26	src/scheduler.cpp:135	main run
+2023-09-20 11:23:26	src/scheduler.cpp:88	stop
+2023-09-20 11:23:26	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:23:26	src/scheduler.cpp:135	main run
+2023-09-20 11:23:26	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 11:23:26	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 11:23:26	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 11:23:26	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:23:26	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 11:23:26	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=10, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 11:23:26	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 11:23:26	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 11:23:26	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 11:23:26	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:23:33	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 11:23:33	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 11:23:33	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60978]
+2023-09-20 11:23:33	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60979]
+2023-09-20 11:24:42	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:24:42	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60978] keep_alive=1
+2023-09-20 11:24:42	src/fiber.cpp:115	Fiber::~Fiber  id=7
+2023-09-20 11:25:33	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 11:25:33	src/fiber.cpp:115	Fiber::~Fiber  id=9
+2023-09-20 11:25:33	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:25:33	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:60979] keep_alive=1
+2023-09-20 11:25:33	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 11:30:16	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:30:16	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:30:19	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:30:19	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:30:19	src/daemon.cpp:63	process start pid=48143
+2023-09-20 11:30:19	src/application.cpp:91	main
+2023-09-20 11:30:19	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 11:30:19	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:30:19	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:30:19	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:30:19	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 11:30:19	src/scheduler.cpp:69	start
+2023-09-20 11:30:19	src/scheduler.cpp:135	main run
+2023-09-20 11:30:19	src/scheduler.cpp:88	stop
+2023-09-20 11:30:19	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:30:19	src/scheduler.cpp:135	main run
+2023-09-20 11:30:19	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 11:30:19	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 11:30:19	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:30:19	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 11:30:19	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 11:30:19	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 11:30:19	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 11:30:19	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 11:30:19	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 11:30:19	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:31:14	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 11:31:14	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 11:31:14	src/http/http_server.cpp:18	handleClient: Socket information [sock=10, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61313]
+2023-09-20 11:31:14	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61314]
+2023-09-20 11:33:07	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:33:07	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61314] keep_alive=1
+2023-09-20 11:33:07	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 11:33:14	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 11:33:14	src/fiber.cpp:115	Fiber::~Fiber  id=9
+2023-09-20 11:33:14	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:33:14	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61313] keep_alive=1
+2023-09-20 11:33:14	src/fiber.cpp:115	Fiber::~Fiber  id=7
+2023-09-20 11:33:26	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:33:26	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:33:26	src/daemon.cpp:63	process start pid=48390
+2023-09-20 11:33:26	src/application.cpp:91	main
+2023-09-20 11:33:26	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 11:33:26	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:33:26	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:33:26	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:33:26	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 11:33:26	src/scheduler.cpp:69	start
+2023-09-20 11:33:26	src/scheduler.cpp:135	main run
+2023-09-20 11:33:26	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:33:26	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 11:33:26	src/scheduler.cpp:88	stop
+2023-09-20 11:33:26	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 11:33:26	src/scheduler.cpp:135	main run
+2023-09-20 11:33:26	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 11:33:26	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:33:26	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 11:33:26	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 11:33:26	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 11:33:26	src/fiber.cpp:115	Fiber::~Fiber  id=3
+2023-09-20 11:33:26	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 11:33:26	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:34:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:34:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:34:10	src/daemon.cpp:63	process start pid=48587
+2023-09-20 11:34:10	src/application.cpp:91	main
+2023-09-20 11:34:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 11:34:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:34:10	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:34:10	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:34:10	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 11:34:10	src/scheduler.cpp:69	start
+2023-09-20 11:34:10	src/scheduler.cpp:135	main run
+2023-09-20 11:34:10	src/scheduler.cpp:88	stop
+2023-09-20 11:34:10	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:34:10	src/scheduler.cpp:135	main run
+2023-09-20 11:34:10	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 11:34:10	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 11:34:10	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 11:34:10	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:34:10	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 11:34:10	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 11:34:10	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 11:34:10	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 11:34:10	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 11:34:10	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:34:30	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 11:34:30	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 11:34:30	src/http/http_server.cpp:18	handleClient: Socket information [sock=10, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61448]
+2023-09-20 11:34:30	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61449]
+2023-09-20 11:35:59	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:35:59	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61449] keep_alive=1
+2023-09-20 11:35:59	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 11:36:30	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 11:36:30	src/fiber.cpp:115	Fiber::~Fiber  id=9
+2023-09-20 11:36:30	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 11:36:30	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:61448] keep_alive=1
+2023-09-20 11:36:30	src/fiber.cpp:115	Fiber::~Fiber  id=7
+2023-09-20 11:37:22	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:37:22	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:37:22	src/util.cpp:160	================/home/wwt/server_work/wwt.pid
+2023-09-20 11:37:22	src/daemon.cpp:63	process start pid=49010
+2023-09-20 11:37:22	src/application.cpp:91	main
+2023-09-20 11:37:22	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 11:37:22	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:37:22	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:37:22	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:37:22	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 11:37:22	src/scheduler.cpp:69	start
+2023-09-20 11:37:22	src/scheduler.cpp:135	main run
+2023-09-20 11:37:22	src/scheduler.cpp:88	stop
+2023-09-20 11:37:22	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:37:22	src/scheduler.cpp:135	main run
+2023-09-20 11:37:22	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 11:37:22	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 11:37:22	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 11:37:22	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:37:22	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 11:37:22	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 11:37:22	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 11:37:22	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 11:37:22	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 11:37:22	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:38:28	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:38:28	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:38:28	src/util.cpp:167	================49010
+2023-09-20 11:38:28	src/daemon.cpp:63	process start pid=49369
+2023-09-20 11:38:28	src/application.cpp:91	main
+2023-09-20 11:38:28	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 11:38:28	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:38:28	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:38:28	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:38:28	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 11:38:28	src/scheduler.cpp:69	start
+2023-09-20 11:38:28	src/scheduler.cpp:135	main run
+2023-09-20 11:38:28	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:38:28	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 11:38:28	src/scheduler.cpp:88	stop
+2023-09-20 11:38:28	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 11:38:28	src/scheduler.cpp:135	main run
+2023-09-20 11:38:28	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 11:38:28	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:38:28	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 11:38:28	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 11:38:28	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 11:38:28	src/fiber.cpp:115	Fiber::~Fiber  id=3
+2023-09-20 11:38:28	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 11:38:28	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:39:00	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:39:00	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:39:00	src/daemon.cpp:63	process start pid=49693
+2023-09-20 11:39:00	src/application.cpp:91	main
+2023-09-20 11:39:00	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 11:39:00	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:39:00	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:39:00	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:39:00	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 11:39:00	src/scheduler.cpp:69	start
+2023-09-20 11:39:00	src/scheduler.cpp:135	main run
+2023-09-20 11:39:00	src/scheduler.cpp:88	stop
+2023-09-20 11:39:00	src/scheduler.cpp:135	main run
+2023-09-20 11:39:00	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:39:00	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 11:39:00	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 11:39:00	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:39:00	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 11:39:00	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 11:39:00	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 11:39:00	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 11:39:00	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 11:39:00	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 11:39:00	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:42:18	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:42:18	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:42:18	src/util.cpp:184	errno=3 errst=No such process
+2023-09-20 11:42:18	src/daemon.cpp:63	process start pid=50153
+2023-09-20 11:42:18	src/application.cpp:91	main
+2023-09-20 11:42:18	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 11:42:18	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 11:42:18	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 11:42:18	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:42:18	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 11:42:18	src/scheduler.cpp:69	start
+2023-09-20 11:42:18	src/scheduler.cpp:135	main run
+2023-09-20 11:42:18	src/scheduler.cpp:88	stop
+2023-09-20 11:42:18	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 11:42:18	src/scheduler.cpp:135	main run
+2023-09-20 11:42:18	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 11:42:18	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 11:42:18	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 11:42:18	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 11:42:18	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 11:42:18	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 11:42:18	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 11:42:18	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 11:42:18	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 11:42:18	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 12:08:43	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 12:08:43	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 12:08:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 12:08:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 12:08:46	src/daemon.cpp:63	process start pid=52255
+2023-09-20 12:08:46	src/application.cpp:91	main
+2023-09-20 12:08:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 12:08:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 12:08:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 12:08:46	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 12:08:46	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 12:08:46	src/scheduler.cpp:69	start
+2023-09-20 12:08:46	src/scheduler.cpp:135	main run
+2023-09-20 12:08:46	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 12:08:46	src/scheduler.cpp:88	stop
+2023-09-20 12:08:46	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 12:08:46	src/scheduler.cpp:135	main run
+2023-09-20 12:08:46	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 12:08:46	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 12:08:46	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 12:08:46	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 12:08:46	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 12:08:46	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 12:08:46	src/fiber.cpp:115	Fiber::~Fiber  id=3
+2023-09-20 12:08:46	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 12:08:46	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 12:08:50	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 12:08:50	src/http/http_server.cpp:18	handleClient: Socket information [sock=10, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63049]
+2023-09-20 12:08:50	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 12:08:50	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63050]
+2023-09-20 12:10:29	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 12:10:29	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63050] keep_alive=1
+2023-09-20 12:10:29	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 12:15:36	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 12:15:36	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 12:15:40	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 12:15:40	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 12:15:41	src/daemon.cpp:63	process start pid=53458
+2023-09-20 12:15:41	src/application.cpp:91	main
+2023-09-20 12:15:41	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 12:15:41	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 12:15:41	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 12:15:41	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 12:15:41	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 12:15:41	src/scheduler.cpp:69	start
+2023-09-20 12:15:41	src/scheduler.cpp:135	main run
+2023-09-20 12:15:41	src/scheduler.cpp:88	stop
+2023-09-20 12:15:41	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 12:15:41	src/scheduler.cpp:135	main run
+2023-09-20 12:15:41	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 12:15:41	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 12:15:41	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 12:15:41	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 12:15:41	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 12:15:41	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 12:15:41	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 12:15:41	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 12:15:41	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 12:15:41	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 12:15:43	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 12:15:43	src/http/http_server.cpp:18	handleClient: Socket information [sock=10, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63350]
+2023-09-20 12:15:43	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 12:15:43	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63351]
+2023-09-20 12:15:49	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 12:15:49	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:63357]
+2023-09-20 12:17:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 12:17:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 12:17:06	src/daemon.cpp:63	process start pid=53840
+2023-09-20 12:17:06	src/application.cpp:91	main
+2023-09-20 12:17:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 12:17:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 12:17:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 12:17:06	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 12:17:06	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 12:17:06	src/scheduler.cpp:69	start
+2023-09-20 12:17:06	src/scheduler.cpp:88	stop
+2023-09-20 12:17:06	src/scheduler.cpp:135	main run
+2023-09-20 12:17:06	src/scheduler.cpp:135	main run
+2023-09-20 12:17:06	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 12:17:06	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 12:17:06	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 12:17:06	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 12:17:06	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 12:17:06	src/application.cpp:171	wwt/1.0.0
+2023-09-20 12:17:06	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 12:17:06	src/application.cpp:171	wwt/1.0.1
+2023-09-20 12:17:06	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 12:17:06	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 12:17:06	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 12:17:06	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 12:17:06	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 12:17:13	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 12:17:13	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 12:17:13	src/http/http_server.cpp:18	handleClient: Socket information [sock=10, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63416]
+2023-09-20 12:17:13	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63417]
+2023-09-20 12:17:23	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 12:17:23	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63436]
+2023-09-20 12:17:24	src/fiber.cpp:97	Fiber::Fiber  id=10
+2023-09-20 12:17:24	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63437]
+2023-09-20 12:17:24	src/fiber.cpp:97	Fiber::Fiber  id=11
+2023-09-20 12:17:24	src/http/http_server.cpp:18	handleClient: Socket information [sock=14, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:63438]
+2023-09-20 12:18:55	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 12:18:55	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63417] keep_alive=1
+2023-09-20 12:18:55	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 12:18:55	src/fiber.cpp:97	Fiber::Fiber  id=12
+2023-09-20 12:18:55	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:63510]
+2023-09-20 12:18:56	src/fiber.cpp:97	Fiber::Fiber  id=13
+2023-09-20 12:18:56	src/http/http_server.cpp:18	handleClient: Socket information [sock=15, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:63511]
+2023-09-20 12:19:05	src/fiber.cpp:97	Fiber::Fiber  id=14
+2023-09-20 12:19:05	src/http/http_server.cpp:18	handleClient: Socket information [sock=16, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63519]
+2023-09-20 12:19:11	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 12:19:11	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 12:19:11	src/http/http_server.cpp:25	recv http request fail, errno=11 errstr=Resource temporarily unavailable cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63437] keep_alive=1
+2023-09-20 12:19:11	src/fiber.cpp:115	Fiber::~Fiber  id=10
+2023-09-20 12:19:11	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:63438] keep_alive=1
+2023-09-20 12:19:11	src/fiber.cpp:115	Fiber::~Fiber  id=11
+2023-09-20 12:19:24	src/fiber.cpp:97	Fiber::Fiber  id=15
+2023-09-20 12:19:24	src/fiber.cpp:115	Fiber::~Fiber  id=15
+2023-09-20 12:19:24	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 12:19:24	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63436] keep_alive=1
+2023-09-20 12:19:24	src/fiber.cpp:115	Fiber::~Fiber  id=9
+2023-09-20 12:20:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 12:20:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 12:20:39	src/daemon.cpp:63	process start pid=54354
+2023-09-20 12:20:39	src/application.cpp:91	main
+2023-09-20 12:20:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 12:20:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 12:20:39	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 12:20:39	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 12:20:39	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 12:20:39	src/scheduler.cpp:69	start
+2023-09-20 12:20:39	src/scheduler.cpp:135	main run
+2023-09-20 12:20:39	src/scheduler.cpp:88	stop
+2023-09-20 12:20:39	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 12:20:39	src/scheduler.cpp:135	main run
+2023-09-20 12:20:39	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 12:20:39	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 12:20:39	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 12:20:39	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 12:20:39	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 12:20:39	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 12:20:39	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 12:20:39	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 12:20:39	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 12:20:39	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 12:20:45	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 12:20:45	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 12:20:45	src/http/http_server.cpp:18	handleClient: Socket information [sock=10, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:63592]
+2023-09-20 12:20:45	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:63593]
+2023-09-20 12:20:52	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 12:20:52	src/fiber.cpp:97	Fiber::Fiber  id=10
+2023-09-20 12:20:52	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63598]
+2023-09-20 12:20:52	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63597]
+2023-09-20 12:22:29	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 12:22:29	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 12:22:29	src/http/http_server.cpp:25	recv http request fail, errno=11 errstr=Resource temporarily unavailable cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63598] keep_alive=1
+2023-09-20 12:22:29	src/fiber.cpp:115	Fiber::~Fiber  id=10
+2023-09-20 12:22:29	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:63593] keep_alive=1
+2023-09-20 12:22:29	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 12:22:48	src/fiber.cpp:97	Fiber::Fiber  id=11
+2023-09-20 12:22:48	src/fiber.cpp:115	Fiber::~Fiber  id=11
+2023-09-20 12:22:48	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 12:22:48	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:63592] keep_alive=1
+2023-09-20 12:22:48	src/fiber.cpp:115	Fiber::~Fiber  id=7
+2023-09-20 12:22:52	src/fiber.cpp:97	Fiber::Fiber  id=12
+2023-09-20 12:22:52	src/fiber.cpp:115	Fiber::~Fiber  id=12
+2023-09-20 12:22:52	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 12:22:52	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63597] keep_alive=1
+2023-09-20 12:22:52	src/fiber.cpp:115	Fiber::~Fiber  id=9
+2023-09-20 13:00:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 13:00:06	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 13:00:09	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 13:00:09	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 13:00:09	src/daemon.cpp:63	process start pid=56111
+2023-09-20 13:00:09	src/application.cpp:91	main
+2023-09-20 13:00:09	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 13:00:09	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 13:00:09	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 13:00:09	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 13:00:09	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 13:00:09	src/scheduler.cpp:69	start
+2023-09-20 13:00:09	src/scheduler.cpp:135	main run
+2023-09-20 13:00:09	src/scheduler.cpp:88	stop
+2023-09-20 13:00:09	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 13:00:09	src/scheduler.cpp:135	main run
+2023-09-20 13:00:09	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 13:00:09	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 13:00:09	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 13:00:09	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 13:00:09	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 13:00:09	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 13:00:09	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 13:00:09	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-20 13:00:09	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 13:00:09	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 13:00:16	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 13:00:16	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 13:00:16	src/http/http_server.cpp:18	handleClient: Socket information [sock=10, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:65262]
+2023-09-20 13:00:16	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:65263]
+2023-09-20 13:00:29	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 13:00:29	src/fiber.cpp:97	Fiber::Fiber  id=10
+2023-09-20 13:00:29	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:65271]
+2023-09-20 13:00:29	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:65270]
+2023-09-20 13:01:29	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 13:01:29	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 13:01:29	src/http/http_server.cpp:25	recv http request fail, errno=11 errstr=Resource temporarily unavailable cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:65262] keep_alive=1
+2023-09-20 13:01:29	src/fiber.cpp:115	Fiber::~Fiber  id=7
+2023-09-20 13:01:29	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:65271] keep_alive=1
+2023-09-20 13:01:29	src/fiber.cpp:115	Fiber::~Fiber  id=10
+2023-09-20 13:02:16	src/fiber.cpp:97	Fiber::Fiber  id=11
+2023-09-20 13:02:16	src/fiber.cpp:115	Fiber::~Fiber  id=11
+2023-09-20 13:02:16	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 13:02:16	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:65263] keep_alive=1
+2023-09-20 13:02:16	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 13:02:29	src/fiber.cpp:97	Fiber::Fiber  id=12
+2023-09-20 13:02:29	src/fiber.cpp:115	Fiber::~Fiber  id=12
+2023-09-20 13:02:29	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 13:02:29	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:65270] keep_alive=1
+2023-09-20 13:02:29	src/fiber.cpp:115	Fiber::~Fiber  id=9
+2023-09-20 13:20:54	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 13:20:54	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 13:20:54	src/application.cpp:100	main
+2023-09-20 13:20:54	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-20 13:20:54	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-20 13:20:54	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-20 13:20:54	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 13:20:54	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-20 13:20:54	src/scheduler.cpp:69	start
+2023-09-20 13:20:54	src/scheduler.cpp:135	main run
+2023-09-20 13:20:54	src/fiber.cpp:61	Fiber::Fiber
+2023-09-20 13:20:54	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-20 13:20:54	src/scheduler.cpp:88	stop
+2023-09-20 13:20:54	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-20 13:20:54	src/scheduler.cpp:135	main run
+2023-09-20 13:20:54	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-20 13:20:54	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 13:20:54	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-20 13:20:54	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-20 13:20:54	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-20 13:20:54	src/fiber.cpp:115	Fiber::~Fiber  id=3
+2023-09-20 13:20:54	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-20 13:20:54	src/iomanager.cpp:394	IOManager::idle
+2023-09-20 13:20:59	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-20 13:20:59	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-20 13:20:59	src/http/http_server.cpp:18	handleClient: Socket information [sock=10, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:49800]
+2023-09-20 13:20:59	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:49801]
+2023-09-20 13:21:08	src/fiber.cpp:97	Fiber::Fiber  id=10
+2023-09-20 13:21:08	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-20 13:21:08	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:49807]
+2023-09-20 13:21:08	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:49808]
+2023-09-20 13:22:30	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 13:22:30	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 13:22:30	src/http/http_server.cpp:25	recv http request fail, errno=11 errstr=Resource temporarily unavailable cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:49800] keep_alive=1
+2023-09-20 13:22:30	src/fiber.cpp:115	Fiber::~Fiber  id=7
+2023-09-20 13:22:30	src/http/http_server.cpp:25	recv http request fail, errno=0 errstr=Success cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:49808] keep_alive=1
+2023-09-20 13:22:30	src/fiber.cpp:115	Fiber::~Fiber  id=10
+2023-09-20 13:23:04	src/fiber.cpp:97	Fiber::Fiber  id=11
+2023-09-20 13:23:04	src/fiber.cpp:115	Fiber::~Fiber  id=11
+2023-09-20 13:23:04	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 13:23:04	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:49801] keep_alive=1
+2023-09-20 13:23:04	src/fiber.cpp:115	Fiber::~Fiber  id=8
+2023-09-20 13:23:08	src/fiber.cpp:97	Fiber::Fiber  id=12
+2023-09-20 13:23:08	src/fiber.cpp:115	Fiber::~Fiber  id=12
+2023-09-20 13:23:08	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
+2023-09-20 13:23:08	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:49807] keep_alive=1
+2023-09-20 13:23:08	src/fiber.cpp:115	Fiber::~Fiber  id=9

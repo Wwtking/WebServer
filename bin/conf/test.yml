@@ -1,0 +1,69 @@
+log:
+    - name: root
+      level: info
+      formatter: "%d%T%m%n"
+      appenders:
+          - type: FileLogAppender
+            file: log.txt
+          - type: StdoutLogAppender
+    - name: system
+      level: debug
+      formatter: "%d%T%m%n"
+      appenders: 
+          - type: FileLogAppender
+            file: log.txt
+          - type: StdoutLogAppender
+
+system:
+    port : 9900
+    value : 15
+    # vector_int : [10, 20]
+    vector_int :
+        - 10
+        - 20
+    list_int : [30, 40, 50]
+    set_int : [50, 60, 50]
+    uset_int : [70, 80, 70]
+    map_str_int :
+        k1 : 10
+        k2 : 20
+        k3 : 30
+    umap_str_int :
+        k1 : 110
+        k2 : 130
+        k3 : 120
+
+class:
+    # Person
+    person :
+        name : wwt
+        age : 23
+        gender : true
+    # std::map<std::string, Person>
+    map :
+        wwt :
+            name : wwt
+            age : 23
+            gender : true
+        ly :
+            name : ly
+            age : 24
+            gender : false
+    # std::map<std::string, std::vector<Person> >
+    map_vec :
+        wwt :
+            - name : wwt01
+              age : 18
+              gender : true
+            - name : wwt02
+              age : 20
+              gender : true
+        ly :
+            - name : ly01
+              age : 19
+              gender : false
+            - name : ly02
+              age : 21
+              gender : false
+
+
