@@ -40,7 +40,9 @@ set(SRC src/log.cpp
         src/uri.cpp
         src/daemon.cpp
         src/env.cpp
-        src/application.cpp)
+        src/application.cpp
+        src/module.cpp
+        src/library.cpp)
 
 add_library(sylar SHARED ${SRC})  #通过变量SRC生成libsylar.so共享库
 redefine_file_macro(sylar)  #为输出目标添加__FILE__宏重定义功能

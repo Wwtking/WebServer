@@ -4,6 +4,7 @@
 #include "env.h"
 #include "daemon.h"
 #include "http_server.h"
+#include "module.h"
 
 namespace sylar {
 
@@ -58,6 +59,13 @@ bool Application::init(int argc, char** argv) {
 
     std::string conf_path = EnvMgr::GetInstance()->getConfPath();
     Config::LoadFromConfDir(conf_path);
+
+    ModuleMgr::GetInstance()->init();
+    std::vector<Module::ptr> modules;
+    ModuleMgr::GetInstance()->listAllModules(modules);
+    for(auto& i : modules) {
+        i->onBeforeArgsParse(argc, argv);
+    }
     
     int run_status = 0;
     if(EnvMgr::GetInstance()->hasArg("d")) {
@@ -70,6 +78,11 @@ bool Application::init(int argc, char** argv) {
         EnvMgr::GetInstance()->printHelps();
         return false;
     }
+
+    for(auto& i : modules) {
+        i->onAfterArgsParse(argc, argv);
+    }
+    modules.clear();
     
     // 验证workpath目录下pidfile文件是否存在，并且文件中是否存在进程ID，如果是则说明Server已经启动
     std::string pidfile = g_server_work_path->getValue() + "/" 
@@ -121,6 +134,22 @@ int Application::main(int argc, char** argv) {
 }
 
 int Application::run_fiber(int argc, char** argv) {
+    std::vector<Module::ptr> modules;
+    ModuleMgr::GetInstance()->listAllModules(modules);
+    bool has_error = false;
+    for(auto& i : modules) {
+        if(!i->onLoad()) {
+            SYLAR_LOG_ERROR(g_logger) << "module name=" << i->getName() 
+                                    << " version=" << i->getVersion()
+                                    << " filename=" << i->getFilename();
+            has_error = true;
+        }
+    }
+    if(has_error) {
+        _exit(0);
+    }
+
+    std::vector<TcpServer::ptr> servers;
     auto confs = g_server_conf->getValue();
     for(auto& conf : confs) {
         // 拿出YAML配置中的地址端口号，绑定服务器地址
@@ -192,8 +221,22 @@ int Application::run_fiber(int argc, char** argv) {
             }
             _exit(0);   // 绑定失败直接退出
         }
-        server->start();
+        server->setConf(conf);
+        // server->start();
+        servers.push_back(server);
         m_servers[conf.type].push_back(server);
+    }
+
+    for(auto& i : modules) {
+        i->onServerReady();
+    }
+
+    for(auto& i : servers) {
+        i->start();
+    }
+
+    for(auto& i : modules) {
+        i->onServerUp();
     }
     return 0;
 }

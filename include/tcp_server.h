@@ -166,7 +166,11 @@ public:
      */
     void setName(std::string name) { m_name = name; }
 
-private:
+    TcpServerConf::ptr getConf() const { return m_conf; }
+    void setConf(TcpServerConf::ptr conf) { m_conf = conf; }
+    void setConf(const TcpServerConf& conf);
+
+protected:
     /**
      * @brief 处理新连接的Socket类
      * @details 每accept到一个socket，就会执行一次，触发回调
@@ -180,7 +184,7 @@ private:
      */
     virtual void startAccept(Socket::ptr sock);
 
-private:
+protected:
     std::vector<Socket::ptr> m_socket;  // 服务器端绑定的Socket数组
     IOManager* m_worker;                // 调度新连接的Socket工作的协程调度器
     IOManager* m_acceptWorker;          // 调度服务器Socket执行accept的协程调度器
@@ -188,6 +192,7 @@ private:
     uint64_t m_recvTimeout;             // 服务器接收超时时间(毫秒)
     bool m_isStop;                      // 服务是否停止
 
+    TcpServerConf::ptr m_conf;          // 服务器配置
 };
 
 }

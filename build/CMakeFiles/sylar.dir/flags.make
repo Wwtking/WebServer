@@ -64,3 +64,7 @@ CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/
 
 # Custom defines: CMakeFiles/sylar.dir/src/application.cpp.o_DEFINES = __FILE__="src/application.cpp"
 
+# Custom defines: CMakeFiles/sylar.dir/src/module.cpp.o_DEFINES = __FILE__="src/module.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/src/library.cpp.o_DEFINES = __FILE__="src/library.cpp"
+

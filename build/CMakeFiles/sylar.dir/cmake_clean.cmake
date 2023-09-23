@@ -27,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sylar.dir/src/daemon.cpp.o"
   "CMakeFiles/sylar.dir/src/env.cpp.o"
   "CMakeFiles/sylar.dir/src/application.cpp.o"
+  "CMakeFiles/sylar.dir/src/module.cpp.o"
+  "CMakeFiles/sylar.dir/src/library.cpp.o"
   "../lib/libsylar.pdb"
   "../lib/libsylar.so"
 )

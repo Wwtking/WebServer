@@ -12,6 +12,8 @@ class Application {
 public:
     Application();
 
+    static Application* Getinstance() { return s_instance; }
+
     bool init(int argc, char** argv);
     int run();
 

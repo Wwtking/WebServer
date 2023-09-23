@@ -134,6 +134,10 @@ void TcpServer::stop() {
     });
 }
 
+void TcpServer::setConf(const TcpServerConf& conf) {
+    m_conf.reset(new TcpServerConf(conf));
+}
+
 // 每accept到一个socket，就会触发回调执行一次
 void TcpServer::handleClient(Socket::ptr client) {
     SYLAR_LOG_DEBUG(g_logger) << "handleClient: " << client->toString();

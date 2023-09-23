@@ -952,6 +952,33 @@ src/iomanager.cpp.s:
 	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/iomanager.cpp.s
 .PHONY : src/iomanager.cpp.s
 
+src/library.o: src/library.cpp.o
+
+.PHONY : src/library.o
+
+# target to build an object file
+src/library.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/library.cpp.o
+.PHONY : src/library.cpp.o
+
+src/library.i: src/library.cpp.i
+
+.PHONY : src/library.i
+
+# target to preprocess a source file
+src/library.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/library.cpp.i
+.PHONY : src/library.cpp.i
+
+src/library.s: src/library.cpp.s
+
+.PHONY : src/library.s
+
+# target to generate assembly for a file
+src/library.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/library.cpp.s
+.PHONY : src/library.cpp.s
+
 src/log.o: src/log.cpp.o
 
 .PHONY : src/log.o
@@ -978,6 +1005,33 @@ src/log.s: src/log.cpp.s
 src/log.cpp.s:
 	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/log.cpp.s
 .PHONY : src/log.cpp.s
+
+src/module.o: src/module.cpp.o
+
+.PHONY : src/module.o
+
+# target to build an object file
+src/module.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/module.cpp.o
+.PHONY : src/module.cpp.o
+
+src/module.i: src/module.cpp.i
+
+.PHONY : src/module.i
+
+# target to preprocess a source file
+src/module.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/module.cpp.i
+.PHONY : src/module.cpp.i
+
+src/module.s: src/module.cpp.s
+
+.PHONY : src/module.s
+
+# target to generate assembly for a file
+src/module.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/module.cpp.s
+.PHONY : src/module.cpp.s
 
 src/scheduler.o: src/scheduler.cpp.o
 
@@ -1853,9 +1907,15 @@ help:
 	@echo "... src/iomanager.o"
 	@echo "... src/iomanager.i"
 	@echo "... src/iomanager.s"
+	@echo "... src/library.o"
+	@echo "... src/library.i"
+	@echo "... src/library.s"
 	@echo "... src/log.o"
 	@echo "... src/log.i"
 	@echo "... src/log.s"
+	@echo "... src/module.o"
+	@echo "... src/module.i"
+	@echo "... src/module.s"
 	@echo "... src/scheduler.o"
 	@echo "... src/scheduler.i"
 	@echo "... src/scheduler.s"
