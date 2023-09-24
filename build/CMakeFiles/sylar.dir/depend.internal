@@ -24,6 +24,7 @@ CMakeFiles/sylar.dir/src/application.cpp.o
  ../include/http/http_session.h
  ../include/iomanager.h
  ../include/log.h
+ ../include/module.h
  ../include/noncopyable.h
  ../include/scheduler.h
  ../include/singleton.h

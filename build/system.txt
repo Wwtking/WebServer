@@ -1289,3 +1289,34 @@
 2023-09-20 13:23:08	src/iomanager.cpp:308	cancelEvent info: event is NULL, not need to cancel
 2023-09-20 13:23:08	src/http/http_server.cpp:25	recv http request fail, errno=110 errstr=Connection timed out cliet:Socket information [sock=-1, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:49807] keep_alive=1
 2023-09-20 13:23:08	src/fiber.cpp:115	Fiber::~Fiber  id=9
+2023-09-23 10:43:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-23 10:43:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-23 10:43:46	src/application.cpp:100	main
+2023-09-23 10:43:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-23 10:43:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-23 10:43:46	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-23 10:43:46	src/fiber.cpp:61	Fiber::Fiber
+2023-09-23 10:43:46	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-23 10:43:46	src/scheduler.cpp:69	start
+2023-09-23 10:43:46	src/scheduler.cpp:135	main run
+2023-09-23 10:43:46	src/fiber.cpp:61	Fiber::Fiber
+2023-09-23 10:43:46	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-23 10:43:46	src/scheduler.cpp:88	stop
+2023-09-23 10:43:46	src/scheduler.cpp:135	main run
+2023-09-23 10:43:46	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-23 10:43:46	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-23 10:43:46	src/iomanager.cpp:394	IOManager::idle
+2023-09-23 10:43:46	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-23 10:43:46	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-23 10:43:46	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-23 10:43:46	src/fiber.cpp:115	Fiber::~Fiber  id=4
+2023-09-23 10:43:46	src/iomanager.cpp:394	IOManager::idle
+2023-09-23 10:43:46	src/fiber.cpp:97	Fiber::Fiber  id=6
+2023-09-23 10:44:29	src/fiber.cpp:97	Fiber::Fiber  id=7
+2023-09-23 10:44:29	src/fiber.cpp:97	Fiber::Fiber  id=8
+2023-09-23 10:44:29	src/http/http_server.cpp:18	handleClient: Socket information [sock=11, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63685]
+2023-09-23 10:44:29	src/http/http_server.cpp:18	handleClient: Socket information [sock=10, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8030, m_remoteAddress=192.168.88.1:63684]
+2023-09-23 10:44:32	src/fiber.cpp:97	Fiber::Fiber  id=9
+2023-09-23 10:44:32	src/fiber.cpp:97	Fiber::Fiber  id=10
+2023-09-23 10:44:32	src/http/http_server.cpp:18	handleClient: Socket information [sock=13, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:63688]
+2023-09-23 10:44:32	src/http/http_server.cpp:18	handleClient: Socket information [sock=12, family=2, type=1, protocol=0, isConnected=1, m_locolAddress=192.168.88.130:8020, m_remoteAddress=192.168.88.1:63687]

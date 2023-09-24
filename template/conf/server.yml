@@ -1,0 +1,15 @@
+servers:
+  - address: ["0.0.0.0:8090", "127.0.0.1:0", "/tmp/test.sock"]
+    keepalive: 1
+    timeout: 1000
+    name: wwt/1.0.0
+    type: http
+    accept_worker: accept
+    process_worker: io
+  - address: ["0.0.0.0:8072", "localhost:8071"]
+    keepalive: 1
+    timeout: 1000
+    name: wwt/2.0.0
+    type: ws
+    accept_worker: accept
+    process_worker: io
