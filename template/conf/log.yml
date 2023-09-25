@@ -3,11 +3,11 @@ logs:
       level: info
       appenders:
           - type: FileLogAppender
-            file: /home/wwt/logs/project_name/root.log
+            file: /home/wwt/project_name/bin/root.txt
           - type: StdoutLogAppender
     - name: system
       level: info
       appenders:
           - type: FileLogAppender
-            file: /home/wwt/logs/project_name/system.log
+            file: /home/wwt/project_name/bin/system.txt
           - type: StdoutLogAppender
