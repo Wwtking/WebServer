@@ -114,6 +114,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named bin_sylar
+
+# Build rule for target.
+bin_sylar: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bin_sylar
+.PHONY : bin_sylar
+
+# fast build rule for target.
+bin_sylar/fast:
+	$(MAKE) -f CMakeFiles/bin_sylar.dir/build.make CMakeFiles/bin_sylar.dir/build
+.PHONY : bin_sylar/fast
+
+#=============================================================================
 # Target rules for targets named application_test
 
 # Build rule for target.
@@ -1006,6 +1019,33 @@ src/log.cpp.s:
 	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/log.cpp.s
 .PHONY : src/log.cpp.s
 
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/bin_sylar.dir/build.make CMakeFiles/bin_sylar.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/bin_sylar.dir/build.make CMakeFiles/bin_sylar.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/bin_sylar.dir/build.make CMakeFiles/bin_sylar.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 src/module.o: src/module.cpp.o
 
 .PHONY : src/module.o
@@ -1222,32 +1262,32 @@ src/timer.cpp.s:
 	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/timer.cpp.s
 .PHONY : src/timer.cpp.s
 
-src/uri.o: src/uri.cpp.o
+src/uri.rl.o: src/uri.rl.cpp.o
 
-.PHONY : src/uri.o
+.PHONY : src/uri.rl.o
 
 # target to build an object file
-src/uri.cpp.o:
-	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/uri.cpp.o
-.PHONY : src/uri.cpp.o
+src/uri.rl.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/uri.rl.cpp.o
+.PHONY : src/uri.rl.cpp.o
 
-src/uri.i: src/uri.cpp.i
+src/uri.rl.i: src/uri.rl.cpp.i
 
-.PHONY : src/uri.i
+.PHONY : src/uri.rl.i
 
 # target to preprocess a source file
-src/uri.cpp.i:
-	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/uri.cpp.i
-.PHONY : src/uri.cpp.i
+src/uri.rl.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/uri.rl.cpp.i
+.PHONY : src/uri.rl.cpp.i
 
-src/uri.s: src/uri.cpp.s
+src/uri.rl.s: src/uri.rl.cpp.s
 
-.PHONY : src/uri.s
+.PHONY : src/uri.rl.s
 
 # target to generate assembly for a file
-src/uri.cpp.s:
-	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/uri.cpp.s
-.PHONY : src/uri.cpp.s
+src/uri.rl.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/uri.rl.cpp.s
+.PHONY : src/uri.rl.cpp.s
 
 src/util.o: src/util.cpp.o
 
@@ -1822,6 +1862,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... bin_sylar"
 	@echo "... application_test"
 	@echo "... hook_test"
 	@echo "... scheduler_test"
@@ -1913,6 +1954,9 @@ help:
 	@echo "... src/log.o"
 	@echo "... src/log.i"
 	@echo "... src/log.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... src/module.o"
 	@echo "... src/module.i"
 	@echo "... src/module.s"
@@ -1937,9 +1981,9 @@ help:
 	@echo "... src/timer.o"
 	@echo "... src/timer.i"
 	@echo "... src/timer.s"
-	@echo "... src/uri.o"
-	@echo "... src/uri.i"
-	@echo "... src/uri.s"
+	@echo "... src/uri.rl.o"
+	@echo "... src/uri.rl.i"
+	@echo "... src/uri.rl.s"
 	@echo "... src/util.o"
 	@echo "... src/util.i"
 	@echo "... src/util.s"

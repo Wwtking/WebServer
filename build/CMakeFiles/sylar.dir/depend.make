@@ -693,9 +693,9 @@ CMakeFiles/sylar.dir/src/timer.cpp.o: ../include/timer.h
 CMakeFiles/sylar.dir/src/timer.cpp.o: ../include/util.h
 CMakeFiles/sylar.dir/src/timer.cpp.o: ../src/timer.cpp
 
-CMakeFiles/sylar.dir/src/uri.cpp.o: ../include/address.h
-CMakeFiles/sylar.dir/src/uri.cpp.o: ../include/uri.h
-CMakeFiles/sylar.dir/src/uri.cpp.o: ../src/uri.cpp
+CMakeFiles/sylar.dir/src/uri.rl.cpp.o: ../include/address.h
+CMakeFiles/sylar.dir/src/uri.rl.cpp.o: ../include/uri.h
+CMakeFiles/sylar.dir/src/uri.rl.cpp.o: ../src/uri.rl.cpp
 
 CMakeFiles/sylar.dir/src/util.cpp.o: ../include/env.h
 CMakeFiles/sylar.dir/src/util.cpp.o: ../include/fiber.h

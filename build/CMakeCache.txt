@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//ON for complile test
+BUILD_TEST:BOOL=ON
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 

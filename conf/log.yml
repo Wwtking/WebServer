@@ -4,14 +4,14 @@ logs:
       formatter: "%d%T%m%n"
       appenders:
           - type: FileLogAppender
-            file: /home/wwt/sylar/build/root.txt
+            file: /home/wwt/sylar/bin/root.txt
           - type: StdoutLogAppender
     - name: system
       level: debug
       formatter: "%d%T%f:%l%T%m%n"
       appenders: 
           - type: FileLogAppender
-            file: /home/wwt/sylar/build/system.txt
+            file: /home/wwt/sylar/bin/system.txt
             #formatter: "%d%T%m%n"
           - type: StdoutLogAppender
             #formatter: "%d%T%m%n"

@@ -1,10 +1,10 @@
 set(CMAKE_C_COMPILER "/usr/bin/cc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
-set(CMAKE_C_COMPILER_VERSION "4.8.5")
+set(CMAKE_C_COMPILER_VERSION "8.3.1")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
-set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "90")
+set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "11")
 set(CMAKE_C_COMPILE_FEATURES "c_std_90;c_function_prototypes;c_std_99;c_restrict;c_variadic_macros;c_std_11;c_static_assert")
 set(CMAKE_C90_COMPILE_FEATURES "c_std_90;c_function_prototypes")
 set(CMAKE_C99_COMPILE_FEATURES "c_std_99;c_restrict;c_variadic_macros")
@@ -69,7 +69,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include;/usr/local/include;/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/include;/usr/local/include;/opt/rh/devtoolset-8/root/usr/include;/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8;/opt/rh/devtoolset-8/root/usr/lib64;/lib64;/usr/lib64;/opt/rh/devtoolset-8/root/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

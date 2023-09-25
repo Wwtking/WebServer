@@ -32,7 +32,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wwt/sylar/src/tcp_server.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/tcp_server.cpp.o"
   "/home/wwt/sylar/src/thread.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/thread.cpp.o"
   "/home/wwt/sylar/src/timer.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/timer.cpp.o"
-  "/home/wwt/sylar/src/uri.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/uri.cpp.o"
+  "/home/wwt/sylar/src/uri.rl.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/uri.rl.cpp.o"
   "/home/wwt/sylar/src/util.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

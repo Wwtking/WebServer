@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/uri_test.dir/tests/uri_test.cpp.o"
-  "uri_test.pdb"
-  "uri_test"
+  "../bin/uri_test.pdb"
+  "../bin/uri_test"
 )
 
 # Per-language clean rules from dependency scanning.

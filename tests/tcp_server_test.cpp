@@ -8,7 +8,7 @@ void test_tcpserver() {
 
     // 用Address类封装待绑定的地址
     sylar::Address::ptr ipv4Addr = sylar::Address::LookupAny("0.0.0.0:8020");
-    // sylar::Address::ptr unixAddr = std::make_shared<sylar::UnixAddress>("/home/wwt/sylar/build/unix_addr");
+    // sylar::Address::ptr unixAddr = std::make_shared<sylar::UnixAddress>("/home/wwt/sylar/bin/unix_addr");
     std::vector<sylar::Address::ptr> addrs;
     std::vector<sylar::Address::ptr> fails;
     addrs.push_back(ipv4Addr);

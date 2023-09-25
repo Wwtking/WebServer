@@ -172,9 +172,9 @@ void test_file() {
     } \
     SYLAR_ASSERT(arr->getReadSize() == 0); \
     arr->setPosition(pos); \
-    arr->writeToFile("/home/wwt/sylar/build/" #readType ".dat", len * (sizeof(type) + 2)); \
+    arr->writeToFile("/home/wwt/sylar/bin/" #readType ".dat", len * (sizeof(type) + 2)); \
     sylar::ByteArray::ptr arr2 = std::make_shared<sylar::ByteArray>(baseSize); \
-    arr2->readFromFile("/home/wwt/sylar/build/" #readType ".dat", len * (sizeof(type) + 2)); \
+    arr2->readFromFile("/home/wwt/sylar/bin/" #readType ".dat", len * (sizeof(type) + 2)); \
     arr2->setPosition(0); \
     SYLAR_ASSERT(arr->toString() == arr2->toString()); \
     SYLAR_ASSERT(arr->getPosition() == pos); \

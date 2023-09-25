@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/socket_test.dir/tests/socket_test.cpp.o"
-  "socket_test.pdb"
-  "socket_test"
+  "../bin/socket_test.pdb"
+  "../bin/socket_test"
 )
 
 # Per-language clean rules from dependency scanning.

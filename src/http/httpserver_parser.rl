@@ -288,7 +288,7 @@
 int http_parser_init(http_parser *parser) {
   int cs = 0;
 
-  %% write init;      // 写入初始化代码
+  %% write init;      # 写入初始化代码
   
   parser->cs = cs;
   parser->body_start = 0;
@@ -323,7 +323,7 @@ size_t http_parser_execute(http_parser *parser, const char *buffer, size_t len, 
 
   assert(pe - p == (int)len - (int)off && "pointers aren't same distance");
 
-  %% write exec;    // 写入执行代码
+  %% write exec;    # 写入执行代码
 
   assert(p <= pe && "Buffer overflow after parsing.");
 

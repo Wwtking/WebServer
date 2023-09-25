@@ -693,10 +693,10 @@ CMakeFiles/sylar.dir/src/timer.cpp.o
  ../include/timer.h
  ../include/util.h
  /home/wwt/sylar/src/timer.cpp
-CMakeFiles/sylar.dir/src/uri.cpp.o
+CMakeFiles/sylar.dir/src/uri.rl.cpp.o
  ../include/address.h
  ../include/uri.h
- /home/wwt/sylar/src/uri.cpp
+ /home/wwt/sylar/src/uri.rl.cpp
 CMakeFiles/sylar.dir/src/util.cpp.o
  ../include/env.h
  ../include/fiber.h
