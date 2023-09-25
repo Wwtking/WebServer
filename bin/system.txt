@@ -1,0 +1,24 @@
+2023-09-25 11:31:12	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-25 11:31:12	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-25 11:31:12	src/util.cpp:106	the calling process cann't access the file path: module
+2023-09-25 11:31:12	src/application.cpp:113	main
+2023-09-25 11:31:12	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/test.yml ok
+2023-09-25 11:31:12	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/log.yml ok
+2023-09-25 11:31:12	src/config.cpp:87	LoadConfFile file=/home/wwt/sylar/conf/server.yml ok
+2023-09-25 11:31:12	src/fiber.cpp:61	Fiber::Fiber
+2023-09-25 11:31:12	src/fiber.cpp:97	Fiber::Fiber  id=1
+2023-09-25 11:31:12	src/scheduler.cpp:69	start
+2023-09-25 11:31:12	src/scheduler.cpp:135	main run
+2023-09-25 11:31:12	src/fiber.cpp:61	Fiber::Fiber
+2023-09-25 11:31:12	src/scheduler.cpp:88	stop
+2023-09-25 11:31:12	src/fiber.cpp:97	Fiber::Fiber  id=2
+2023-09-25 11:31:12	src/scheduler.cpp:135	main run
+2023-09-25 11:31:12	src/fiber.cpp:97	Fiber::Fiber  id=3
+2023-09-25 11:31:12	src/fiber.cpp:97	Fiber::Fiber  id=4
+2023-09-25 11:31:12	src/iomanager.cpp:394	IOManager::idle
+2023-09-25 11:31:12	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=8, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8020]
+2023-09-25 11:31:12	src/tcp_server.cpp:78	tcp server bind success, Socket information [sock=9, family=2, type=1, protocol=0, isConnected=0, m_locolAddress=0.0.0.0:8030]
+2023-09-25 11:31:12	src/fiber.cpp:115	Fiber::~Fiber  id=3
+2023-09-25 11:31:12	src/fiber.cpp:97	Fiber::Fiber  id=5
+2023-09-25 11:31:12	src/iomanager.cpp:394	IOManager::idle
+2023-09-25 11:31:12	src/fiber.cpp:97	Fiber::Fiber  id=6
