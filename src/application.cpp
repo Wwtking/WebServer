@@ -4,6 +4,7 @@
 #include "env.h"
 #include "daemon.h"
 #include "http_server.h"
+#include "ws_server.h"
 #include "module.h"
 
 namespace sylar {
@@ -205,6 +206,9 @@ int Application::run_fiber(int argc, char** argv) {
         }
         else if(conf.type == "http2") {
 
+        }
+        else if(conf.type == "ws") {
+            server = std::make_shared<http::WSServer>(process_worker, accept_worker);
         }
         else {
             SYLAR_LOG_ERROR(g_logger) << "invalid server type=" << conf.type;

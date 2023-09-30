@@ -22,6 +22,9 @@ CMakeFiles/sylar.dir/src/application.cpp.o
  ../include/http/http_server.h
  ../include/http/http_servlet.h
  ../include/http/http_session.h
+ ../include/http/ws_server.h
+ ../include/http/ws_servlet.h
+ ../include/http/ws_session.h
  ../include/iomanager.h
  ../include/log.h
  ../include/module.h

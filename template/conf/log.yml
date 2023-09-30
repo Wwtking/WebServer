@@ -1,12 +1,12 @@
 logs:
     - name: root
-      level: info
+      level: debug
       appenders:
           - type: FileLogAppender
             file: /home/wwt/project_name/bin/root.txt
           - type: StdoutLogAppender
     - name: system
-      level: info
+      level: debug
       appenders:
           - type: FileLogAppender
             file: /home/wwt/project_name/bin/system.txt
