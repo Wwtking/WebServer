@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# 检查 bin 目录是否存在
+if [ ! -d bin ]
+then
+    mkdir bin
+fi
+
 # 检查 bin/module 目录是否存在
 if [ ! -d bin/module ]
 then

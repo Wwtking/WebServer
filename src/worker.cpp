@@ -40,6 +40,7 @@ bool WorkerManager::init(const std::map<std::string, std::map<std::string, std::
             add(s);
         }
     }
+    // SYLAR_LOG_DEBUG(g_logger) << "----------------------" << getCount();
     m_stop = m_datas.empty();
     return true;
 }
