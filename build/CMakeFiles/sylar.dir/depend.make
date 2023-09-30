@@ -37,6 +37,7 @@ CMakeFiles/sylar.dir/src/application.cpp.o: ../include/tcp_server.h
 CMakeFiles/sylar.dir/src/application.cpp.o: ../include/thread.h
 CMakeFiles/sylar.dir/src/application.cpp.o: ../include/timer.h
 CMakeFiles/sylar.dir/src/application.cpp.o: ../include/util.h
+CMakeFiles/sylar.dir/src/application.cpp.o: ../include/worker.h
 CMakeFiles/sylar.dir/src/application.cpp.o: ../include/yaml-cpp/binary.h
 CMakeFiles/sylar.dir/src/application.cpp.o: ../include/yaml-cpp/dll.h
 CMakeFiles/sylar.dir/src/application.cpp.o: ../include/yaml-cpp/emitter.h
@@ -849,4 +850,48 @@ CMakeFiles/sylar.dir/src/util.cpp.o: ../src/util.cpp
 
 CMakeFiles/sylar.dir/src/util/hash_util.cpp.o: ../include/util/hash_util.h
 CMakeFiles/sylar.dir/src/util/hash_util.cpp.o: ../src/util/hash_util.cpp
+
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/config.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/fiber.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/iomanager.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/log.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/noncopyable.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/scheduler.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/singleton.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/thread.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/timer.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/util.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/worker.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/binary.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/dll.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/emitter.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/emitterdef.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/emittermanip.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/emitterstyle.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/exceptions.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/mark.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/convert.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/detail/impl.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/detail/iterator.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/detail/iterator_fwd.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/detail/memory.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/detail/node.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/detail/node_data.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/detail/node_iterator.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/detail/node_ref.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/emit.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/impl.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/iterator.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/node.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/parse.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/ptr.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/node/type.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/noexcept.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/null.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/ostream_wrapper.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/parser.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/stlemitter.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/traits.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../include/yaml-cpp/yaml.h
+CMakeFiles/sylar.dir/src/worker.cpp.o: ../src/worker.cpp
 

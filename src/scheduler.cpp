@@ -123,6 +123,23 @@ void Scheduler::stop() {
     }
 }
 
+// 流式输出
+std::ostream& Scheduler::dump(std::ostream& os) {
+    os << "[Scheduler name=" << m_name
+       << " size=" << m_threadCount
+       << " active_count=" << m_activeThreadCount
+       << " idle_count=" << m_idleThreadCount
+       << " stopping=" << m_stopping
+       << " ]" << std::endl << "    ";
+    for(size_t i = 0; i < m_threadIds.size(); ++i) {
+        if(i) {
+            os << ", ";
+        }
+        os << m_threadIds[i];
+    }
+    return os;
+}
+
 /**
  * @bug 加入sylar::set_hook_enable(true)后，测试scheduler_test：
  *              sleep(1);

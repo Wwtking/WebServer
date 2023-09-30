@@ -62,7 +62,8 @@ set(SRC src/log.cpp
         src/env.cpp
         src/application.cpp
         src/module.cpp
-        src/library.cpp)
+        src/library.cpp
+        src/worker.cpp)
 
 ragelmaker(src/http/httpserver_parser.rl SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/http)
 ragelmaker(src/http/httpclient_parser.rl SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/http)

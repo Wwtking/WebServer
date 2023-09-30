@@ -107,6 +107,8 @@ vector
 -
 string
 -
+boost/lexical_cast.hpp
+-
 
 /home/wwt/sylar/tests/http_parser_test.cpp
 http_parser.h

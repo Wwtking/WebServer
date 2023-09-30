@@ -85,6 +85,8 @@ vector
 -
 string
 -
+boost/lexical_cast.hpp
+-
 
 /home/wwt/sylar/tests/http_test.cpp
 http.h

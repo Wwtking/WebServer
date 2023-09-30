@@ -72,6 +72,8 @@ CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/
 
 # Custom defines: CMakeFiles/sylar.dir/src/library.cpp.o_DEFINES = __FILE__="src/library.cpp"
 
+# Custom defines: CMakeFiles/sylar.dir/src/worker.cpp.o_DEFINES = __FILE__="src/worker.cpp"
+
 # Custom defines: CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o_DEFINES = __FILE__="src/http/httpserver_parser.rl.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.o_DEFINES = __FILE__="src/http/httpclient_parser.rl.cpp"

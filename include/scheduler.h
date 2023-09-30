@@ -51,6 +51,9 @@ public:
     //停止协程调度器
     void stop();
 
+    // 流式输出
+    std::ostream& dump(std::ostream& os);
+
     /**
      * @brief 添加任务,开始调度协程
      * @param[in] fc 协程或执行函数来充当任务

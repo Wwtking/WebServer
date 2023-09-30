@@ -6,6 +6,7 @@
 #include "http_server.h"
 #include "ws_server.h"
 #include "module.h"
+#include "worker.h"
 
 namespace sylar {
 
@@ -128,7 +129,7 @@ int Application::main(int argc, char** argv) {
 
     // 线程跑到这里，开始用协程
     // 前面的初始化可以不用在协程里面做，Server的初始化需要用到协程
-    m_mainIOManager = std::make_shared<IOManager>(2, true, "main");
+    m_mainIOManager = std::make_shared<IOManager>(1, true, "main");
     m_mainIOManager->scheduler(std::bind(&Application::run_fiber, this, argc, argv));
     m_mainIOManager->stop();
     return 0;
@@ -149,6 +150,9 @@ int Application::run_fiber(int argc, char** argv) {
     if(has_error) {
         _exit(0);
     }
+
+    // 初始化worker的YAML配置
+    WorkerMgr::GetInstance()->init();
 
     std::vector<TcpServer::ptr> servers;
     auto confs = g_server_conf->getValue();
@@ -196,7 +200,23 @@ int Application::run_fiber(int argc, char** argv) {
 
         IOManager* accept_worker = sylar::IOManager::GetThis();
         IOManager* process_worker = sylar::IOManager::GetThis();
-        // 待实现：根据 conf.accept_worker 和 conf.process_worker 来选择不同线程池
+        // 根据 conf.accept_worker 和 conf.process_worker 来选择不同线程池
+        if(!conf.accept_worker.empty()) {
+            accept_worker = WorkerMgr::GetInstance()->getAsIOManager(conf.accept_worker).get();
+            if(!accept_worker) {
+                SYLAR_LOG_ERROR(g_logger) << "accept_worker: " << conf.accept_worker
+                                        << " not exists";
+                _exit(0);
+            }
+        }
+        if(!conf.process_worker.empty()) {
+            process_worker = WorkerMgr::GetInstance()->getAsIOManager(conf.process_worker).get();
+            if(!process_worker) {
+                SYLAR_LOG_ERROR(g_logger) << "process_worker: " << conf.process_worker
+                                        << " not exists";
+                _exit(0);
+            }
+        }
 
         // 根据不同类型创建不同服务器
         TcpServer::ptr server = nullptr;

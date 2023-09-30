@@ -211,6 +211,8 @@ vector
 -
 string
 -
+boost/lexical_cast.hpp
+-
 
 ../include/yaml-cpp/binary.h
 string

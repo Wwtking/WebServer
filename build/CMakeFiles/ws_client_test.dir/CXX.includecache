@@ -231,6 +231,8 @@ vector
 -
 string
 -
+boost/lexical_cast.hpp
+-
 
 ../include/util/hash_util.h
 stdint.h

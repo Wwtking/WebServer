@@ -1477,6 +1477,33 @@ src/util/hash_util.cpp.s:
 	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/util/hash_util.cpp.s
 .PHONY : src/util/hash_util.cpp.s
 
+src/worker.o: src/worker.cpp.o
+
+.PHONY : src/worker.o
+
+# target to build an object file
+src/worker.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/worker.cpp.o
+.PHONY : src/worker.cpp.o
+
+src/worker.i: src/worker.cpp.i
+
+.PHONY : src/worker.i
+
+# target to preprocess a source file
+src/worker.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/worker.cpp.i
+.PHONY : src/worker.cpp.i
+
+src/worker.s: src/worker.cpp.s
+
+.PHONY : src/worker.s
+
+# target to generate assembly for a file
+src/worker.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/worker.cpp.s
+.PHONY : src/worker.cpp.s
+
 tests/address_test.o: tests/address_test.cpp.o
 
 .PHONY : tests/address_test.o
@@ -2219,6 +2246,9 @@ help:
 	@echo "... src/util/hash_util.o"
 	@echo "... src/util/hash_util.i"
 	@echo "... src/util/hash_util.s"
+	@echo "... src/worker.o"
+	@echo "... src/worker.i"
+	@echo "... src/worker.s"
 	@echo "... tests/address_test.o"
 	@echo "... tests/address_test.i"
 	@echo "... tests/address_test.s"

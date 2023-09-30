@@ -34,6 +34,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/sylar.dir/src/application.cpp.o"
   "CMakeFiles/sylar.dir/src/module.cpp.o"
   "CMakeFiles/sylar.dir/src/library.cpp.o"
+  "CMakeFiles/sylar.dir/src/worker.cpp.o"
   "CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o"
   "CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.o"
   "CMakeFiles/sylar.dir/src/uri.rl.cpp.o"

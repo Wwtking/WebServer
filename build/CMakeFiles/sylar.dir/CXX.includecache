@@ -327,6 +327,14 @@ vector
 -
 string
 -
+boost/lexical_cast.hpp
+-
+
+../include/worker.h
+iomanager.h
+../include/iomanager.h
+singleton.h
+../include/singleton.h
 
 ../include/yaml-cpp/binary.h
 string
@@ -695,4 +703,14 @@ ws_server.h
 /home/wwt/sylar/src/ws_server.h
 module.h
 /home/wwt/sylar/src/module.h
+worker.h
+/home/wwt/sylar/src/worker.h
+
+/home/wwt/sylar/src/worker.cpp
+worker.h
+/home/wwt/sylar/src/worker.h
+config.h
+/home/wwt/sylar/src/config.h
+util.h
+/home/wwt/sylar/src/util.h
 

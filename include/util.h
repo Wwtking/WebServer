@@ -7,6 +7,7 @@
 #include <unistd.h>
 #include <vector>
 #include <string>
+#include <boost/lexical_cast.hpp>
 
 namespace sylar {
 
@@ -44,6 +45,48 @@ std::string TimeToStr(time_t time = time(0), const std::string& format = "%Y-%m-
 // 将format格式的字符串形式time转化成时间戳形式的time
 time_t StrToTime(const char* str, const char* format = "%Y-%m-%d %H:%M:%S");
 
+/**
+ * @brief 根据key值找Map数据类型中的value值
+ * @param[in] m 要查找的Map数据类型容器
+ * @param[in] key 要查找的key值
+ * @param[in] defValue 默认value值
+ * @return 返回value值，找不到返回默认值
+*/
+template<class Map, class Key, class Value>
+Value GetParamValue(const Map& m, const Key& key, const Value& defValue = Value()) {
+    auto it = m.find(key);
+    if(it == m.end()) {
+        return defValue;
+    }
+    try {
+        return boost::lexical_cast<Value>(it->second);
+    }
+    catch(...) {
+    }
+    return defValue;
+}
+
+/**
+ * @brief 根据key值找Map数据类型中的value值
+ * @param[in] m 要查找的Map数据类型容器
+ * @param[in] key 要查找的key值
+ * @param[out] Value 存放找到后的value值
+ * @return 返回是否找到
+*/
+template<class Map, class Key, class Value>
+bool CheckGetParamValue(const Map& m, const Key& key, Value& Val) {
+    auto it = m.find(key);
+    if(it == m.end()) {
+        return false;
+    }
+    try {
+        Val = boost::lexical_cast<Value>(it->second);
+        return true;
+    }
+    catch(...) {
+    }
+    return false;
+}
 
 class FilesUtil {
 public:
