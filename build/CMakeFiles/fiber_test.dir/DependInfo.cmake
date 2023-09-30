@@ -13,6 +13,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../include/http"
   "../include/stream"
+  "../include/util"
   )
 
 # Targets to which this target links.

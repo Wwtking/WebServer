@@ -83,6 +83,8 @@ iomanager_test_EXTERNAL_OBJECTS =
 ../bin/iomanager_test: CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o
 ../bin/iomanager_test: CMakeFiles/iomanager_test.dir/build.make
 ../bin/iomanager_test: ../lib/libsylar.so
+../bin/iomanager_test: /usr/lib64/libssl.so
+../bin/iomanager_test: /usr/lib64/libcrypto.so
 ../bin/iomanager_test: CMakeFiles/iomanager_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/iomanager_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iomanager_test.dir/link.txt --verbose=$(VERBOSE)

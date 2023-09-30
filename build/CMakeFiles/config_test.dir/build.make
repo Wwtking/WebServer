@@ -83,6 +83,8 @@ config_test_EXTERNAL_OBJECTS =
 ../bin/config_test: CMakeFiles/config_test.dir/tests/config_test.cpp.o
 ../bin/config_test: CMakeFiles/config_test.dir/build.make
 ../bin/config_test: ../lib/libsylar.so
+../bin/config_test: /usr/lib64/libssl.so
+../bin/config_test: /usr/lib64/libcrypto.so
 ../bin/config_test: CMakeFiles/config_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/config_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/config_test.dir/link.txt --verbose=$(VERBOSE)

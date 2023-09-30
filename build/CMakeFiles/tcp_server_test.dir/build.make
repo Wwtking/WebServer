@@ -83,6 +83,8 @@ tcp_server_test_EXTERNAL_OBJECTS =
 ../bin/tcp_server_test: CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o
 ../bin/tcp_server_test: CMakeFiles/tcp_server_test.dir/build.make
 ../bin/tcp_server_test: ../lib/libsylar.so
+../bin/tcp_server_test: /usr/lib64/libssl.so
+../bin/tcp_server_test: /usr/lib64/libcrypto.so
 ../bin/tcp_server_test: CMakeFiles/tcp_server_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/tcp_server_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tcp_server_test.dir/link.txt --verbose=$(VERBOSE)

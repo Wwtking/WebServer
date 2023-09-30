@@ -27,6 +27,8 @@ public:
 
     ServletDispatch::ptr getDispatch() { return m_dispatch; }
 
+    void setDispatch(ServletDispatch::ptr v) { m_dispatch = v; }
+
 private:
     /**
      * @brief 处理新连接的Socket类

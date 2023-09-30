@@ -83,6 +83,8 @@ log_test_EXTERNAL_OBJECTS =
 ../bin/log_test: CMakeFiles/log_test.dir/tests/log_test.cpp.o
 ../bin/log_test: CMakeFiles/log_test.dir/build.make
 ../bin/log_test: ../lib/libsylar.so
+../bin/log_test: /usr/lib64/libssl.so
+../bin/log_test: /usr/lib64/libcrypto.so
 ../bin/log_test: CMakeFiles/log_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/log_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/log_test.dir/link.txt --verbose=$(VERBOSE)

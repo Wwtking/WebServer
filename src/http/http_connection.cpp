@@ -506,7 +506,7 @@ HttpResult::ptr HttpConnectionPool::doRequest(HttpMethod method
                 req->setClose(false);   // 长连接
             }
         }
-        if(strcasecmp(header.first.c_str(), "Host") == 0) {
+        else if(strcasecmp(header.first.c_str(), "Host") == 0) {
             hasHost = !header.second.empty();
             if(!hasHost) {    // 说明只有key,没有value,不放入Header
                 continue;

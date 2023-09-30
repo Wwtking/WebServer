@@ -76,6 +76,8 @@ public:
      */
     virtual ssize_t writeFixSize(const void* buffer, size_t length);
     virtual ssize_t writeFixSize(ByteArray::ptr buffer, size_t length);
+
+    virtual bool close() = 0;
 };
 
 }

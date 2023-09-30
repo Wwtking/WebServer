@@ -56,7 +56,11 @@
         "random": "cpp",
         "mutex": "cpp",
         "system_error": "cpp",
-        "memory": "cpp"
+        "memory": "cpp",
+        "iterator": "cpp",
+        "memory_resource": "cpp",
+        "optional": "cpp",
+        "string_view": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }

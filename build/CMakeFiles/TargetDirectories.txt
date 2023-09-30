@@ -1,6 +1,7 @@
 /home/wwt/sylar/build/CMakeFiles/bin_sylar.dir
 /home/wwt/sylar/build/CMakeFiles/application_test.dir
 /home/wwt/sylar/build/CMakeFiles/hook_test.dir
+/home/wwt/sylar/build/CMakeFiles/ws_server_test.dir
 /home/wwt/sylar/build/CMakeFiles/scheduler_test.dir
 /home/wwt/sylar/build/CMakeFiles/edit_cache.dir
 /home/wwt/sylar/build/CMakeFiles/http_parser_test.dir
@@ -22,5 +23,6 @@
 /home/wwt/sylar/build/CMakeFiles/uri_test.dir
 /home/wwt/sylar/build/CMakeFiles/iomanager_test.dir
 /home/wwt/sylar/build/CMakeFiles/my_http_server.dir
+/home/wwt/sylar/build/CMakeFiles/ws_client_test.dir
 /home/wwt/sylar/build/CMakeFiles/tcp_server_test.dir
 /home/wwt/sylar/build/CMakeFiles/daemon_test.dir

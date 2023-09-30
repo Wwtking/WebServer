@@ -1,0 +1,1 @@
+/usr/bin/c++   -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -Wno-builtin-macro-redefined -Wno-deprecated-declarations  -rdynamic CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o  -o ../bin/ws_server_test  -L/home/wwt/sylar/lib -Wl,-rpath,/home/wwt/sylar/lib ../lib/libsylar.so -ldl -lyaml-cpp -lpthread -lssl -lcrypto 

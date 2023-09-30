@@ -12,6 +12,7 @@ set(CMAKE_C_FLAGS "$ENV{CXXFLAGS} -rdynamic -O3 -fPIC -ggdb -std=c11 -Wall -Wno-
 include_directories(include)
 include_directories(include/http)
 include_directories(include/stream)
+include_directories(include/util)
 # 向工程添加多个特定的库文件搜索路径(静态库.a和动态库.so)
 link_directories(/home/wwt/sylar/lib)  #用绝对路径
 
@@ -20,8 +21,19 @@ link_directories(/home/wwt/sylar/lib)  #用绝对路径
 # cmake -DBUILD_TEST=ON .. 时，BUILD_TEST=ON
 option(BUILD_TEST "ON for complile test" OFF)
 
+find_package(Boost REQUIRED)
+if(Boost_FOUND)
+    include_directories(${Boost_INCLUDE_DIRS})
+endif()
+
+find_package(OpenSSL REQUIRED)
+if(OPENSSL_FOUND)
+    include_directories(${OPENSSL_INCLUDE_DIR})
+endif()
+
 set(SRC src/log.cpp 
         src/util.cpp 
+        src/util/hash_util.cpp 
         src/config.cpp 
         src/thread.cpp
         src/fiber.cpp
@@ -39,6 +51,10 @@ set(SRC src/log.cpp
         src/http/http_session.cpp
         src/http/http_server.cpp
         src/http/http_servlet.cpp
+        src/http/ws_connection.cpp
+        src/http/ws_session.cpp
+        src/http/ws_server.cpp
+        src/http/ws_servlet.cpp
         src/tcp_server.cpp
         src/stream/stream.cpp
         src/stream/socket_stream.cpp
@@ -58,7 +74,8 @@ redefine_file_macro(sylar)  #为输出目标添加__FILE__宏重定义功能
 set(LIB sylar
         dl
         yaml-cpp
-        pthread)
+        pthread
+        ${OPENSSL_LIBRARIES})
 
 if(BUILD_TEST)
 
@@ -84,6 +101,8 @@ sylar_add_executable(my_http_server samples/my_http_server.cpp sylar "${LIB}")
 sylar_add_executable(daemon_test tests/daemon_test.cpp sylar "${LIB}")
 sylar_add_executable(env_test tests/env_test.cpp sylar "${LIB}")
 sylar_add_executable(application_test tests/application_test.cpp sylar "${LIB}")
+sylar_add_executable(ws_server_test tests/ws_server_test.cpp sylar "${LIB}")
+sylar_add_executable(ws_client_test tests/ws_client_test.cpp sylar "${LIB}")
 
 endif()
 

@@ -83,6 +83,8 @@ address_test_EXTERNAL_OBJECTS =
 ../bin/address_test: CMakeFiles/address_test.dir/tests/address_test.cpp.o
 ../bin/address_test: CMakeFiles/address_test.dir/build.make
 ../bin/address_test: ../lib/libsylar.so
+../bin/address_test: /usr/lib64/libssl.so
+../bin/address_test: /usr/lib64/libcrypto.so
 ../bin/address_test: CMakeFiles/address_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/address_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/address_test.dir/link.txt --verbose=$(VERBOSE)

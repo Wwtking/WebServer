@@ -6,11 +6,13 @@ CXX_FLAGS =  -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror 
 
 CXX_DEFINES = -Dsylar_EXPORTS
 
-CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/wwt/sylar/include/stream 
+CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/wwt/sylar/include/stream -I/home/wwt/sylar/include/util 
 
 # Custom defines: CMakeFiles/sylar.dir/src/log.cpp.o_DEFINES = __FILE__="src/log.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/src/util.cpp.o_DEFINES = __FILE__="src/util.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/src/util/hash_util.cpp.o_DEFINES = __FILE__="src/util/hash_util.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/src/config.cpp.o_DEFINES = __FILE__="src/config.cpp"
 
@@ -45,6 +47,14 @@ CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/
 # Custom defines: CMakeFiles/sylar.dir/src/http/http_server.cpp.o_DEFINES = __FILE__="src/http/http_server.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/src/http/http_servlet.cpp.o_DEFINES = __FILE__="src/http/http_servlet.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/src/http/ws_connection.cpp.o_DEFINES = __FILE__="src/http/ws_connection.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/src/http/ws_session.cpp.o_DEFINES = __FILE__="src/http/ws_session.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/src/http/ws_server.cpp.o_DEFINES = __FILE__="src/http/ws_server.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/src/http/ws_servlet.cpp.o_DEFINES = __FILE__="src/http/ws_servlet.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/src/tcp_server.cpp.o_DEFINES = __FILE__="src/tcp_server.cpp"
 

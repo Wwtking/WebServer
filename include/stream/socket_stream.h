@@ -53,7 +53,7 @@ public:
     /**
      * @brief 关闭Socket
     */
-    bool close();
+    virtual bool close() override;
 
     /**
      * @brief 获取Socket

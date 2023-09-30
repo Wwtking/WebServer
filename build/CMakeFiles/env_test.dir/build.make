@@ -83,6 +83,8 @@ env_test_EXTERNAL_OBJECTS =
 ../bin/env_test: CMakeFiles/env_test.dir/tests/env_test.cpp.o
 ../bin/env_test: CMakeFiles/env_test.dir/build.make
 ../bin/env_test: ../lib/libsylar.so
+../bin/env_test: /usr/lib64/libssl.so
+../bin/env_test: /usr/lib64/libcrypto.so
 ../bin/env_test: CMakeFiles/env_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/env_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/env_test.dir/link.txt --verbose=$(VERBOSE)

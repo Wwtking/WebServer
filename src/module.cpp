@@ -1,5 +1,6 @@
 #include "module.h"
 #include "library.h"
+#include "env.h"
 
 namespace sylar {
 
@@ -54,7 +55,8 @@ ModuleManager::ModuleManager() {
 }
 
 void ModuleManager::init() {
-    std::string path = g_module_path->getValue();
+    auto path = EnvMgr::GetInstance()->getCwd() + g_module_path->getValue();
+    // std::string path = g_module_path->getValue();
 
     std::vector<std::string> files;
     FilesUtil::ListAllFiles(files, path, ".so");

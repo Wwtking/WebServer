@@ -6,37 +6,3 @@
 
 #IncludeRegexTransform: 
 
-../include/address.h
-iostream
--
-memory
--
-string
--
-sys/types.h
--
-sys/socket.h
--
-sys/un.h
--
-netinet/in.h
--
-vector
--
-map
--
-
-../include/uri.h
-iostream
--
-memory
--
-string.h
--
-address.h
-../include/address.h
-
-/home/wwt/sylar/tests/uri_test.cpp
-uri.h
-/home/wwt/sylar/tests/uri.h
-

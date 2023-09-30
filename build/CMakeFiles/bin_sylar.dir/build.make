@@ -83,6 +83,8 @@ bin_sylar_EXTERNAL_OBJECTS =
 ../bin/sylar: CMakeFiles/bin_sylar.dir/src/main.cpp.o
 ../bin/sylar: CMakeFiles/bin_sylar.dir/build.make
 ../bin/sylar: ../lib/libsylar.so
+../bin/sylar: /usr/lib64/libssl.so
+../bin/sylar: /usr/lib64/libcrypto.so
 ../bin/sylar: CMakeFiles/bin_sylar.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/sylar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bin_sylar.dir/link.txt --verbose=$(VERBOSE)

@@ -253,6 +253,9 @@ public:
     // 获取HTTP版本号
     uint8_t getVersion() const {  return m_version; }
 
+    // 是否为websocket
+    bool isWebSocket() const { return m_websocket; }
+
     // 是否关闭连接
     bool isClose() const { return m_close; }
     
@@ -282,6 +285,9 @@ public:
 
     // 设置HTTP版本号
     void setVersion(uint8_t version) { m_version = version; }
+
+    // 设置是否为websocket
+    void setWebSocket(bool v) { m_websocket = v; }
 
     // 设置是否关闭连接
     void setClose(bool v) { m_close = v; }
@@ -460,6 +466,7 @@ public:
 private:
     HttpMethod m_method;        // HTTP请求方法
     uint8_t m_version;          // HTTP版本号
+    bool m_websocket;           // 是否为websocket
     bool m_close;               // 是否已关闭
     std::string m_path;         // 请求路径
     std::string m_query;        // 请求参数
@@ -515,6 +522,9 @@ public:
     // 获取HTTP版本号
     uint8_t getVersion() const {  return m_version; }
 
+    // 是否为websocket
+    bool isWebSocket() const { return m_websocket; }
+
     // 是否连接关闭
     bool isClose() const { return m_close; }
 
@@ -535,6 +545,9 @@ public:
 
     // 设置HTTP版本号
     void setVersion(uint8_t version) { m_version = version; }
+
+    // 设置是否为websocket
+    void setWebSocket(bool v) { m_websocket = v; }
 
     // 设置是否连接关闭
     void setClose(bool v) { m_close = v; }
@@ -608,11 +621,13 @@ public:
 private:
     HttpStatus m_status;                // HTTP响应状态
     uint8_t m_version;                  // HTTP版本号
+    bool m_websocket;                   // 是否为websocket
     bool m_close;                       // 是否已关闭
     std::string m_reason;               // 响应状态的原因
     std::string m_body;                 // 响应消息体
     MapType m_headers;                  // 响应头部map
     std::vector<std::string> m_cookies; // 响应Cookie
+    
     /**
      * @example response
      *  HTTP/1.0 200 OK

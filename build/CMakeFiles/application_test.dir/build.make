@@ -83,6 +83,8 @@ application_test_EXTERNAL_OBJECTS =
 ../bin/application_test: CMakeFiles/application_test.dir/tests/application_test.cpp.o
 ../bin/application_test: CMakeFiles/application_test.dir/build.make
 ../bin/application_test: ../lib/libsylar.so
+../bin/application_test: /usr/lib64/libssl.so
+../bin/application_test: /usr/lib64/libcrypto.so
 ../bin/application_test: CMakeFiles/application_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/application_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/application_test.dir/link.txt --verbose=$(VERBOSE)

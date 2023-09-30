@@ -153,6 +153,19 @@ hook_test/fast:
 .PHONY : hook_test/fast
 
 #=============================================================================
+# Target rules for targets named ws_server_test
+
+# Build rule for target.
+ws_server_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ws_server_test
+.PHONY : ws_server_test
+
+# fast build rule for target.
+ws_server_test/fast:
+	$(MAKE) -f CMakeFiles/ws_server_test.dir/build.make CMakeFiles/ws_server_test.dir/build
+.PHONY : ws_server_test/fast
+
+#=============================================================================
 # Target rules for targets named scheduler_test
 
 # Build rule for target.
@@ -398,6 +411,19 @@ my_http_server: cmake_check_build_system
 my_http_server/fast:
 	$(MAKE) -f CMakeFiles/my_http_server.dir/build.make CMakeFiles/my_http_server.dir/build
 .PHONY : my_http_server/fast
+
+#=============================================================================
+# Target rules for targets named ws_client_test
+
+# Build rule for target.
+ws_client_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ws_client_test
+.PHONY : ws_client_test
+
+# fast build rule for target.
+ws_client_test/fast:
+	$(MAKE) -f CMakeFiles/ws_client_test.dir/build.make CMakeFiles/ws_client_test.dir/build
+.PHONY : ws_client_test/fast
 
 #=============================================================================
 # Target rules for targets named tcp_server_test
@@ -938,6 +964,114 @@ src/http/httpserver_parser.rl.cpp.s:
 	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.s
 .PHONY : src/http/httpserver_parser.rl.cpp.s
 
+src/http/ws_connection.o: src/http/ws_connection.cpp.o
+
+.PHONY : src/http/ws_connection.o
+
+# target to build an object file
+src/http/ws_connection.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_connection.cpp.o
+.PHONY : src/http/ws_connection.cpp.o
+
+src/http/ws_connection.i: src/http/ws_connection.cpp.i
+
+.PHONY : src/http/ws_connection.i
+
+# target to preprocess a source file
+src/http/ws_connection.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_connection.cpp.i
+.PHONY : src/http/ws_connection.cpp.i
+
+src/http/ws_connection.s: src/http/ws_connection.cpp.s
+
+.PHONY : src/http/ws_connection.s
+
+# target to generate assembly for a file
+src/http/ws_connection.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_connection.cpp.s
+.PHONY : src/http/ws_connection.cpp.s
+
+src/http/ws_server.o: src/http/ws_server.cpp.o
+
+.PHONY : src/http/ws_server.o
+
+# target to build an object file
+src/http/ws_server.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_server.cpp.o
+.PHONY : src/http/ws_server.cpp.o
+
+src/http/ws_server.i: src/http/ws_server.cpp.i
+
+.PHONY : src/http/ws_server.i
+
+# target to preprocess a source file
+src/http/ws_server.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_server.cpp.i
+.PHONY : src/http/ws_server.cpp.i
+
+src/http/ws_server.s: src/http/ws_server.cpp.s
+
+.PHONY : src/http/ws_server.s
+
+# target to generate assembly for a file
+src/http/ws_server.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_server.cpp.s
+.PHONY : src/http/ws_server.cpp.s
+
+src/http/ws_servlet.o: src/http/ws_servlet.cpp.o
+
+.PHONY : src/http/ws_servlet.o
+
+# target to build an object file
+src/http/ws_servlet.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_servlet.cpp.o
+.PHONY : src/http/ws_servlet.cpp.o
+
+src/http/ws_servlet.i: src/http/ws_servlet.cpp.i
+
+.PHONY : src/http/ws_servlet.i
+
+# target to preprocess a source file
+src/http/ws_servlet.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_servlet.cpp.i
+.PHONY : src/http/ws_servlet.cpp.i
+
+src/http/ws_servlet.s: src/http/ws_servlet.cpp.s
+
+.PHONY : src/http/ws_servlet.s
+
+# target to generate assembly for a file
+src/http/ws_servlet.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_servlet.cpp.s
+.PHONY : src/http/ws_servlet.cpp.s
+
+src/http/ws_session.o: src/http/ws_session.cpp.o
+
+.PHONY : src/http/ws_session.o
+
+# target to build an object file
+src/http/ws_session.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_session.cpp.o
+.PHONY : src/http/ws_session.cpp.o
+
+src/http/ws_session.i: src/http/ws_session.cpp.i
+
+.PHONY : src/http/ws_session.i
+
+# target to preprocess a source file
+src/http/ws_session.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_session.cpp.i
+.PHONY : src/http/ws_session.cpp.i
+
+src/http/ws_session.s: src/http/ws_session.cpp.s
+
+.PHONY : src/http/ws_session.s
+
+# target to generate assembly for a file
+src/http/ws_session.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/http/ws_session.cpp.s
+.PHONY : src/http/ws_session.cpp.s
+
 src/iomanager.o: src/iomanager.cpp.o
 
 .PHONY : src/iomanager.o
@@ -1315,6 +1449,33 @@ src/util.s: src/util.cpp.s
 src/util.cpp.s:
 	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/util.cpp.s
 .PHONY : src/util.cpp.s
+
+src/util/hash_util.o: src/util/hash_util.cpp.o
+
+.PHONY : src/util/hash_util.o
+
+# target to build an object file
+src/util/hash_util.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/util/hash_util.cpp.o
+.PHONY : src/util/hash_util.cpp.o
+
+src/util/hash_util.i: src/util/hash_util.cpp.i
+
+.PHONY : src/util/hash_util.i
+
+# target to preprocess a source file
+src/util/hash_util.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/util/hash_util.cpp.i
+.PHONY : src/util/hash_util.cpp.i
+
+src/util/hash_util.s: src/util/hash_util.cpp.s
+
+.PHONY : src/util/hash_util.s
+
+# target to generate assembly for a file
+src/util/hash_util.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/util/hash_util.cpp.s
+.PHONY : src/util/hash_util.cpp.s
 
 tests/address_test.o: tests/address_test.cpp.o
 
@@ -1856,6 +2017,60 @@ tests/util_test.cpp.s:
 	$(MAKE) -f CMakeFiles/util_test.dir/build.make CMakeFiles/util_test.dir/tests/util_test.cpp.s
 .PHONY : tests/util_test.cpp.s
 
+tests/ws_client_test.o: tests/ws_client_test.cpp.o
+
+.PHONY : tests/ws_client_test.o
+
+# target to build an object file
+tests/ws_client_test.cpp.o:
+	$(MAKE) -f CMakeFiles/ws_client_test.dir/build.make CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o
+.PHONY : tests/ws_client_test.cpp.o
+
+tests/ws_client_test.i: tests/ws_client_test.cpp.i
+
+.PHONY : tests/ws_client_test.i
+
+# target to preprocess a source file
+tests/ws_client_test.cpp.i:
+	$(MAKE) -f CMakeFiles/ws_client_test.dir/build.make CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.i
+.PHONY : tests/ws_client_test.cpp.i
+
+tests/ws_client_test.s: tests/ws_client_test.cpp.s
+
+.PHONY : tests/ws_client_test.s
+
+# target to generate assembly for a file
+tests/ws_client_test.cpp.s:
+	$(MAKE) -f CMakeFiles/ws_client_test.dir/build.make CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.s
+.PHONY : tests/ws_client_test.cpp.s
+
+tests/ws_server_test.o: tests/ws_server_test.cpp.o
+
+.PHONY : tests/ws_server_test.o
+
+# target to build an object file
+tests/ws_server_test.cpp.o:
+	$(MAKE) -f CMakeFiles/ws_server_test.dir/build.make CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o
+.PHONY : tests/ws_server_test.cpp.o
+
+tests/ws_server_test.i: tests/ws_server_test.cpp.i
+
+.PHONY : tests/ws_server_test.i
+
+# target to preprocess a source file
+tests/ws_server_test.cpp.i:
+	$(MAKE) -f CMakeFiles/ws_server_test.dir/build.make CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.i
+.PHONY : tests/ws_server_test.cpp.i
+
+tests/ws_server_test.s: tests/ws_server_test.cpp.s
+
+.PHONY : tests/ws_server_test.s
+
+# target to generate assembly for a file
+tests/ws_server_test.cpp.s:
+	$(MAKE) -f CMakeFiles/ws_server_test.dir/build.make CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.s
+.PHONY : tests/ws_server_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1865,6 +2080,7 @@ help:
 	@echo "... bin_sylar"
 	@echo "... application_test"
 	@echo "... hook_test"
+	@echo "... ws_server_test"
 	@echo "... scheduler_test"
 	@echo "... edit_cache"
 	@echo "... http_parser_test"
@@ -1886,6 +2102,7 @@ help:
 	@echo "... uri_test"
 	@echo "... iomanager_test"
 	@echo "... my_http_server"
+	@echo "... ws_client_test"
 	@echo "... tcp_server_test"
 	@echo "... daemon_test"
 	@echo "... examples/echo_server.o"
@@ -1945,6 +2162,18 @@ help:
 	@echo "... src/http/httpserver_parser.rl.o"
 	@echo "... src/http/httpserver_parser.rl.i"
 	@echo "... src/http/httpserver_parser.rl.s"
+	@echo "... src/http/ws_connection.o"
+	@echo "... src/http/ws_connection.i"
+	@echo "... src/http/ws_connection.s"
+	@echo "... src/http/ws_server.o"
+	@echo "... src/http/ws_server.i"
+	@echo "... src/http/ws_server.s"
+	@echo "... src/http/ws_servlet.o"
+	@echo "... src/http/ws_servlet.i"
+	@echo "... src/http/ws_servlet.s"
+	@echo "... src/http/ws_session.o"
+	@echo "... src/http/ws_session.i"
+	@echo "... src/http/ws_session.s"
 	@echo "... src/iomanager.o"
 	@echo "... src/iomanager.i"
 	@echo "... src/iomanager.s"
@@ -1987,6 +2216,9 @@ help:
 	@echo "... src/util.o"
 	@echo "... src/util.i"
 	@echo "... src/util.s"
+	@echo "... src/util/hash_util.o"
+	@echo "... src/util/hash_util.i"
+	@echo "... src/util/hash_util.s"
 	@echo "... tests/address_test.o"
 	@echo "... tests/address_test.i"
 	@echo "... tests/address_test.s"
@@ -2047,6 +2279,12 @@ help:
 	@echo "... tests/util_test.o"
 	@echo "... tests/util_test.i"
 	@echo "... tests/util_test.s"
+	@echo "... tests/ws_client_test.o"
+	@echo "... tests/ws_client_test.i"
+	@echo "... tests/ws_client_test.s"
+	@echo "... tests/ws_server_test.o"
+	@echo "... tests/ws_server_test.i"
+	@echo "... tests/ws_server_test.s"
 .PHONY : help
 
 

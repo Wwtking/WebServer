@@ -94,6 +94,7 @@ bool CompareFunctor::operator()(const std::string& left, const std::string& righ
 HttpRequest::HttpRequest(uint8_t version, bool close) 
     :m_method(HttpMethod::GET)
     ,m_version(version)
+    ,m_websocket(false)
     ,m_close(close)
     ,m_path("/") {
 }
@@ -202,10 +203,12 @@ std::ostream& HttpRequest::dump(std::ostream& os) const {
         << "."
         << (m_version & 0x0F)
         << "\r\n";
-        
-    os << "Connection: " << (m_close ? "Close" : "Keep-Alive") << "\r\n";
+
+    if(!m_websocket) {
+        os << "Connection: " << (m_close ? "Close" : "Keep-Alive") << "\r\n";
+    }
     for(const auto& i : m_headers) {
-        if(strcasecmp(i.first.c_str(), "Connection") == 0) {
+        if(!m_websocket && strcasecmp(i.first.c_str(), "Connection") == 0) {
             continue;
         }
         if(strcasecmp(i.first.c_str(), "Content-Length") == 0) {
@@ -235,6 +238,7 @@ std::string HttpRequest::toString() const {
 HttpResponse::HttpResponse(uint8_t version, bool close) 
     :m_status(HttpStatus::OK)
     ,m_version(version)
+    ,m_websocket(false)
     ,m_close(close) {
 }
 
@@ -280,10 +284,12 @@ std::ostream& HttpResponse::dump(std::ostream& os) {
         << " " 
         << m_reason << "\r\n";
 
-    os << "Connection: " << (m_close ? "Close" : "Keep-Alive") << "\r\n";
+    if(!m_websocket) {
+        os << "Connection: " << (m_close ? "Close" : "Keep-Alive") << "\r\n";
+    }
     bool hasContentLen = false;
     for(const auto& i : m_headers) {
-        if(strcasecmp(i.first.c_str(), "Connection") == 0) {
+        if(!m_websocket && strcasecmp(i.first.c_str(), "Connection") == 0) {
             continue;
         }
         if(!hasContentLen && strcasecmp(i.first.c_str(), "Content-Length") == 0) {

@@ -21,6 +21,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wwt/sylar/src/http/http_session.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/http/http_session.cpp.o"
   "/home/wwt/sylar/src/http/httpclient_parser.rl.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.o"
   "/home/wwt/sylar/src/http/httpserver_parser.rl.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o"
+  "/home/wwt/sylar/src/http/ws_connection.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/http/ws_connection.cpp.o"
+  "/home/wwt/sylar/src/http/ws_server.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/http/ws_server.cpp.o"
+  "/home/wwt/sylar/src/http/ws_servlet.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/http/ws_servlet.cpp.o"
+  "/home/wwt/sylar/src/http/ws_session.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/http/ws_session.cpp.o"
   "/home/wwt/sylar/src/iomanager.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/iomanager.cpp.o"
   "/home/wwt/sylar/src/library.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/library.cpp.o"
   "/home/wwt/sylar/src/log.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/log.cpp.o"
@@ -34,6 +38,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wwt/sylar/src/timer.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/timer.cpp.o"
   "/home/wwt/sylar/src/uri.rl.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/uri.rl.cpp.o"
   "/home/wwt/sylar/src/util.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/util.cpp.o"
+  "/home/wwt/sylar/src/util/hash_util.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/util/hash_util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -47,6 +52,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../include/http"
   "../include/stream"
+  "../include/util"
   )
 
 # Targets to which this target links.

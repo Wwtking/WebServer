@@ -423,6 +423,143 @@ CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o
  ../include/http/http_common.h
  ../include/http/httpserver_parser.h
  /home/wwt/sylar/src/http/httpserver_parser.rl.cpp
+CMakeFiles/sylar.dir/src/http/ws_connection.cpp.o
+ ../include/address.h
+ ../include/bytearray.h
+ ../include/http/http.h
+ ../include/http/http_connection.h
+ ../include/http/http_session.h
+ ../include/http/ws_connection.h
+ ../include/http/ws_session.h
+ ../include/log.h
+ ../include/noncopyable.h
+ ../include/singleton.h
+ ../include/socket.h
+ ../include/stream/socket_stream.h
+ ../include/stream/stream.h
+ ../include/thread.h
+ ../include/uri.h
+ ../include/util.h
+ ../include/util/hash_util.h
+ /home/wwt/sylar/src/http/ws_connection.cpp
+CMakeFiles/sylar.dir/src/http/ws_server.cpp.o
+ ../include/address.h
+ ../include/bytearray.h
+ ../include/config.h
+ ../include/fiber.h
+ ../include/http/http.h
+ ../include/http/http_servlet.h
+ ../include/http/http_session.h
+ ../include/http/ws_server.h
+ ../include/http/ws_servlet.h
+ ../include/http/ws_session.h
+ ../include/iomanager.h
+ ../include/log.h
+ ../include/noncopyable.h
+ ../include/scheduler.h
+ ../include/singleton.h
+ ../include/socket.h
+ ../include/stream/socket_stream.h
+ ../include/stream/stream.h
+ ../include/tcp_server.h
+ ../include/thread.h
+ ../include/timer.h
+ ../include/util.h
+ ../include/yaml-cpp/binary.h
+ ../include/yaml-cpp/dll.h
+ ../include/yaml-cpp/emitter.h
+ ../include/yaml-cpp/emitterdef.h
+ ../include/yaml-cpp/emittermanip.h
+ ../include/yaml-cpp/emitterstyle.h
+ ../include/yaml-cpp/exceptions.h
+ ../include/yaml-cpp/mark.h
+ ../include/yaml-cpp/node/convert.h
+ ../include/yaml-cpp/node/detail/impl.h
+ ../include/yaml-cpp/node/detail/iterator.h
+ ../include/yaml-cpp/node/detail/iterator_fwd.h
+ ../include/yaml-cpp/node/detail/memory.h
+ ../include/yaml-cpp/node/detail/node.h
+ ../include/yaml-cpp/node/detail/node_data.h
+ ../include/yaml-cpp/node/detail/node_iterator.h
+ ../include/yaml-cpp/node/detail/node_ref.h
+ ../include/yaml-cpp/node/emit.h
+ ../include/yaml-cpp/node/impl.h
+ ../include/yaml-cpp/node/iterator.h
+ ../include/yaml-cpp/node/node.h
+ ../include/yaml-cpp/node/parse.h
+ ../include/yaml-cpp/node/ptr.h
+ ../include/yaml-cpp/node/type.h
+ ../include/yaml-cpp/noexcept.h
+ ../include/yaml-cpp/null.h
+ ../include/yaml-cpp/ostream_wrapper.h
+ ../include/yaml-cpp/parser.h
+ ../include/yaml-cpp/stlemitter.h
+ ../include/yaml-cpp/traits.h
+ ../include/yaml-cpp/yaml.h
+ /home/wwt/sylar/src/http/ws_server.cpp
+CMakeFiles/sylar.dir/src/http/ws_servlet.cpp.o
+ ../include/address.h
+ ../include/bytearray.h
+ ../include/http/http.h
+ ../include/http/http_servlet.h
+ ../include/http/http_session.h
+ ../include/http/ws_servlet.h
+ ../include/http/ws_session.h
+ ../include/noncopyable.h
+ ../include/socket.h
+ ../include/stream/socket_stream.h
+ ../include/stream/stream.h
+ ../include/thread.h
+ /home/wwt/sylar/src/http/ws_servlet.cpp
+CMakeFiles/sylar.dir/src/http/ws_session.cpp.o
+ ../include/address.h
+ ../include/bytearray.h
+ ../include/config.h
+ ../include/http/http.h
+ ../include/http/http_session.h
+ ../include/http/ws_session.h
+ ../include/log.h
+ ../include/myendian.h
+ ../include/noncopyable.h
+ ../include/singleton.h
+ ../include/socket.h
+ ../include/stream/socket_stream.h
+ ../include/stream/stream.h
+ ../include/thread.h
+ ../include/util.h
+ ../include/util/hash_util.h
+ ../include/yaml-cpp/binary.h
+ ../include/yaml-cpp/dll.h
+ ../include/yaml-cpp/emitter.h
+ ../include/yaml-cpp/emitterdef.h
+ ../include/yaml-cpp/emittermanip.h
+ ../include/yaml-cpp/emitterstyle.h
+ ../include/yaml-cpp/exceptions.h
+ ../include/yaml-cpp/mark.h
+ ../include/yaml-cpp/node/convert.h
+ ../include/yaml-cpp/node/detail/impl.h
+ ../include/yaml-cpp/node/detail/iterator.h
+ ../include/yaml-cpp/node/detail/iterator_fwd.h
+ ../include/yaml-cpp/node/detail/memory.h
+ ../include/yaml-cpp/node/detail/node.h
+ ../include/yaml-cpp/node/detail/node_data.h
+ ../include/yaml-cpp/node/detail/node_iterator.h
+ ../include/yaml-cpp/node/detail/node_ref.h
+ ../include/yaml-cpp/node/emit.h
+ ../include/yaml-cpp/node/impl.h
+ ../include/yaml-cpp/node/iterator.h
+ ../include/yaml-cpp/node/node.h
+ ../include/yaml-cpp/node/parse.h
+ ../include/yaml-cpp/node/ptr.h
+ ../include/yaml-cpp/node/type.h
+ ../include/yaml-cpp/noexcept.h
+ ../include/yaml-cpp/null.h
+ ../include/yaml-cpp/ostream_wrapper.h
+ ../include/yaml-cpp/parser.h
+ ../include/yaml-cpp/stlemitter.h
+ ../include/yaml-cpp/traits.h
+ ../include/yaml-cpp/yaml.h
+ /home/wwt/sylar/src/http/ws_session.cpp
 CMakeFiles/sylar.dir/src/iomanager.cpp.o
  ../include/fiber.h
  ../include/iomanager.h
@@ -519,6 +656,7 @@ CMakeFiles/sylar.dir/src/log.cpp.o
  /home/wwt/sylar/src/log.cpp
 CMakeFiles/sylar.dir/src/module.cpp.o
  ../include/config.h
+ ../include/env.h
  ../include/library.h
  ../include/log.h
  ../include/module.h
@@ -706,3 +844,6 @@ CMakeFiles/sylar.dir/src/util.cpp.o
  ../include/thread.h
  ../include/util.h
  /home/wwt/sylar/src/util.cpp
+CMakeFiles/sylar.dir/src/util/hash_util.cpp.o
+ ../include/util/hash_util.h
+ /home/wwt/sylar/src/util/hash_util.cpp

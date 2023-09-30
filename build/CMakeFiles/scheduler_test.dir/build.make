@@ -83,6 +83,8 @@ scheduler_test_EXTERNAL_OBJECTS =
 ../bin/scheduler_test: CMakeFiles/scheduler_test.dir/tests/scheduler_test.cpp.o
 ../bin/scheduler_test: CMakeFiles/scheduler_test.dir/build.make
 ../bin/scheduler_test: ../lib/libsylar.so
+../bin/scheduler_test: /usr/lib64/libssl.so
+../bin/scheduler_test: /usr/lib64/libcrypto.so
 ../bin/scheduler_test: CMakeFiles/scheduler_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/scheduler_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/scheduler_test.dir/link.txt --verbose=$(VERBOSE)
