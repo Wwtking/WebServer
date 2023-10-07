@@ -58,9 +58,12 @@ void ModuleManager::init() {
     auto path = EnvMgr::GetInstance()->getCwd() + g_module_path->getValue();
     // std::string path = g_module_path->getValue();
 
+    // 把path路径下所有动态库文件的绝对路径列出
     std::vector<std::string> files;
     FilesUtil::ListAllFiles(files, path, ".so");
 
+    // 遍历所有动态库，找到各动态库中的Module创建函数CreateModule
+    // 根据不同动态库的CreateModule，创建出不同多态的Module
     for(auto& i : files) {
         Module::ptr module = Library::GetModule(i);
         if(module) {

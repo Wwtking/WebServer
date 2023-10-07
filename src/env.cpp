@@ -26,6 +26,7 @@ bool Env::init(int argc, char** argv) {
     m_cwd += "/";
     m_workPath += "/";
 
+    // 分离出各参数，并存放
     char* now_key = nullptr;
     // -config /path/to/config -file xxx -d -s
     for(int i = 1; i < argc; i++) {

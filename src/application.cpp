@@ -44,11 +44,13 @@ bool Application::init(int argc, char** argv) {
     m_argc = argc;
     m_argv = argv;
 
+    // 添加启动参数说明
     EnvMgr::GetInstance()->addHelp("p", "print help infomation");
     EnvMgr::GetInstance()->addHelp("t", "run as terminal");
     EnvMgr::GetInstance()->addHelp("d", "run as daemon");
     EnvMgr::GetInstance()->addHelp("c", "config path, default: ../conf");
 
+    // 添加启动参数，并确定工作路径
     if(!EnvMgr::GetInstance()->init(argc, argv)) {
         EnvMgr::GetInstance()->printHelps();
         return false;
@@ -59,12 +61,15 @@ bool Application::init(int argc, char** argv) {
         return false;
     }
 
+    // 加载配置文件
     std::string conf_path = EnvMgr::GetInstance()->getConfPath();
     Config::LoadFromConfDir(conf_path);
-
+    
+    // 创建出多态的Module，并保存下来
     ModuleMgr::GetInstance()->init();
     std::vector<Module::ptr> modules;
     ModuleMgr::GetInstance()->listAllModules(modules);
+    // 解析启动参数前执行函数
     for(auto& i : modules) {
         i->onBeforeArgsParse(argc, argv);
     }
@@ -81,6 +86,7 @@ bool Application::init(int argc, char** argv) {
         return false;
     }
 
+    // 解析启动参数后执行函数
     for(auto& i : modules) {
         i->onAfterArgsParse(argc, argv);
     }
@@ -104,6 +110,7 @@ bool Application::init(int argc, char** argv) {
     return true;
 }
 
+// 选择是否用守护进程的方式来启动程序
 int Application::run() {
     bool is_daemon = EnvMgr::GetInstance()->hasArg("d");
     return start_daemon(m_argc, m_argv, std::bind(&Application::main, this
@@ -113,6 +120,8 @@ int Application::run() {
 // 这个main函数才是本服务器框架真正执行的函数
 int Application::main(int argc, char** argv) {
     SYLAR_LOG_DEBUG(g_logger) << "main";
+
+    // 加载配置文件
     std::string conf_path = EnvMgr::GetInstance()->getConfPath();
     Config::LoadFromConfDir(conf_path, true);
 
