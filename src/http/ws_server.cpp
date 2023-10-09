@@ -13,7 +13,7 @@ WSServer::WSServer(IOManager* worker, IOManager* acceptWorker)
 
 // 每accept到一个socket，就会触发回调执行一次
 void WSServer::handleClient(sylar::Socket::ptr client) {
-    SYLAR_LOG_DEBUG(g_logger) << "handleClient: " << client->toString();
+    SYLAR_LOG_INFO(g_logger) << "handleClient: " << client->toString();
     WSSession::ptr session = std::make_shared<WSSession>(client);  //流式Socket类
 
     do {
@@ -45,6 +45,7 @@ void WSServer::handleClient(sylar::Socket::ptr client) {
                 break;
             }
             rt = servlet->handle(header, msg, session);
+            // 返回非0时说明出错，直接关闭
             if(rt) {
                 SYLAR_LOG_DEBUG(g_logger) << "handle return " << rt;
                 break;

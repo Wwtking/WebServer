@@ -66,7 +66,7 @@ Fiber* Scheduler::GetSchedulerFiber() {
 //启动协程调度器(初始化调度线程池)
 //如果只使用caller线程进行调度，那start啥也不做
 void Scheduler::start() {
-    SYLAR_LOG_INFO(g_logger) << "start";
+    SYLAR_LOG_DEBUG(g_logger) << "start";
     MutexType::Lock lock(m_mutex);
     if(m_stopping) {
         SYLAR_LOG_INFO(g_logger) << "Scheduler is stopped";
@@ -85,7 +85,7 @@ void Scheduler::start() {
 
 //停止协程调度器
 void Scheduler::stop() {
-    SYLAR_LOG_INFO(g_logger) << "stop";
+    SYLAR_LOG_DEBUG(g_logger) << "stop";
     if(stopping()) {
         return;
     }

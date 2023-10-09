@@ -46,7 +46,7 @@ EchoServer::EchoServer(int type)
 }
 
 void EchoServer::handleClient(sylar::Socket::ptr client) {
-    SYLAR_LOG_DEBUG(g_logger) << "handleClient: " << client->toString();
+    SYLAR_LOG_INFO(g_logger) << "handleClient: " << client->toString();
 
     // 创建数据存储内存
     sylar::ByteArray::ptr ba = std::make_shared<sylar::ByteArray>();

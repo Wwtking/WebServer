@@ -84,7 +84,7 @@ void Config::LoadFromConfDir(const std::string& path, bool force) {
             // YAML配置
             YAML::Node root = YAML::LoadFile(i);
             LoadFromYaml(root);
-            SYLAR_LOG_DEBUG(g_logger) << "LoadConfFile file="
+            SYLAR_LOG_INFO(g_logger) << "LoadConfFile file="
                                     << i << " ok";
         }
         catch(...) {

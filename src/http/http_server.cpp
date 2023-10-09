@@ -15,7 +15,7 @@ HttpServer::HttpServer(bool isKeepAlive, IOManager* worker, IOManager* acceptWor
 
 // 每accept到一个socket，就会触发回调执行一次
 void HttpServer::handleClient(sylar::Socket::ptr client) {
-    SYLAR_LOG_DEBUG(g_logger) << "handleClient: " << client->toString();
+    SYLAR_LOG_INFO(g_logger) << "handleClient: " << client->toString();
     HttpSession::ptr session = std::make_shared<HttpSession>(client);  //流式Socket类
 
     while(true) {

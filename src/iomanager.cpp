@@ -391,7 +391,7 @@ bool IOManager::stopping() {
  * IO事件对应的回调函数
  */
 void IOManager::idle() {
-    SYLAR_LOG_INFO(g_logger) << "IOManager::idle";
+    SYLAR_LOG_DEBUG(g_logger) << "IOManager::idle";
 
     //一次epoll_wait最多检测256个就绪事件，如果就绪事件超过了这个数，那么会在下轮epoll_wait继续处理
     const uint64_t MAX_EVENTS = 256;
