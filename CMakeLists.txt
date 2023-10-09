@@ -76,6 +76,7 @@ redefine_file_macro(sylar)  #为输出目标添加__FILE__宏重定义功能
 set(LIB sylar
         dl
         yaml-cpp
+        jsoncpp
         pthread
         ${OPENSSL_LIBRARIES})
 

@@ -14,6 +14,8 @@ CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/
 
 # Custom defines: CMakeFiles/sylar.dir/src/util/hash_util.cpp.o_DEFINES = __FILE__="src/util/hash_util.cpp"
 
+# Custom defines: CMakeFiles/sylar.dir/src/util/json_util.cpp.o_DEFINES = __FILE__="src/util/json_util.cpp"
+
 # Custom defines: CMakeFiles/sylar.dir/src/config.cpp.o_DEFINES = __FILE__="src/config.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/src/thread.cpp.o_DEFINES = __FILE__="src/thread.cpp"

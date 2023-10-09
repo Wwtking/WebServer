@@ -39,6 +39,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wwt/sylar/src/uri.rl.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/uri.rl.cpp.o"
   "/home/wwt/sylar/src/util.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/util.cpp.o"
   "/home/wwt/sylar/src/util/hash_util.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/util/hash_util.cpp.o"
+  "/home/wwt/sylar/src/util/json_util.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/util/json_util.cpp.o"
   "/home/wwt/sylar/src/worker.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/worker.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

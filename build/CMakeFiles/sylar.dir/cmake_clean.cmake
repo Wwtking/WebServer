@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/sylar.dir/src/log.cpp.o"
   "CMakeFiles/sylar.dir/src/util.cpp.o"
   "CMakeFiles/sylar.dir/src/util/hash_util.cpp.o"
+  "CMakeFiles/sylar.dir/src/util/json_util.cpp.o"
   "CMakeFiles/sylar.dir/src/config.cpp.o"
   "CMakeFiles/sylar.dir/src/thread.cpp.o"
   "CMakeFiles/sylar.dir/src/fiber.cpp.o"
