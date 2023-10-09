@@ -34,6 +34,7 @@ endif()
 set(SRC src/log.cpp 
         src/util.cpp 
         src/util/hash_util.cpp 
+        src/util/json_util.cpp 
         src/config.cpp 
         src/thread.cpp
         src/fiber.cpp
