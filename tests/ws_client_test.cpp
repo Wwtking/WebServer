@@ -4,7 +4,7 @@
 
 void run() {
     // 开始握手建立连接
-    auto it = sylar::http::WSConnection::StartShake("http://127.0.0.1:8020/sylar", 1000);
+    auto it = sylar::http::WSConnection::StartShake("http://192.168.88.130:8020/sylar", 1000);
     sylar::http::WSConnection::ptr conn = it.second;
     if(!conn) {
         std::cout << it.first->toString() << std::endl;
@@ -29,7 +29,7 @@ void run() {
         std::cout << "opcode=" << msg->getOpcode()
                   << " data=" << msg->getData() << std::endl;
 
-        sleep(5);
+        sleep(10);
     }
 }
 

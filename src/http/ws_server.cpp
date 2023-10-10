@@ -20,21 +20,21 @@ void WSServer::handleClient(sylar::Socket::ptr client) {
         // 处理来自客户端的握手建连
         HttpRequest::ptr header = session->handleShake();
         if(!header) {
-            SYLAR_LOG_DEBUG(g_logger) << "handleShake error";
+            SYLAR_LOG_INFO(g_logger) << "handleShake error";
             break;
         }
 
         // 获取客户端的请求路径对应的servlet
         WSServlet::ptr servlet = m_dispatch->getMatchWSServlet(header->getPath());
         if(!servlet) {
-            SYLAR_LOG_DEBUG(g_logger) << "no match WSServlet";
+            SYLAR_LOG_INFO(g_logger) << "no match WSServlet";
             break;
         }
 
         // 执行连接成功的回调
         int rt = servlet->onConnect(header, session);
         if(rt) {
-            SYLAR_LOG_DEBUG(g_logger) << "onConnect return " << rt;
+            SYLAR_LOG_INFO(g_logger) << "onConnect return " << rt;
             break;
         }
 
@@ -47,7 +47,7 @@ void WSServer::handleClient(sylar::Socket::ptr client) {
             rt = servlet->handle(header, msg, session);
             // 返回非0时说明出错，直接关闭
             if(rt) {
-                SYLAR_LOG_DEBUG(g_logger) << "handle return " << rt;
+                SYLAR_LOG_INFO(g_logger) << "handle return " << rt;
                 break;
             }
         }

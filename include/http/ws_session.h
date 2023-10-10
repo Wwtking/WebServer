@@ -49,13 +49,13 @@ struct WSFrameHead {
         /// PONG
         PONG = 0xA
     };
-    bool fin : 1;           // 表示这是消息的最后一个片段，为1则是消息尾部
-    bool rsv1 : 1;          // 用于扩展定义，如果没有扩展约定的情况则必须为0
-    bool rsv2 : 1;
-    bool rsv3 : 1;
-    uint32_t opcode : 4;    // 表示​有效数据的状态
-    bool mask : 1;          // 表示有效数据是否添加掩码
-    uint32_t payload : 7;   // 以字节为单位的有效数据长度
+    uint32_t opcode: 4;    // 表示​有效数据的状态
+    bool rsv3: 1;          // 用于扩展定义，如果没有扩展约定的情况则必须为0
+    bool rsv2: 1;
+    bool rsv1: 1;
+    bool fin: 1;           // 表示这是消息的最后一个片段，为1则是消息尾部
+    uint32_t payload: 7;   // 以字节为单位的有效数据长度
+    bool mask: 1;          // 表示有效数据是否添加掩码
 
     // 可读性输出
     std::string toString() const;
