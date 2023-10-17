@@ -6,7 +6,7 @@ CXX_FLAGS =  -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/wwt/sylar/include/stream -I/home/wwt/sylar/include/util 
+CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/wwt/sylar/include/stream -I/home/wwt/sylar/include/util -I/home/wwt/sylar/include/db 
 
 # Custom defines: CMakeFiles/uri_test.dir/tests/uri_test.cpp.o_DEFINES = __FILE__="tests/uri_test.cpp"
 

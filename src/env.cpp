@@ -1,5 +1,6 @@
 #include "env.h"
 #include "log.h"
+#include "config.h"
 #include <iomanip>
 #include <unistd.h>
 #include <string.h>
@@ -140,6 +141,18 @@ std::string Env::getAbsolutePath(const std::string& path) {
         return path;
     }
     return m_workPath + path;
+}
+
+std::string Env::getAbsoluteWorkPath(const std::string& path) const {
+    if(path.empty()) {
+        return "/";
+    }
+    if(path[0] == '/') {
+        return path;
+    }
+    static sylar::ConfigVar<std::string>::ptr g_server_work_path =
+            sylar::Config::Lookup<std::string>("server.work_path");
+    return g_server_work_path->getValue() + "/" + path;
 }
 
 std::string Env::getDefaultConfPath() {

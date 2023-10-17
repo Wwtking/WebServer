@@ -99,6 +99,12 @@ public:
     std::string getAbsolutePath(const std::string& path);
 
     /**
+     * @brief 服务器运行时，工作文件夹的绝对路径
+     * @param[in] path 文件/文件夹名称
+    */
+    std::string getAbsoluteWorkPath(const std::string& path) const;
+
+    /**
      * @brief 获取工作目录下配置文件的绝对路径
     */
     std::string getDefaultConfPath();

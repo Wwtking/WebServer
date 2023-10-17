@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/sylar.dir/src/util/hash_util.cpp.o"
   "CMakeFiles/sylar.dir/src/util/json_util.cpp.o"
   "CMakeFiles/sylar.dir/src/config.cpp.o"
+  "CMakeFiles/sylar.dir/src/db/mysqlite3.cpp.o"
   "CMakeFiles/sylar.dir/src/thread.cpp.o"
   "CMakeFiles/sylar.dir/src/fiber.cpp.o"
   "CMakeFiles/sylar.dir/src/scheduler.cpp.o"

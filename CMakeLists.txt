@@ -13,6 +13,7 @@ include_directories(include)
 include_directories(include/http)
 include_directories(include/stream)
 include_directories(include/util)
+include_directories(include/db)
 # 向工程添加多个特定的库文件搜索路径(静态库.a和动态库.so)
 link_directories(/home/wwt/sylar/lib)  #用绝对路径
 
@@ -36,6 +37,7 @@ set(SRC src/log.cpp
         src/util/hash_util.cpp 
         src/util/json_util.cpp 
         src/config.cpp 
+        src/db/mysqlite3.cpp
         src/thread.cpp
         src/fiber.cpp
         src/scheduler.cpp
@@ -78,7 +80,8 @@ set(LIB sylar
         yaml-cpp
         jsoncpp
         pthread
-        ${OPENSSL_LIBRARIES})
+        ${OPENSSL_LIBRARIES}
+        sqlite3)
 
 if(BUILD_TEST)
 
@@ -108,6 +111,8 @@ sylar_add_executable(ws_server_test tests/ws_server_test.cpp sylar "${LIB}")
 sylar_add_executable(ws_client_test tests/ws_client_test.cpp sylar "${LIB}")
 
 endif()
+
+sylar_add_executable(sqlite3_test tests/sqlite3_test.cpp sylar "${LIB}")
 
 sylar_add_executable(bin_sylar src/main.cpp sylar "${LIB}")
 # 将 bin_sylar 目标的输出名称设置为 sylar

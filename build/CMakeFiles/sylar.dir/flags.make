@@ -6,7 +6,7 @@ CXX_FLAGS =  -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror 
 
 CXX_DEFINES = -Dsylar_EXPORTS
 
-CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/wwt/sylar/include/stream -I/home/wwt/sylar/include/util 
+CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/wwt/sylar/include/stream -I/home/wwt/sylar/include/util -I/home/wwt/sylar/include/db 
 
 # Custom defines: CMakeFiles/sylar.dir/src/log.cpp.o_DEFINES = __FILE__="src/log.cpp"
 
@@ -17,6 +17,8 @@ CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/
 # Custom defines: CMakeFiles/sylar.dir/src/util/json_util.cpp.o_DEFINES = __FILE__="src/util/json_util.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/src/config.cpp.o_DEFINES = __FILE__="src/config.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/src/db/mysqlite3.cpp.o_DEFINES = __FILE__="src/db/mysqlite3.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/src/thread.cpp.o_DEFINES = __FILE__="src/thread.cpp"
 

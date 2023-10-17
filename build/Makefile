@@ -127,6 +127,19 @@ bin_sylar/fast:
 .PHONY : bin_sylar/fast
 
 #=============================================================================
+# Target rules for targets named sqlite3_test
+
+# Build rule for target.
+sqlite3_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sqlite3_test
+.PHONY : sqlite3_test
+
+# fast build rule for target.
+sqlite3_test/fast:
+	$(MAKE) -f CMakeFiles/sqlite3_test.dir/build.make CMakeFiles/sqlite3_test.dir/build
+.PHONY : sqlite3_test/fast
+
+#=============================================================================
 # Target rules for targets named application_test
 
 # Build rule for target.
@@ -639,6 +652,33 @@ src/daemon.s: src/daemon.cpp.s
 src/daemon.cpp.s:
 	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/daemon.cpp.s
 .PHONY : src/daemon.cpp.s
+
+src/db/mysqlite3.o: src/db/mysqlite3.cpp.o
+
+.PHONY : src/db/mysqlite3.o
+
+# target to build an object file
+src/db/mysqlite3.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/mysqlite3.cpp.o
+.PHONY : src/db/mysqlite3.cpp.o
+
+src/db/mysqlite3.i: src/db/mysqlite3.cpp.i
+
+.PHONY : src/db/mysqlite3.i
+
+# target to preprocess a source file
+src/db/mysqlite3.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/mysqlite3.cpp.i
+.PHONY : src/db/mysqlite3.cpp.i
+
+src/db/mysqlite3.s: src/db/mysqlite3.cpp.s
+
+.PHONY : src/db/mysqlite3.s
+
+# target to generate assembly for a file
+src/db/mysqlite3.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/mysqlite3.cpp.s
+.PHONY : src/db/mysqlite3.cpp.s
 
 src/env.o: src/env.cpp.o
 
@@ -1963,6 +2003,33 @@ tests/socket_test.cpp.s:
 	$(MAKE) -f CMakeFiles/socket_test.dir/build.make CMakeFiles/socket_test.dir/tests/socket_test.cpp.s
 .PHONY : tests/socket_test.cpp.s
 
+tests/sqlite3_test.o: tests/sqlite3_test.cpp.o
+
+.PHONY : tests/sqlite3_test.o
+
+# target to build an object file
+tests/sqlite3_test.cpp.o:
+	$(MAKE) -f CMakeFiles/sqlite3_test.dir/build.make CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o
+.PHONY : tests/sqlite3_test.cpp.o
+
+tests/sqlite3_test.i: tests/sqlite3_test.cpp.i
+
+.PHONY : tests/sqlite3_test.i
+
+# target to preprocess a source file
+tests/sqlite3_test.cpp.i:
+	$(MAKE) -f CMakeFiles/sqlite3_test.dir/build.make CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.i
+.PHONY : tests/sqlite3_test.cpp.i
+
+tests/sqlite3_test.s: tests/sqlite3_test.cpp.s
+
+.PHONY : tests/sqlite3_test.s
+
+# target to generate assembly for a file
+tests/sqlite3_test.cpp.s:
+	$(MAKE) -f CMakeFiles/sqlite3_test.dir/build.make CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.s
+.PHONY : tests/sqlite3_test.cpp.s
+
 tests/tcp_server_test.o: tests/tcp_server_test.cpp.o
 
 .PHONY : tests/tcp_server_test.o
@@ -2132,6 +2199,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... bin_sylar"
+	@echo "... sqlite3_test"
 	@echo "... application_test"
 	@echo "... hook_test"
 	@echo "... ws_server_test"
@@ -2180,6 +2248,9 @@ help:
 	@echo "... src/daemon.o"
 	@echo "... src/daemon.i"
 	@echo "... src/daemon.s"
+	@echo "... src/db/mysqlite3.o"
+	@echo "... src/db/mysqlite3.i"
+	@echo "... src/db/mysqlite3.s"
 	@echo "... src/env.o"
 	@echo "... src/env.i"
 	@echo "... src/env.s"
@@ -2327,6 +2398,9 @@ help:
 	@echo "... tests/socket_test.o"
 	@echo "... tests/socket_test.i"
 	@echo "... tests/socket_test.s"
+	@echo "... tests/sqlite3_test.o"
+	@echo "... tests/sqlite3_test.i"
+	@echo "... tests/sqlite3_test.s"
 	@echo "... tests/tcp_server_test.o"
 	@echo "... tests/tcp_server_test.i"
 	@echo "... tests/tcp_server_test.s"
