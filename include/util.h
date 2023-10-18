@@ -39,6 +39,12 @@ uint64_t GetCurrentMS();
 //获取当前时间的微秒
 uint64_t GetCurrentUS();
 
+// 将字符串name转换为大写字母
+std::string ToUpper(const std::string& name);
+
+// 将字符串name转换为小写字母
+std::string ToLower(const std::string& name);
+
 // 将时间戳形式的time按format格式转化成可读性字符串time
 std::string TimeToStr(time_t time = time(0), const std::string& format = "%Y-%m-%d %H:%M:%S");
 

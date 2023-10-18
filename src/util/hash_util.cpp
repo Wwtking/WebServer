@@ -180,4 +180,77 @@ std::string random_string(size_t len, const std::string& chars) {
     return rt;
 }
 
+// 将字符串str1中的字符find替换为replaceWith
+std::string replace(const std::string &str1, char find, char replaceWith) {
+    auto str = str1;
+    size_t index = str.find(find);
+    while (index != std::string::npos) {
+        str[index] = replaceWith;
+        index = str.find(find, index + 1);
+    }
+    return str;
+}
+
+// 将字符串str1中的字符find替换为replaceWith
+std::string replace(const std::string &str1, char find, const std::string &replaceWith) {
+    auto str = str1;
+    size_t index = str.find(find);
+    while (index != std::string::npos) {
+        str = str.substr(0, index) + replaceWith + str.substr(index + 1);
+        index = str.find(find, index + replaceWith.size());
+    }
+    return str;
+}
+
+// 将字符串str1中的子串find替换为replaceWith
+std::string replace(const std::string &str1, const std::string &find, const std::string &replaceWith) {
+    auto str = str1;
+    size_t index = str.find(find);
+    while (index != std::string::npos) {
+        str = str.substr(0, index) + replaceWith + str.substr(index + find.size());
+        index = str.find(find, index + replaceWith.size());
+    }
+    return str;
+}
+
+// 将字符串str按照字符delim分隔，将分割结果返回，最多分割max个
+std::vector<std::string> split(const std::string &str, char delim, size_t max) {
+    std::vector<std::string> result;
+    if (str.empty()) {
+        return result;
+    }
+
+    size_t last = 0;
+    size_t pos = str.find(delim);
+    while (pos != std::string::npos) {
+        result.push_back(str.substr(last, pos - last));
+        last = pos + 1;
+        if (--max == 1)
+            break;
+        pos = str.find(delim, last);
+    }
+    result.push_back(str.substr(last));
+    return result;
+}
+
+// 将字符串str按照字符串delim分隔，将分割结果返回，最多分割max个
+std::vector<std::string> split(const std::string &str, const char *delims, size_t max) {
+    std::vector<std::string> result;
+    if (str.empty()) {
+        return result;
+    }
+
+    size_t last = 0;
+    size_t pos = str.find_first_of(delims);
+    while (pos != std::string::npos) {
+        result.push_back(str.substr(last, pos - last));
+        last = pos + 1;
+        if (--max == 1)
+            break;
+        pos = str.find_first_of(delims, last);
+    }
+    result.push_back(str.substr(last));
+    return result;
+}
+
 }

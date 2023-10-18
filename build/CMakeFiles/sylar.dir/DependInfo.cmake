@@ -57,6 +57,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include/stream"
   "../include/util"
   "../include/db"
+  "../include/orm"
   )
 
 # Targets to which this target links.

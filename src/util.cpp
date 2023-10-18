@@ -78,6 +78,20 @@ uint64_t GetCurrentUS() {
     return tv.tv_sec * 1000 * 1000ul + tv.tv_usec;
 }
 
+// 将字符串name转换为大写字母
+std::string ToUpper(const std::string& name) {
+    std::string rt = name;
+    std::transform(rt.begin(), rt.end(), rt.begin(), ::toupper);
+    return rt;
+}
+
+// 将字符串name转换为小写字母
+std::string ToLower(const std::string& name) {
+    std::string rt = name;
+    std::transform(rt.begin(), rt.end(), rt.begin(), ::tolower);
+    return rt;
+}
+
 // 将时间戳形式的time按format格式转化成可读性字符串time
 std::string TimeToStr(time_t time, const std::string& format) {
     struct tm tm;

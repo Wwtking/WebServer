@@ -127,6 +127,19 @@ bin_sylar/fast:
 .PHONY : bin_sylar/fast
 
 #=============================================================================
+# Target rules for targets named orm
+
+# Build rule for target.
+orm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 orm
+.PHONY : orm
+
+# fast build rule for target.
+orm/fast:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/build
+.PHONY : orm/fast
+
+#=============================================================================
 # Target rules for targets named sqlite3_test
 
 # Build rule for target.
@@ -1247,6 +1260,168 @@ src/module.cpp.s:
 	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/module.cpp.s
 .PHONY : src/module.cpp.s
 
+src/orm/column.o: src/orm/column.cpp.o
+
+.PHONY : src/orm/column.o
+
+# target to build an object file
+src/orm/column.cpp.o:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/column.cpp.o
+.PHONY : src/orm/column.cpp.o
+
+src/orm/column.i: src/orm/column.cpp.i
+
+.PHONY : src/orm/column.i
+
+# target to preprocess a source file
+src/orm/column.cpp.i:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/column.cpp.i
+.PHONY : src/orm/column.cpp.i
+
+src/orm/column.s: src/orm/column.cpp.s
+
+.PHONY : src/orm/column.s
+
+# target to generate assembly for a file
+src/orm/column.cpp.s:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/column.cpp.s
+.PHONY : src/orm/column.cpp.s
+
+src/orm/index.o: src/orm/index.cpp.o
+
+.PHONY : src/orm/index.o
+
+# target to build an object file
+src/orm/index.cpp.o:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/index.cpp.o
+.PHONY : src/orm/index.cpp.o
+
+src/orm/index.i: src/orm/index.cpp.i
+
+.PHONY : src/orm/index.i
+
+# target to preprocess a source file
+src/orm/index.cpp.i:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/index.cpp.i
+.PHONY : src/orm/index.cpp.i
+
+src/orm/index.s: src/orm/index.cpp.s
+
+.PHONY : src/orm/index.s
+
+# target to generate assembly for a file
+src/orm/index.cpp.s:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/index.cpp.s
+.PHONY : src/orm/index.cpp.s
+
+src/orm/orm.o: src/orm/orm.cpp.o
+
+.PHONY : src/orm/orm.o
+
+# target to build an object file
+src/orm/orm.cpp.o:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/orm.cpp.o
+.PHONY : src/orm/orm.cpp.o
+
+src/orm/orm.i: src/orm/orm.cpp.i
+
+.PHONY : src/orm/orm.i
+
+# target to preprocess a source file
+src/orm/orm.cpp.i:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/orm.cpp.i
+.PHONY : src/orm/orm.cpp.i
+
+src/orm/orm.s: src/orm/orm.cpp.s
+
+.PHONY : src/orm/orm.s
+
+# target to generate assembly for a file
+src/orm/orm.cpp.s:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/orm.cpp.s
+.PHONY : src/orm/orm.cpp.s
+
+src/orm/orm_util.o: src/orm/orm_util.cpp.o
+
+.PHONY : src/orm/orm_util.o
+
+# target to build an object file
+src/orm/orm_util.cpp.o:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/orm_util.cpp.o
+.PHONY : src/orm/orm_util.cpp.o
+
+src/orm/orm_util.i: src/orm/orm_util.cpp.i
+
+.PHONY : src/orm/orm_util.i
+
+# target to preprocess a source file
+src/orm/orm_util.cpp.i:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/orm_util.cpp.i
+.PHONY : src/orm/orm_util.cpp.i
+
+src/orm/orm_util.s: src/orm/orm_util.cpp.s
+
+.PHONY : src/orm/orm_util.s
+
+# target to generate assembly for a file
+src/orm/orm_util.cpp.s:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/orm_util.cpp.s
+.PHONY : src/orm/orm_util.cpp.s
+
+src/orm/table.o: src/orm/table.cpp.o
+
+.PHONY : src/orm/table.o
+
+# target to build an object file
+src/orm/table.cpp.o:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/table.cpp.o
+.PHONY : src/orm/table.cpp.o
+
+src/orm/table.i: src/orm/table.cpp.i
+
+.PHONY : src/orm/table.i
+
+# target to preprocess a source file
+src/orm/table.cpp.i:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/table.cpp.i
+.PHONY : src/orm/table.cpp.i
+
+src/orm/table.s: src/orm/table.cpp.s
+
+.PHONY : src/orm/table.s
+
+# target to generate assembly for a file
+src/orm/table.cpp.s:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/table.cpp.s
+.PHONY : src/orm/table.cpp.s
+
+src/orm/tinyxml2.o: src/orm/tinyxml2.cpp.o
+
+.PHONY : src/orm/tinyxml2.o
+
+# target to build an object file
+src/orm/tinyxml2.cpp.o:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/tinyxml2.cpp.o
+.PHONY : src/orm/tinyxml2.cpp.o
+
+src/orm/tinyxml2.i: src/orm/tinyxml2.cpp.i
+
+.PHONY : src/orm/tinyxml2.i
+
+# target to preprocess a source file
+src/orm/tinyxml2.cpp.i:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/tinyxml2.cpp.i
+.PHONY : src/orm/tinyxml2.cpp.i
+
+src/orm/tinyxml2.s: src/orm/tinyxml2.cpp.s
+
+.PHONY : src/orm/tinyxml2.s
+
+# target to generate assembly for a file
+src/orm/tinyxml2.cpp.s:
+	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/src/orm/tinyxml2.cpp.s
+.PHONY : src/orm/tinyxml2.cpp.s
+
 src/scheduler.o: src/scheduler.cpp.o
 
 .PHONY : src/scheduler.o
@@ -2199,6 +2374,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... bin_sylar"
+	@echo "... orm"
 	@echo "... sqlite3_test"
 	@echo "... application_test"
 	@echo "... hook_test"
@@ -2314,6 +2490,24 @@ help:
 	@echo "... src/module.o"
 	@echo "... src/module.i"
 	@echo "... src/module.s"
+	@echo "... src/orm/column.o"
+	@echo "... src/orm/column.i"
+	@echo "... src/orm/column.s"
+	@echo "... src/orm/index.o"
+	@echo "... src/orm/index.i"
+	@echo "... src/orm/index.s"
+	@echo "... src/orm/orm.o"
+	@echo "... src/orm/orm.i"
+	@echo "... src/orm/orm.s"
+	@echo "... src/orm/orm_util.o"
+	@echo "... src/orm/orm_util.i"
+	@echo "... src/orm/orm_util.s"
+	@echo "... src/orm/table.o"
+	@echo "... src/orm/table.i"
+	@echo "... src/orm/table.s"
+	@echo "... src/orm/tinyxml2.o"
+	@echo "... src/orm/tinyxml2.i"
+	@echo "... src/orm/tinyxml2.s"
 	@echo "... src/scheduler.o"
 	@echo "... src/scheduler.i"
 	@echo "... src/scheduler.s"

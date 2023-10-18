@@ -1,4 +1,5 @@
 /home/wwt/sylar/build/CMakeFiles/bin_sylar.dir
+/home/wwt/sylar/build/CMakeFiles/orm.dir
 /home/wwt/sylar/build/CMakeFiles/sqlite3_test.dir
 /home/wwt/sylar/build/CMakeFiles/application_test.dir
 /home/wwt/sylar/build/CMakeFiles/hook_test.dir

@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/bin_sylar.dir/DependInfo.cmake"
+  "CMakeFiles/orm.dir/DependInfo.cmake"
   "CMakeFiles/sqlite3_test.dir/DependInfo.cmake"
   "CMakeFiles/application_test.dir/DependInfo.cmake"
   "CMakeFiles/hook_test.dir/DependInfo.cmake"
