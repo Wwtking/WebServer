@@ -4,6 +4,15 @@
 CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/daemon.h
 CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/fiber.h
 CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/iomanager.h
+CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/json/allocator.h
+CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/json/config.h
+CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/json/forwards.h
+CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/json/json.h
+CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/json/json_features.h
+CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/json/reader.h
+CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/json/value.h
+CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/json/version.h
+CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/json/writer.h
 CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/log.h
 CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/noncopyable.h
 CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/scheduler.h
@@ -11,5 +20,7 @@ CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/singleton.h
 CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/thread.h
 CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/timer.h
 CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/util.h
+CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/util/hash_util.h
+CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../include/util/json_util.h
 CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.o: ../tests/daemon_test.cpp
 

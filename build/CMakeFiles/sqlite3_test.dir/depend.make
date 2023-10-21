@@ -3,10 +3,21 @@
 
 CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/db/db.h
 CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/db/mysqlite3.h
+CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/json/allocator.h
+CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/json/config.h
+CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/json/forwards.h
+CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/json/json.h
+CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/json/json_features.h
+CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/json/reader.h
+CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/json/value.h
+CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/json/version.h
+CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/json/writer.h
 CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/log.h
 CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/noncopyable.h
 CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/singleton.h
 CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/thread.h
 CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/util.h
+CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/util/hash_util.h
+CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../include/util/json_util.h
 CMakeFiles/sqlite3_test.dir/tests/sqlite3_test.cpp.o: ../tests/sqlite3_test.cpp
 

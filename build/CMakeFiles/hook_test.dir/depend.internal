@@ -5,6 +5,15 @@ CMakeFiles/hook_test.dir/tests/hook_test.cpp.o
  ../include/fiber.h
  ../include/hook.h
  ../include/iomanager.h
+ ../include/json/allocator.h
+ ../include/json/config.h
+ ../include/json/forwards.h
+ ../include/json/json.h
+ ../include/json/json_features.h
+ ../include/json/reader.h
+ ../include/json/value.h
+ ../include/json/version.h
+ ../include/json/writer.h
  ../include/log.h
  ../include/noncopyable.h
  ../include/scheduler.h
@@ -12,4 +21,6 @@ CMakeFiles/hook_test.dir/tests/hook_test.cpp.o
  ../include/thread.h
  ../include/timer.h
  ../include/util.h
+ ../include/util/hash_util.h
+ ../include/util/json_util.h
  /home/wwt/sylar/tests/hook_test.cpp

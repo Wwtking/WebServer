@@ -6,6 +6,12 @@ CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/bytearray.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/config.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/fiber.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/iomanager.h
+CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/json/forwards.h
+CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/json/json.h
+CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/json/json_features.h
+CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/json/reader.h
+CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/json/value.h
+CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/json/writer.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/log.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/noncopyable.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/scheduler.h
@@ -15,6 +21,8 @@ CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/tcp_server.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/thread.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/timer.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/util.h
+CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/util/hash_util.h
+CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/util/json_util.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/yaml-cpp/binary.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/yaml-cpp/dll.h
 CMakeFiles/echo_server.dir/examples/echo_server.cpp.o: ../include/yaml-cpp/emitter.h

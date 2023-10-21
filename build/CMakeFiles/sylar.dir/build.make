@@ -530,9 +530,35 @@ CMakeFiles/sylar.dir/src/worker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sylar.dir/src/worker.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"src/worker.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwt/sylar/src/worker.cpp -o CMakeFiles/sylar.dir/src/worker.cpp.s
 
+CMakeFiles/sylar.dir/src/email/email.cpp.o: CMakeFiles/sylar.dir/flags.make
+CMakeFiles/sylar.dir/src/email/email.cpp.o: ../src/email/email.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/sylar.dir/src/email/email.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) -D__FILE__=\"src/email/email.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sylar.dir/src/email/email.cpp.o -c /home/wwt/sylar/src/email/email.cpp
+
+CMakeFiles/sylar.dir/src/email/email.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sylar.dir/src/email/email.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"src/email/email.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwt/sylar/src/email/email.cpp > CMakeFiles/sylar.dir/src/email/email.cpp.i
+
+CMakeFiles/sylar.dir/src/email/email.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sylar.dir/src/email/email.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"src/email/email.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwt/sylar/src/email/email.cpp -o CMakeFiles/sylar.dir/src/email/email.cpp.s
+
+CMakeFiles/sylar.dir/src/email/smtp.cpp.o: CMakeFiles/sylar.dir/flags.make
+CMakeFiles/sylar.dir/src/email/smtp.cpp.o: ../src/email/smtp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/sylar.dir/src/email/smtp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) -D__FILE__=\"src/email/smtp.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sylar.dir/src/email/smtp.cpp.o -c /home/wwt/sylar/src/email/smtp.cpp
+
+CMakeFiles/sylar.dir/src/email/smtp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sylar.dir/src/email/smtp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"src/email/smtp.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wwt/sylar/src/email/smtp.cpp > CMakeFiles/sylar.dir/src/email/smtp.cpp.i
+
+CMakeFiles/sylar.dir/src/email/smtp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sylar.dir/src/email/smtp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) -D__FILE__=\"src/email/smtp.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wwt/sylar/src/email/smtp.cpp -o CMakeFiles/sylar.dir/src/email/smtp.cpp.s
+
 CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o: CMakeFiles/sylar.dir/flags.make
 CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o: ../src/http/httpserver_parser.rl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) -D__FILE__=\"src/http/httpserver_parser.rl.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o -c /home/wwt/sylar/src/http/httpserver_parser.rl.cpp
 
 CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.i: cmake_force
@@ -545,7 +571,7 @@ CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.s: cmake_force
 
 CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.o: CMakeFiles/sylar.dir/flags.make
 CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.o: ../src/http/httpclient_parser.rl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) -D__FILE__=\"src/http/httpclient_parser.rl.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.o -c /home/wwt/sylar/src/http/httpclient_parser.rl.cpp
 
 CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.i: cmake_force
@@ -558,7 +584,7 @@ CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.s: cmake_force
 
 CMakeFiles/sylar.dir/src/uri.rl.cpp.o: CMakeFiles/sylar.dir/flags.make
 CMakeFiles/sylar.dir/src/uri.rl.cpp.o: ../src/uri.rl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/sylar.dir/src/uri.rl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/sylar.dir/src/uri.rl.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) -D__FILE__=\"src/uri.rl.cpp\" $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sylar.dir/src/uri.rl.cpp.o -c /home/wwt/sylar/src/uri.rl.cpp
 
 CMakeFiles/sylar.dir/src/uri.rl.cpp.i: cmake_force
@@ -606,6 +632,8 @@ sylar_OBJECTS = \
 "CMakeFiles/sylar.dir/src/module.cpp.o" \
 "CMakeFiles/sylar.dir/src/library.cpp.o" \
 "CMakeFiles/sylar.dir/src/worker.cpp.o" \
+"CMakeFiles/sylar.dir/src/email/email.cpp.o" \
+"CMakeFiles/sylar.dir/src/email/smtp.cpp.o" \
 "CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o" \
 "CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.o" \
 "CMakeFiles/sylar.dir/src/uri.rl.cpp.o"
@@ -648,12 +676,14 @@ sylar_EXTERNAL_OBJECTS =
 ../lib/libsylar.so: CMakeFiles/sylar.dir/src/module.cpp.o
 ../lib/libsylar.so: CMakeFiles/sylar.dir/src/library.cpp.o
 ../lib/libsylar.so: CMakeFiles/sylar.dir/src/worker.cpp.o
+../lib/libsylar.so: CMakeFiles/sylar.dir/src/email/email.cpp.o
+../lib/libsylar.so: CMakeFiles/sylar.dir/src/email/smtp.cpp.o
 ../lib/libsylar.so: CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o
 ../lib/libsylar.so: CMakeFiles/sylar.dir/src/http/httpclient_parser.rl.cpp.o
 ../lib/libsylar.so: CMakeFiles/sylar.dir/src/uri.rl.cpp.o
 ../lib/libsylar.so: CMakeFiles/sylar.dir/build.make
 ../lib/libsylar.so: CMakeFiles/sylar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX shared library ../lib/libsylar.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking CXX shared library ../lib/libsylar.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sylar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

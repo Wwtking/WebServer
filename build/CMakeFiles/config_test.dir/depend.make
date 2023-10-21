@@ -3,11 +3,19 @@
 
 CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/config.h
 CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/env.h
+CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/json/forwards.h
+CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/json/json.h
+CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/json/json_features.h
+CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/json/reader.h
+CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/json/value.h
+CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/json/writer.h
 CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/log.h
 CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/noncopyable.h
 CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/singleton.h
 CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/thread.h
 CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/util.h
+CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/util/hash_util.h
+CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/util/json_util.h
 CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/yaml-cpp/binary.h
 CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/yaml-cpp/dll.h
 CMakeFiles/config_test.dir/tests/config_test.cpp.o: ../include/yaml-cpp/emitter.h

@@ -5,6 +5,12 @@ CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/address.h
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/config.h
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/fiber.h
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/iomanager.h
+CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/json/forwards.h
+CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/json/json.h
+CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/json/json_features.h
+CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/json/reader.h
+CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/json/value.h
+CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/json/writer.h
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/log.h
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/noncopyable.h
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/scheduler.h
@@ -14,6 +20,8 @@ CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/tcp_serve
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/thread.h
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/timer.h
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/util.h
+CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/util/hash_util.h
+CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/util/json_util.h
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/yaml-cpp/binary.h
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/yaml-cpp/dll.h
 CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o: ../include/yaml-cpp/emitter.h

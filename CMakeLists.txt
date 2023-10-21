@@ -15,6 +15,7 @@ include_directories(include/stream)
 include_directories(include/util)
 include_directories(include/db)
 include_directories(include/orm)
+include_directories(include/email)
 # 向工程添加多个特定的库文件搜索路径(静态库.a和动态库.so)
 link_directories(/home/wwt/sylar/lib)  #用绝对路径
 
@@ -67,7 +68,9 @@ set(SRC src/log.cpp
         src/application.cpp
         src/module.cpp
         src/library.cpp
-        src/worker.cpp)
+        src/worker.cpp
+        src/email/email.cpp
+        src/email/smtp.cpp)
 
 ragelmaker(src/http/httpserver_parser.rl SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/http)
 ragelmaker(src/http/httpclient_parser.rl SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/http)
@@ -115,6 +118,7 @@ sylar_add_executable(ws_client_test tests/ws_client_test.cpp sylar "${LIB}")
 endif()
 
 sylar_add_executable(sqlite3_test tests/sqlite3_test.cpp sylar "${LIB}")
+sylar_add_executable(email_test tests/email_test.cpp sylar "${LIB}")
 
 set(ORM_SRC src/orm/tinyxml2.cpp
             src/orm/table.cpp

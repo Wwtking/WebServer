@@ -12,6 +12,12 @@ CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/http/ws_ser
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/http/ws_servlet.h
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/http/ws_session.h
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/iomanager.h
+CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/json/forwards.h
+CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/json/json.h
+CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/json/json_features.h
+CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/json/reader.h
+CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/json/value.h
+CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/json/writer.h
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/log.h
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/noncopyable.h
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/scheduler.h
@@ -23,6 +29,8 @@ CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/tcp_server.
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/thread.h
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/timer.h
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/util.h
+CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/util/hash_util.h
+CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/util/json_util.h
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/yaml-cpp/binary.h
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/yaml-cpp/dll.h
 CMakeFiles/ws_server_test.dir/tests/ws_server_test.cpp.o: ../include/yaml-cpp/emitter.h

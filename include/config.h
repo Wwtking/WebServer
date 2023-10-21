@@ -437,13 +437,11 @@ public:
         return p; 
     } 
 
-    //查找参数名为name的配置参数(name不区分大小写)，若存在返回配置参数，不存在返回nullptr
+    //查找参数名为name的配置参数，若存在返回配置参数，不存在返回nullptr
     template<class T>
     static typename ConfigVar<T>::ptr Lookup(const std::string& name) {
         RWMutexType::ReadLock lock(GetMutex());
-        std::string transform_name;
-        std::transform(name.begin(), name.end(), transform_name.begin(), ::tolower);
-        auto it = GetDatas().find(transform_name);
+        auto it = GetDatas().find(name);
         if(it == GetDatas().end()) {
             return nullptr;
         }

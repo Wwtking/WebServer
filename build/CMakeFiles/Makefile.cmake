@@ -62,6 +62,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/http_server_test.dir/DependInfo.cmake"
   "CMakeFiles/http_connection_test.dir/DependInfo.cmake"
   "CMakeFiles/fiber_test.dir/DependInfo.cmake"
+  "CMakeFiles/email_test.dir/DependInfo.cmake"
   "CMakeFiles/util_test.dir/DependInfo.cmake"
   "CMakeFiles/http_test.dir/DependInfo.cmake"
   "CMakeFiles/thread_test.dir/DependInfo.cmake"

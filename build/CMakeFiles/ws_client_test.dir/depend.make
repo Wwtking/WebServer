@@ -10,6 +10,15 @@ CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/http/http_s
 CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/http/ws_connection.h
 CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/http/ws_session.h
 CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/iomanager.h
+CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/json/allocator.h
+CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/json/config.h
+CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/json/forwards.h
+CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/json/json.h
+CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/json/json_features.h
+CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/json/reader.h
+CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/json/value.h
+CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/json/version.h
+CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/json/writer.h
 CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/log.h
 CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/noncopyable.h
 CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/scheduler.h
@@ -22,5 +31,6 @@ CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/timer.h
 CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/uri.h
 CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/util.h
 CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/util/hash_util.h
+CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../include/util/json_util.h
 CMakeFiles/ws_client_test.dir/tests/ws_client_test.cpp.o: ../tests/ws_client_test.cpp
 

@@ -10,6 +10,12 @@ CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/http/ht
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/http/http_servlet.h
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/http/http_session.h
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/iomanager.h
+CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/json/forwards.h
+CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/json/json.h
+CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/json/json_features.h
+CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/json/reader.h
+CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/json/value.h
+CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/json/writer.h
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/log.h
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/noncopyable.h
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/scheduler.h
@@ -21,6 +27,8 @@ CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/tcp_ser
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/thread.h
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/timer.h
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/util.h
+CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/util/hash_util.h
+CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/util/json_util.h
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/yaml-cpp/binary.h
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/yaml-cpp/dll.h
 CMakeFiles/http_server_test.dir/tests/http_server_test.cpp.o: ../include/yaml-cpp/emitter.h

@@ -266,4 +266,81 @@ bool FilesUtil::Mkdir(const std::string& dirname) {
     return true;
 }
 
+// 提取路径名
+std::string FilesUtil::Dirname(const std::string& filename) {
+    if(filename.empty()) {
+        return ".";
+    }
+    auto pos = filename.rfind('/');
+    if(pos == 0) {
+        return "/";
+    } else if(pos == std::string::npos) {
+        return ".";
+    } else {
+        return filename.substr(0, pos);
+    }
+}
+
+// 提取文件名
+std::string FilesUtil::Basename(const std::string& filename) {
+    if(filename.empty()) {
+        return filename;
+    }
+    auto pos = filename.rfind('/');
+    if(pos == std::string::npos) {
+        return filename;
+    } else {
+        return filename.substr(pos + 1);
+    }
+}
+
+
+// string[0] --> ASCII
+int8_t  TypeUtil::ToChar(const std::string& str) {
+    if(str.empty()) {
+        return 0;
+    }
+    return *str.begin();
+}
+
+// string --> int64_t
+int64_t TypeUtil::Atoi(const std::string& str) {
+    if(str.empty()) {
+        return 0;
+    }
+    return strtoull(str.c_str(), nullptr, 10);  // 十进制
+}
+
+// string --> double
+double TypeUtil::Atof(const std::string& str) {
+    if(str.empty()) {
+        return 0;
+    }
+    return atof(str.c_str());
+}
+
+// char[0] --> ASCII
+int8_t TypeUtil::ToChar(const char* str) {
+    if(str == nullptr) {
+        return 0;
+    }
+    return str[0];
+}
+
+// char* --> int64_t
+int64_t TypeUtil::Atoi(const char* str) {
+    if(str == nullptr) {
+        return 0;
+    }
+    return strtoull(str, nullptr, 10);  // 十进制
+}
+
+// char* --> double
+double  TypeUtil::Atof(const char* str) {
+    if(str == nullptr) {
+        return 0;
+    }
+    return atof(str);
+}
+
 }

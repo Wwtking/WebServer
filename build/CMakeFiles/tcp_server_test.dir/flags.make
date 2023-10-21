@@ -6,7 +6,7 @@ CXX_FLAGS =  -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/wwt/sylar/include/stream -I/home/wwt/sylar/include/util -I/home/wwt/sylar/include/db -I/home/wwt/sylar/include/orm 
+CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/wwt/sylar/include/stream -I/home/wwt/sylar/include/util -I/home/wwt/sylar/include/db -I/home/wwt/sylar/include/orm -I/home/wwt/sylar/include/email 
 
 # Custom defines: CMakeFiles/tcp_server_test.dir/tests/tcp_server_test.cpp.o_DEFINES = __FILE__="tests/tcp_server_test.cpp"
 

@@ -3,6 +3,15 @@
 
 CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/fiber.h
 CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/iomanager.h
+CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/json/allocator.h
+CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/json/config.h
+CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/json/forwards.h
+CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/json/json.h
+CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/json/json_features.h
+CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/json/reader.h
+CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/json/value.h
+CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/json/version.h
+CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/json/writer.h
 CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/log.h
 CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/noncopyable.h
 CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/scheduler.h
@@ -10,5 +19,7 @@ CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/singleton.h
 CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/thread.h
 CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/timer.h
 CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/util.h
+CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/util/hash_util.h
+CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../include/util/json_util.h
 CMakeFiles/iomanager_test.dir/tests/iomanager_test.cpp.o: ../tests/iomanager_test.cpp
 

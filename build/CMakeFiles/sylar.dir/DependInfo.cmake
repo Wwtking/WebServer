@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wwt/sylar/src/config.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/config.cpp.o"
   "/home/wwt/sylar/src/daemon.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/daemon.cpp.o"
   "/home/wwt/sylar/src/db/mysqlite3.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/db/mysqlite3.cpp.o"
+  "/home/wwt/sylar/src/email/email.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/email/email.cpp.o"
+  "/home/wwt/sylar/src/email/smtp.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/email/smtp.cpp.o"
   "/home/wwt/sylar/src/env.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/env.cpp.o"
   "/home/wwt/sylar/src/fd_manager.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/fd_manager.cpp.o"
   "/home/wwt/sylar/src/fiber.cpp" "/home/wwt/sylar/build/CMakeFiles/sylar.dir/src/fiber.cpp.o"
@@ -58,6 +60,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include/util"
   "../include/db"
   "../include/orm"
+  "../include/email"
   )
 
 # Targets to which this target links.

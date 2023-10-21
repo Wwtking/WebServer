@@ -257,6 +257,19 @@ fiber_test/fast:
 .PHONY : fiber_test/fast
 
 #=============================================================================
+# Target rules for targets named email_test
+
+# Build rule for target.
+email_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 email_test
+.PHONY : email_test
+
+# fast build rule for target.
+email_test/fast:
+	$(MAKE) -f CMakeFiles/email_test.dir/build.make CMakeFiles/email_test.dir/build
+.PHONY : email_test/fast
+
+#=============================================================================
 # Target rules for targets named util_test
 
 # Build rule for target.
@@ -692,6 +705,60 @@ src/db/mysqlite3.s: src/db/mysqlite3.cpp.s
 src/db/mysqlite3.cpp.s:
 	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/db/mysqlite3.cpp.s
 .PHONY : src/db/mysqlite3.cpp.s
+
+src/email/email.o: src/email/email.cpp.o
+
+.PHONY : src/email/email.o
+
+# target to build an object file
+src/email/email.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/email.cpp.o
+.PHONY : src/email/email.cpp.o
+
+src/email/email.i: src/email/email.cpp.i
+
+.PHONY : src/email/email.i
+
+# target to preprocess a source file
+src/email/email.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/email.cpp.i
+.PHONY : src/email/email.cpp.i
+
+src/email/email.s: src/email/email.cpp.s
+
+.PHONY : src/email/email.s
+
+# target to generate assembly for a file
+src/email/email.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/email.cpp.s
+.PHONY : src/email/email.cpp.s
+
+src/email/smtp.o: src/email/smtp.cpp.o
+
+.PHONY : src/email/smtp.o
+
+# target to build an object file
+src/email/smtp.cpp.o:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/smtp.cpp.o
+.PHONY : src/email/smtp.cpp.o
+
+src/email/smtp.i: src/email/smtp.cpp.i
+
+.PHONY : src/email/smtp.i
+
+# target to preprocess a source file
+src/email/smtp.cpp.i:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/smtp.cpp.i
+.PHONY : src/email/smtp.cpp.i
+
+src/email/smtp.s: src/email/smtp.cpp.s
+
+.PHONY : src/email/smtp.s
+
+# target to generate assembly for a file
+src/email/smtp.cpp.s:
+	$(MAKE) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/src/email/smtp.cpp.s
+.PHONY : src/email/smtp.cpp.s
 
 src/env.o: src/env.cpp.o
 
@@ -1881,6 +1948,33 @@ tests/daemon_test.cpp.s:
 	$(MAKE) -f CMakeFiles/daemon_test.dir/build.make CMakeFiles/daemon_test.dir/tests/daemon_test.cpp.s
 .PHONY : tests/daemon_test.cpp.s
 
+tests/email_test.o: tests/email_test.cpp.o
+
+.PHONY : tests/email_test.o
+
+# target to build an object file
+tests/email_test.cpp.o:
+	$(MAKE) -f CMakeFiles/email_test.dir/build.make CMakeFiles/email_test.dir/tests/email_test.cpp.o
+.PHONY : tests/email_test.cpp.o
+
+tests/email_test.i: tests/email_test.cpp.i
+
+.PHONY : tests/email_test.i
+
+# target to preprocess a source file
+tests/email_test.cpp.i:
+	$(MAKE) -f CMakeFiles/email_test.dir/build.make CMakeFiles/email_test.dir/tests/email_test.cpp.i
+.PHONY : tests/email_test.cpp.i
+
+tests/email_test.s: tests/email_test.cpp.s
+
+.PHONY : tests/email_test.s
+
+# target to generate assembly for a file
+tests/email_test.cpp.s:
+	$(MAKE) -f CMakeFiles/email_test.dir/build.make CMakeFiles/email_test.dir/tests/email_test.cpp.s
+.PHONY : tests/email_test.cpp.s
+
 tests/env_test.o: tests/env_test.cpp.o
 
 .PHONY : tests/env_test.o
@@ -2385,6 +2479,7 @@ help:
 	@echo "... http_server_test"
 	@echo "... http_connection_test"
 	@echo "... fiber_test"
+	@echo "... email_test"
 	@echo "... util_test"
 	@echo "... http_test"
 	@echo "... thread_test"
@@ -2427,6 +2522,12 @@ help:
 	@echo "... src/db/mysqlite3.o"
 	@echo "... src/db/mysqlite3.i"
 	@echo "... src/db/mysqlite3.s"
+	@echo "... src/email/email.o"
+	@echo "... src/email/email.i"
+	@echo "... src/email/email.s"
+	@echo "... src/email/smtp.o"
+	@echo "... src/email/smtp.i"
+	@echo "... src/email/smtp.s"
 	@echo "... src/env.o"
 	@echo "... src/env.i"
 	@echo "... src/env.s"
@@ -2559,6 +2660,9 @@ help:
 	@echo "... tests/daemon_test.o"
 	@echo "... tests/daemon_test.i"
 	@echo "... tests/daemon_test.s"
+	@echo "... tests/email_test.o"
+	@echo "... tests/email_test.i"
+	@echo "... tests/email_test.s"
 	@echo "... tests/env_test.o"
 	@echo "... tests/env_test.i"
 	@echo "... tests/env_test.s"

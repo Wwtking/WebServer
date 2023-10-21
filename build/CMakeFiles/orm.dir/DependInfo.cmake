@@ -21,6 +21,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include/util"
   "../include/db"
   "../include/orm"
+  "../include/email"
   )
 
 # Targets to which this target links.

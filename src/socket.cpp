@@ -615,4 +615,237 @@ bool Socket::initSocket(int sock) {
 }
 
 
+
+namespace {
+// OpenSSL初始化
+struct OpenSSLInit {
+    OpenSSLInit() {
+        // 初始化OpenSSL库
+        SSL_library_init();
+        // 加载SSL错误字符串，将SSL库中的错误代码转换为可读的错误描述
+        SSL_load_error_strings();
+        // 加载所有支持的加密算法，会注册所有可用的加密算法
+        OpenSSL_add_all_algorithms();
+    }
+};
+static OpenSSLInit _Init;
+}
+
+
+// 创建TCP SSLSocket(满足Address地址类型)
+Socket::ptr SSLSocket::CreatTcpSSLSocket(Address::ptr address) {
+    return std::make_shared<SSLSocket>(address->getFamily(), TCP, 0);
+}
+
+// 创建IPv4的TCP SSLSocket
+Socket::ptr SSLSocket::CreatIPv4TcpSSLSocket() {
+    return std::make_shared<SSLSocket>(IPv4, TCP, 0);
+}
+
+// 创建IPv6的TCP SSLSocket
+Socket::ptr SSLSocket::CreatIPv6TcpSSLSocket() {
+    return std::make_shared<SSLSocket>(IPv6, TCP, 0);
+}
+
+// SSLSocket构造函数
+SSLSocket::SSLSocket(int family, int type, int protocol) 
+    :Socket(family, type, protocol) {
+}
+
+// 连接地址，客户端发起，连接服务器
+bool SSLSocket::connect(const Address::ptr addr, uint64_t timeout_ms) {
+    bool v = Socket::connect(addr, timeout_ms);
+    if(v) {
+        // 创建SSL会话环境
+        m_ctx.reset(SSL_CTX_new(SSLv23_client_method()), SSL_CTX_free);
+        // 建立SSL对象
+        m_ssl.reset(SSL_new(m_ctx.get()), SSL_free);
+        // SSL对象与文件描述符关联起来
+        SSL_set_fd(m_ssl.get(), m_sock);
+        // 建立SSL连接
+        v = (SSL_connect(m_ssl.get()) == 1);
+    }
+    return v;
+}
+
+// 绑定地址，服务器端绑定
+bool SSLSocket::bind(const Address::ptr addr) {
+    return Socket::bind(addr);
+}
+
+// 监听socket，服务器端监听
+bool SSLSocket::listen(int backlog) {
+    return Socket::listen(backlog);
+}
+
+// 接收来自客户端的connect连接
+Socket::ptr SSLSocket::accept() {
+    if(!isValid()) {
+        SYLAR_LOG_ERROR(g_logger) << "accept fail, sock=-1";
+        return nullptr;
+    }
+
+    // 保存accept()生成的新SSLSocket
+    SSLSocket::ptr sock = std::make_shared<SSLSocket>(m_family, m_type, m_protocol);  
+    int fd = ::accept(m_sock, nullptr, nullptr);
+    if(fd == -1) {
+        SYLAR_LOG_ERROR(g_logger) << "accept(" << m_sock << ", nullptr, nullptr) fail,"
+                            << " errno=" << errno << " errstr=" << strerror(errno); 
+        return nullptr;
+    }
+    
+    sock->m_ctx = m_ctx;
+    if(sock->initSocket(fd)) {
+        return sock;
+    }
+    return nullptr;
+}
+
+// 初始化Socket
+bool SSLSocket::initSocket(int sock) {
+    bool v = Socket::initSocket(sock);
+    if(v) {
+        // 建立SSL对象
+        m_ssl.reset(SSL_new(m_ctx.get()),  SSL_free);
+        // SSL对象与文件描述符关联起来
+        SSL_set_fd(m_ssl.get(), m_sock);
+        // 接受SSL连接请求
+        v = (SSL_accept(m_ssl.get()) == 1);
+    }
+    return v;
+}
+
+// 关闭socket
+bool SSLSocket::close() {
+    return Socket::close();
+}
+
+// 发送数据
+ssize_t SSLSocket::send(const void* buf, size_t len, int flags) {
+    if(m_ssl) {
+        // 向SSL连接写入数据，将数据写入SSL连接中，经过加密后发送给对方
+        return SSL_write(m_ssl.get(), buf, len);
+    }
+    return -1;
+}
+
+ssize_t SSLSocket::send(const iovec* buf, size_t len, int flags) {
+    if(!m_ssl) {
+        return -1;
+    }
+    int total = 0;
+    for(size_t i = 0; i < len; ++i) {
+        // 向SSL连接写入数据，将数据写入SSL连接中，经过加密后发送给对方
+        int tmp = SSL_write(m_ssl.get(), buf[i].iov_base, buf[i].iov_len);
+        if(tmp <= 0) {
+            return tmp;
+        }
+        total += tmp;
+        if(tmp != (int)buf[i].iov_len) {
+            break;
+        }
+    }
+    return total;
+}
+
+ssize_t SSLSocket::sendTo(const void* buf, size_t len, const Address::ptr toAddr, int flags) {
+    SYLAR_ASSERT(false);
+    return -1;
+}
+
+ssize_t SSLSocket::sendTo(const iovec* buf, size_t len, const Address::ptr toAddr, int flags) {
+    SYLAR_ASSERT(false);
+    return -1;
+}
+
+// 接受数据
+ssize_t SSLSocket::recv(void* buf, size_t len, int flags) {
+    if(m_ssl) {
+        // 从SSL连接读取数据，从SSL连接中读取经过解密的数据
+        return SSL_read(m_ssl.get(), buf, len);
+    }
+    return -1;
+}
+
+ssize_t SSLSocket::recv(iovec* buf, size_t len, int flags) {
+    if(!m_ssl) {
+        return -1;
+    }
+    int total = 0;
+    for(size_t i = 0; i < len; ++i) {
+        // 从SSL连接读取数据，从SSL连接中读取经过解密的数据
+        int tmp = SSL_read(m_ssl.get(), buf[i].iov_base, buf[i].iov_len);
+        if(tmp <= 0) {
+            return tmp;
+        }
+        total += tmp;
+        if(tmp != (int)buf[i].iov_len) {
+            break;
+        }
+    }
+    return total;
+}
+
+ssize_t SSLSocket::recvFrom(void* buf, size_t len, Address::ptr fromAddr, int flags) {
+    SYLAR_ASSERT(false);
+    return -1;
+}
+
+ssize_t SSLSocket::recvFrom(iovec* buf, size_t len, Address::ptr fromAddr, int flags) {
+    SYLAR_ASSERT(false);
+    return -1;
+}
+
+bool SSLSocket::loadCertificates(const std::string& cert_file, const std::string& key_file) {
+    // 创建一个用于SSL/TLS服务器的SSL_CTX对象
+    m_ctx.reset(SSL_CTX_new(SSLv23_server_method()), SSL_CTX_free);
+
+    // 设置SSL会话环境使用的证书文件，将证书文件加载到SSL会话环境中，以便在建立SSL连接时使用
+    if(SSL_CTX_use_certificate_chain_file(m_ctx.get(), cert_file.c_str()) != 1) {
+        SYLAR_LOG_ERROR(g_logger) << "SSL_CTX_use_certificate_chain_file("
+                                << cert_file << ") error";
+        return false;
+    }
+
+    // 设置SSL会话环境使用的私钥文件，将私钥文件加载到SSL会话环境中，以便在建立SSL连接时使用
+    if(SSL_CTX_use_PrivateKey_file(m_ctx.get(), key_file.c_str(), SSL_FILETYPE_PEM) != 1) {
+        SYLAR_LOG_ERROR(g_logger) << "SSL_CTX_use_PrivateKey_file("
+                                << key_file << ") error";
+        return false;
+    }
+    
+    // 检查SSL会话环境中是否存在与私钥文件相对应的证书。如果存在返回1；否则返回0
+    if(SSL_CTX_check_private_key(m_ctx.get()) != 1) {
+        SYLAR_LOG_ERROR(g_logger) << "SSL_CTX_check_private_key cert_file="
+                                << cert_file << " key_file=" << key_file;
+        return false;
+    }
+    return true;
+}
+
+// 用流输出信息
+std::ostream& SSLSocket::dump(std::ostream& os) const {
+    os << "SSLSocket information [sock=" << m_sock 
+                                << ", family=" << m_family 
+                                << ", type=" << m_type 
+                                << ", protocol=" << m_protocol 
+                                << ", isConnected=" << m_isConnected;
+    if(m_locolAddress) {
+        os << ", m_locolAddress=" << m_locolAddress->toString();
+    }
+    if(m_remoteAddress) {
+        os << ", m_remoteAddress=" << m_remoteAddress->toString();
+    }
+    os << "]";
+    return os;
+}
+
+// 字符串输出信息
+std::string SSLSocket::toString() const {
+    std::stringstream ss;
+    dump(ss);
+    return ss.str();
+}
+
+
 }

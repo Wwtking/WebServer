@@ -6,6 +6,12 @@ CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/applica
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/config.h
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/fiber.h
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/iomanager.h
+CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/json/forwards.h
+CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/json/json.h
+CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/json/json_features.h
+CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/json/reader.h
+CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/json/value.h
+CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/json/writer.h
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/log.h
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/noncopyable.h
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/scheduler.h
@@ -15,6 +21,8 @@ CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/tcp_ser
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/thread.h
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/timer.h
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/util.h
+CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/util/hash_util.h
+CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/util/json_util.h
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/yaml-cpp/binary.h
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/yaml-cpp/dll.h
 CMakeFiles/application_test.dir/tests/application_test.cpp.o: ../include/yaml-cpp/emitter.h

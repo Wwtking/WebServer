@@ -111,7 +111,7 @@ clean: CMakeFiles/bin_sylar.dir/clean
 CMakeFiles/orm.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/depend
 	$(MAKE) -f CMakeFiles/orm.dir/build.make CMakeFiles/orm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=34,35,36,37,38,39,40 "Built target orm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=35,36,37,38,39,40 "Built target orm"
 .PHONY : CMakeFiles/orm.dir/all
 
 # Include target in all.
@@ -121,7 +121,7 @@ all: CMakeFiles/orm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/orm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwt/sylar/build/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwt/sylar/build/CMakeFiles 48
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/orm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwt/sylar/build/CMakeFiles 0
 .PHONY : CMakeFiles/orm.dir/rule
@@ -222,7 +222,7 @@ clean: CMakeFiles/application_test.dir/clean
 CMakeFiles/hook_test.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) -f CMakeFiles/hook_test.dir/build.make CMakeFiles/hook_test.dir/depend
 	$(MAKE) -f CMakeFiles/hook_test.dir/build.make CMakeFiles/hook_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=18,19 "Built target hook_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=20 "Built target hook_test"
 .PHONY : CMakeFiles/hook_test.dir/all
 
 # Include target in all.
@@ -232,7 +232,7 @@ all: CMakeFiles/hook_test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hook_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwt/sylar/build/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwt/sylar/build/CMakeFiles 43
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hook_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwt/sylar/build/CMakeFiles 0
 .PHONY : CMakeFiles/hook_test.dir/rule
@@ -333,7 +333,7 @@ clean: CMakeFiles/scheduler_test.dir/clean
 CMakeFiles/http_parser_test.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) -f CMakeFiles/http_parser_test.dir/build.make CMakeFiles/http_parser_test.dir/depend
 	$(MAKE) -f CMakeFiles/http_parser_test.dir/build.make CMakeFiles/http_parser_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=22,23 "Built target http_parser_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=23,24 "Built target http_parser_test"
 .PHONY : CMakeFiles/http_parser_test.dir/all
 
 # Include target in all.
@@ -370,7 +370,7 @@ clean: CMakeFiles/http_parser_test.dir/clean
 CMakeFiles/http_server_test.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) -f CMakeFiles/http_server_test.dir/build.make CMakeFiles/http_server_test.dir/depend
 	$(MAKE) -f CMakeFiles/http_server_test.dir/build.make CMakeFiles/http_server_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=24,25 "Built target http_server_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=25,26 "Built target http_server_test"
 .PHONY : CMakeFiles/http_server_test.dir/all
 
 # Include target in all.
@@ -407,7 +407,7 @@ clean: CMakeFiles/http_server_test.dir/clean
 CMakeFiles/http_connection_test.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) -f CMakeFiles/http_connection_test.dir/build.make CMakeFiles/http_connection_test.dir/depend
 	$(MAKE) -f CMakeFiles/http_connection_test.dir/build.make CMakeFiles/http_connection_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=20,21 "Built target http_connection_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=21,22 "Built target http_connection_test"
 .PHONY : CMakeFiles/http_connection_test.dir/all
 
 # Include target in all.
@@ -444,7 +444,7 @@ clean: CMakeFiles/http_connection_test.dir/clean
 CMakeFiles/fiber_test.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) -f CMakeFiles/fiber_test.dir/build.make CMakeFiles/fiber_test.dir/depend
 	$(MAKE) -f CMakeFiles/fiber_test.dir/build.make CMakeFiles/fiber_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=16,17 "Built target fiber_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=18,19 "Built target fiber_test"
 .PHONY : CMakeFiles/fiber_test.dir/all
 
 # Include target in all.
@@ -471,6 +471,43 @@ CMakeFiles/fiber_test.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/fiber_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/email_test.dir
+
+# All Build rule for target.
+CMakeFiles/email_test.dir/all: CMakeFiles/sylar.dir/all
+	$(MAKE) -f CMakeFiles/email_test.dir/build.make CMakeFiles/email_test.dir/depend
+	$(MAKE) -f CMakeFiles/email_test.dir/build.make CMakeFiles/email_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=14,15 "Built target email_test"
+.PHONY : CMakeFiles/email_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/email_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/email_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwt/sylar/build/CMakeFiles 44
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/email_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wwt/sylar/build/CMakeFiles 0
+.PHONY : CMakeFiles/email_test.dir/rule
+
+# Convenience name for target.
+email_test: CMakeFiles/email_test.dir/rule
+
+.PHONY : email_test
+
+# clean rule for target.
+CMakeFiles/email_test.dir/clean:
+	$(MAKE) -f CMakeFiles/email_test.dir/build.make CMakeFiles/email_test.dir/clean
+.PHONY : CMakeFiles/email_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/email_test.dir/clean
 
 .PHONY : clean
 
@@ -518,7 +555,7 @@ clean: CMakeFiles/util_test.dir/clean
 CMakeFiles/http_test.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) -f CMakeFiles/http_test.dir/build.make CMakeFiles/http_test.dir/depend
 	$(MAKE) -f CMakeFiles/http_test.dir/build.make CMakeFiles/http_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=26,27 "Built target http_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=27,28 "Built target http_test"
 .PHONY : CMakeFiles/http_test.dir/all
 
 # Include target in all.
@@ -592,7 +629,7 @@ clean: CMakeFiles/thread_test.dir/clean
 CMakeFiles/log_test.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) -f CMakeFiles/log_test.dir/build.make CMakeFiles/log_test.dir/depend
 	$(MAKE) -f CMakeFiles/log_test.dir/build.make CMakeFiles/log_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=30,31 "Built target log_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=31,32 "Built target log_test"
 .PHONY : CMakeFiles/log_test.dir/all
 
 # Include target in all.
@@ -777,7 +814,7 @@ clean: CMakeFiles/socket_test.dir/clean
 CMakeFiles/env_test.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) -f CMakeFiles/env_test.dir/build.make CMakeFiles/env_test.dir/depend
 	$(MAKE) -f CMakeFiles/env_test.dir/build.make CMakeFiles/env_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=14,15 "Built target env_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=16,17 "Built target env_test"
 .PHONY : CMakeFiles/env_test.dir/all
 
 # Include target in all.
@@ -925,7 +962,7 @@ clean: CMakeFiles/uri_test.dir/clean
 CMakeFiles/iomanager_test.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) -f CMakeFiles/iomanager_test.dir/build.make CMakeFiles/iomanager_test.dir/depend
 	$(MAKE) -f CMakeFiles/iomanager_test.dir/build.make CMakeFiles/iomanager_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=28,29 "Built target iomanager_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=29,30 "Built target iomanager_test"
 .PHONY : CMakeFiles/iomanager_test.dir/all
 
 # Include target in all.
@@ -962,7 +999,7 @@ clean: CMakeFiles/iomanager_test.dir/clean
 CMakeFiles/my_http_server.dir/all: CMakeFiles/sylar.dir/all
 	$(MAKE) -f CMakeFiles/my_http_server.dir/build.make CMakeFiles/my_http_server.dir/depend
 	$(MAKE) -f CMakeFiles/my_http_server.dir/build.make CMakeFiles/my_http_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=32,33 "Built target my_http_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wwt/sylar/build/CMakeFiles --progress-num=33,34 "Built target my_http_server"
 .PHONY : CMakeFiles/my_http_server.dir/all
 
 # Include target in all.

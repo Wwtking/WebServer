@@ -10,6 +10,7 @@
 /home/wwt/sylar/build/CMakeFiles/http_server_test.dir
 /home/wwt/sylar/build/CMakeFiles/http_connection_test.dir
 /home/wwt/sylar/build/CMakeFiles/fiber_test.dir
+/home/wwt/sylar/build/CMakeFiles/email_test.dir
 /home/wwt/sylar/build/CMakeFiles/util_test.dir
 /home/wwt/sylar/build/CMakeFiles/http_test.dir
 /home/wwt/sylar/build/CMakeFiles/thread_test.dir

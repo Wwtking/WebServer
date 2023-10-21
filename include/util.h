@@ -8,6 +8,8 @@
 #include <vector>
 #include <string>
 #include <boost/lexical_cast.hpp>
+#include "hash_util.h"
+#include "json_util.h"
 
 namespace sylar {
 
@@ -106,9 +108,57 @@ public:
                             , const std::string& path
                             , const std::string& subfix = "");
 
+    /**
+     * @brief 验证pidfile文件是否存在，并且文件中是否存在正在运行的进程ID
+     * @param[in] pidfile 文件路径
+     * @return 返回进程ID是否正在运行
+    */
     static bool IsRunningPidfile(const std::string& pidfile);
-
+    
+    /**
+     * @brief 创建目录
+     * @param[in] pidfile 目录
+     * @return 是否创建成功
+    */
     static bool Mkdir(const std::string& dirname);
+
+    /**
+     * @brief 提取路径名
+     * @param[in] pidfile 文件路径
+     * @example /home/wwt/sylar --> /home/wwt
+    */
+    static std::string Dirname(const std::string& filename);
+
+    /**
+     * @brief 提取文件名
+     * @param[in] pidfile 文件路径
+     * @example /home/wwt/sylar --> sylar
+    */
+    static std::string Basename(const std::string& filename);
+};
+
+/**
+ * @brief 类型转换封装
+*/
+class TypeUtil {
+public:
+    // string[0] --> ASCII
+    static int8_t ToChar(const std::string& str);
+
+    // string --> int64_t
+    static int64_t Atoi(const std::string& str);
+
+    // string --> double
+    static double Atof(const std::string& str);
+
+    // char[0] --> ASCII
+    static int8_t ToChar(const char* str);
+
+    // char* --> int64_t
+    static int64_t Atoi(const char* str);
+    
+    // char* --> double
+    static double Atof(const char* str);
 };
 
 } // namespace sylar

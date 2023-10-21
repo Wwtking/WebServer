@@ -6,7 +6,7 @@ CXX_FLAGS =  -rdynamic -O3 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror 
 
 CXX_DEFINES = -Dsylar_EXPORTS
 
-CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/wwt/sylar/include/stream -I/home/wwt/sylar/include/util -I/home/wwt/sylar/include/db -I/home/wwt/sylar/include/orm 
+CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/wwt/sylar/include/stream -I/home/wwt/sylar/include/util -I/home/wwt/sylar/include/db -I/home/wwt/sylar/include/orm -I/home/wwt/sylar/include/email 
 
 # Custom defines: CMakeFiles/sylar.dir/src/log.cpp.o_DEFINES = __FILE__="src/log.cpp"
 
@@ -77,6 +77,10 @@ CXX_INCLUDES = -I/home/wwt/sylar/include -I/home/wwt/sylar/include/http -I/home/
 # Custom defines: CMakeFiles/sylar.dir/src/library.cpp.o_DEFINES = __FILE__="src/library.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/src/worker.cpp.o_DEFINES = __FILE__="src/worker.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/src/email/email.cpp.o_DEFINES = __FILE__="src/email/email.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/src/email/smtp.cpp.o_DEFINES = __FILE__="src/email/smtp.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/src/http/httpserver_parser.rl.cpp.o_DEFINES = __FILE__="src/http/httpserver_parser.rl.cpp"
 

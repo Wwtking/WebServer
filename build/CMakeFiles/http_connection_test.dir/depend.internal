@@ -8,6 +8,15 @@ CMakeFiles/http_connection_test.dir/tests/http_connection_test.cpp.o
  ../include/http/http.h
  ../include/http/http_connection.h
  ../include/iomanager.h
+ ../include/json/allocator.h
+ ../include/json/config.h
+ ../include/json/forwards.h
+ ../include/json/json.h
+ ../include/json/json_features.h
+ ../include/json/reader.h
+ ../include/json/value.h
+ ../include/json/version.h
+ ../include/json/writer.h
  ../include/log.h
  ../include/noncopyable.h
  ../include/scheduler.h
@@ -19,4 +28,6 @@ CMakeFiles/http_connection_test.dir/tests/http_connection_test.cpp.o
  ../include/timer.h
  ../include/uri.h
  ../include/util.h
+ ../include/util/hash_util.h
+ ../include/util/json_util.h
  /home/wwt/sylar/tests/http_connection_test.cpp
